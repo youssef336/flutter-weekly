@@ -101,6 +101,16 @@ a { color: var(--accent); }
   font-weight: 600;
 }
 
+.digest:not(:empty) {
+  background: var(--accent-soft);
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+}
+.digest-text { font-size: 1.02rem; }
+.highlights { margin: 8px 0 0; padding-inline-start: 20px; }
+.highlights li { font-weight: 600; }
+
 .week-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
 .week-list li {
   border-inline-start: 3px solid var(--accent);
@@ -155,6 +165,11 @@ a { color: var(--accent); }
 .video h3 a:hover { color: var(--accent); }
 .meta { font-size: 0.82rem; color: var(--muted); }
 .summary { font-size: 0.9rem; color: var(--muted); flex: 1; }
+.summary .about { color: var(--text); font-weight: 600; }
+.points { margin: 6px 0; padding-inline-start: 18px; }
+.points li { margin-bottom: 2px; }
+.verdict { color: var(--text); }
+.source-note { font-size: 0.78rem; margin-top: 4px; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .tag { font-size: 0.75rem; background: var(--accent-soft); color: var(--accent); border-radius: 6px; padding: 0 8px; }
 .watch { font-weight: 700; text-decoration: none; font-size: 0.9rem; }

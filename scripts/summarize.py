@@ -1,0 +1,192 @@
+"""Write Arabic AI summaries into data/videos.json with the Gemini API.
+
+Per video: Gemini watches the YouTube video from its URL (falls back to the
+title + description if it can't) and returns {about, points, verdict}.
+Per week (Saturday -> Friday, Cairo time): one digest over that week's video
+summaries, regenerated whenever the week's set of videos changes.
+
+Needs GEMINI_API_KEY in the environment; without it the script does nothing.
+Standard library only.
+"""
+
+import json
+import os
+import sys
+import time
+import urllib.error
+import urllib.request
+from datetime import datetime, timedelta
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+DATA_FILE = Path(__file__).resolve().parent.parent / 'data' / 'videos.json'
+API = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
+# First model the key can use wins. Override with GEMINI_MODEL.
+MODELS = [m for m in [os.environ.get('GEMINI_MODEL'), 'gemini-3-flash-preview',
+                      'gemini-3-flash', 'gemini-2.5-flash'] if m]
+CAIRO = ZoneInfo('Africa/Cairo')
+MAX_VIDEOS_PER_RUN = 10
+PAUSE_SECONDS = 8  # stay well under the free-tier requests-per-minute limit
+
+STYLE = (
+    'اكتب بالعربي المصري البسيط الواضح، وسيب المصطلحات التقنية وأسماء الـ APIs والـ packages '
+    'بالإنجليزي زي ما هي (Flutter, Dart, widget, hot reload…). القارئ مطوّر Flutter مش فاضي '
+    'يتفرج على الفيديو، فركّز على الجديد والمفيد عملياً، ومن غير مقدمات أو مجاملات.'
+)
+
+VIDEO_PROMPT = STYLE + '''
+لخّص فيديو قناة Flutter الرسمية ده. العنوان: "{title}".
+- about: جملة واحدة الفيديو بيتكلم عن إيه.
+- points: من 3 لـ 5 نقط بأهم الحاجات اللي اتقالت (للـ Short من 1 لـ 3). كل نقطة جملة قصيرة فيها معلومة حقيقية من الفيديو.
+- verdict: سطر واحد: يهمك لو إيه، ومحتاج تتفرج عليه بنفسك ولا الملخص كفاية.'''
+
+DESCRIPTION_PROMPT = STYLE + '''
+مش متاح الفيديو نفسه، فلخّص من العنوان والوصف بس، ومتألفش حاجة مش مكتوبة.
+العنوان: "{title}"
+الوصف:
+{description}
+- about: جملة واحدة الفيديو بيتكلم عن إيه.
+- points: من 2 لـ 4 نقط من اللي في الوصف.
+- verdict: سطر واحد: يهمك لو إيه.'''
+
+WEEK_PROMPT = STYLE + '''
+دي ملخصات فيديوهات قناة Flutter الرسمية في أسبوع واحد:
+{videos}
+- digest: فقرة من 3 لـ 5 جمل تقول أهم اللي حصل في Flutter الأسبوع ده كأنك بتحكيه لزميل.
+- highlights: من 2 لـ 4 نقط بأهم الحاجات العملية (إصدارات، features، أدوات) اللي تستاهل تعرفها.'''
+
+VIDEO_SCHEMA = {
+    'type': 'OBJECT',
+    'properties': {
+        'about': {'type': 'STRING'},
+        'points': {'type': 'ARRAY', 'items': {'type': 'STRING'}},
+        'verdict': {'type': 'STRING'},
+    },
+    'required': ['about', 'points', 'verdict'],
+}
+
+WEEK_SCHEMA = {
+    'type': 'OBJECT',
+    'properties': {
+        'digest': {'type': 'STRING'},
+        'highlights': {'type': 'ARRAY', 'items': {'type': 'STRING'}},
+    },
+    'required': ['digest', 'highlights'],
+}
+
+
+class QuotaExceeded(Exception):
+    pass
+
+
+class Gemini:
+    def __init__(self, key):
+        self.key = key
+        self.models = list(MODELS)
+
+    def generate(self, parts, schema, video=False):
+        config = {'responseMimeType': 'application/json', 'responseSchema': schema}
+        if video:
+            config['mediaResolution'] = 'MEDIA_RESOLUTION_LOW'  # ~3x fewer tokens per second of video
+        body = json.dumps({'contents': [{'parts': parts}], 'generationConfig': config}).encode()
+        while self.models:
+            request = urllib.request.Request(
+                API.format(model=self.models[0]), data=body, method='POST',
+                headers={'Content-Type': 'application/json', 'x-goog-api-key': self.key})
+            try:
+                with urllib.request.urlopen(request, timeout=300) as response:
+                    data = json.loads(response.read())
+                text = data['candidates'][0]['content']['parts'][0]['text']
+                return json.loads(text)
+            except urllib.error.HTTPError as err:
+                detail = err.read().decode(errors='replace')[:300]
+                if err.code == 404:
+                    print(f'  model {self.models[0]} not available, trying the next one')
+                    self.models.pop(0)
+                    continue
+                if err.code == 429:
+                    raise QuotaExceeded(detail)
+                raise RuntimeError(f'HTTP {err.code}: {detail}')
+        raise RuntimeError('no Gemini model available for this key')
+
+
+def watch_url(video):
+    return f"https://www.youtube.com/watch?v={video['id']}"
+
+
+def summarize_video(gemini, video):
+    try:
+        ai = gemini.generate(
+            [{'file_data': {'file_uri': watch_url(video)}},
+             {'text': VIDEO_PROMPT.format(title=video['title'])}],
+            VIDEO_SCHEMA, video=True)
+        ai['source'] = 'video'
+    except QuotaExceeded:
+        raise
+    except Exception as err:  # video too long, unavailable, … -> use the description
+        print(f'  video failed ({err}), falling back to the description')
+        time.sleep(PAUSE_SECONDS)
+        ai = gemini.generate(
+            [{'text': DESCRIPTION_PROMPT.format(
+                title=video['title'], description=video.get('description', ''))}],
+            VIDEO_SCHEMA)
+        ai['source'] = 'description'
+    ai['model'] = gemini.models[0]
+    return ai
+
+
+def week_key(published):
+    local = datetime.fromisoformat(published).astimezone(CAIRO)
+    start = local - timedelta(days=(local.weekday() - 5) % 7)  # weekday(): Sat = 5
+    return start.date().isoformat()
+
+
+def summarize_weeks(gemini, data):
+    by_week = {}
+    for video in data['videos']:
+        by_week.setdefault(week_key(video['published']), []).append(video)
+    weeks = data.setdefault('weeks', {})
+    for key, videos in sorted(by_week.items(), reverse=True):
+        if not all('ai' in v for v in videos):
+            continue  # wait until every video of the week has its own summary
+        ids = sorted(v['id'] for v in videos)
+        if weeks.get(key, {}).get('ids') == ids:
+            continue
+        print(f'week {key}: {len(videos)} videos')
+        listing = '\n'.join(
+            f"- {v['title']}: {v['ai']['about']} " + ' '.join(v['ai']['points'])
+            for v in sorted(videos, key=lambda v: v['published']))
+        result = gemini.generate([{'text': WEEK_PROMPT.format(videos=listing)}], WEEK_SCHEMA)
+        weeks[key] = {'ids': ids, **result}
+        save(data)
+        time.sleep(PAUSE_SECONDS)
+
+
+def save(data):
+    DATA_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', 'utf-8')
+
+
+def main():
+    key = os.environ.get('GEMINI_API_KEY')
+    if not key:
+        print('GEMINI_API_KEY is not set, skipping AI summaries')
+        return
+    gemini = Gemini(key)
+    data = json.loads(DATA_FILE.read_text('utf-8'))
+    pending = [v for v in data['videos'] if 'ai' not in v][:MAX_VIDEOS_PER_RUN]
+    try:
+        for video in pending:
+            print(f"video {video['id']}: {video['title']}")
+            video['ai'] = summarize_video(gemini, video)
+            save(data)  # keep progress if a later call fails
+            time.sleep(PAUSE_SECONDS)
+        summarize_weeks(gemini, data)
+    except QuotaExceeded as err:
+        print(f'quota reached, the rest waits for the next run: {err}')
+    except RuntimeError as err:
+        print(f'stopping: {err}')
+        sys.exit(1)
+
+
+if __name__ == '__main__':
+    main()

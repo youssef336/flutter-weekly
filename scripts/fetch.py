@@ -99,6 +99,8 @@ def parse_feed(xml_text):
             'views': int(stats.get('views', 0)) if stats is not None else 0,
             'isShort': is_short,
             'summary': summary,
+            # Kept for the AI fallback when Gemini can't watch the video itself.
+            'description': description.strip()[:3000],
             # Tag on title + summary only: footers (dart.dev links, "Live from…") are noise.
             'tags': tags_for(title, summary, is_short),
         })
@@ -110,19 +112,22 @@ def main():
     with urllib.request.urlopen(request, timeout=30) as response:
         fresh = parse_feed(response.read().decode('utf-8'))
 
-    existing = {}
+    previous = {}
     if DATA_FILE.exists():
-        existing = {v['id']: v for v in json.loads(DATA_FILE.read_text('utf-8'))['videos']}
+        previous = json.loads(DATA_FILE.read_text('utf-8'))
+    existing = {v['id']: v for v in previous.get('videos', [])}
 
     added = sum(1 for v in fresh if v['id'] not in existing)
     for video in fresh:
-        existing[video['id']] = video
+        # Merge so fields written by summarize.py (ai) survive a refresh.
+        existing[video['id']] = {**existing.get(video['id'], {}), **video}
 
     videos = sorted(existing.values(), key=lambda v: v['published'], reverse=True)
     payload = {
         'channel': {'name': 'Flutter', 'url': 'https://www.youtube.com/@flutterdev'},
         'updatedAt': datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         'videos': videos,
+        'weeks': previous.get('weeks', {}),
     }
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     DATA_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', 'utf-8')

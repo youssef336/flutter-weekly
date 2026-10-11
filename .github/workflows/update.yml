@@ -17,7 +17,13 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/fetch.py
+      - name: AI summaries (Gemini)
+        run: python scripts/summarize.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
       - name: Commit if changed
+        if: always() # keep the summaries that did succeed
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'

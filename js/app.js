@@ -21,7 +21,7 @@ const dateFmt = new Intl.DateTimeFormat('ar-EG', { day: 'numeric', month: 'long'
 const shortDateFmt = new Intl.DateTimeFormat('ar-EG', { day: 'numeric', month: 'long' });
 const numberFmt = new Intl.NumberFormat('ar-EG', { notation: 'compact' });
 
-const state = { videos: [], weekStart: null, tag: 'all', query: '' };
+const state = { videos: [], weeks: {}, weekStart: null, tag: 'all', query: '' };
 
 const $ = (id) => document.getElementById(id);
 
@@ -70,6 +70,7 @@ function renderWeek() {
   const list = $('week-list');
   stats.replaceChildren();
   list.replaceChildren();
+  $('week-digest').replaceChildren();
 
   if (!videos.length) {
     list.append(el('li', { className: 'week-empty muted', textContent: 'مفيش فيديوهات جديدة في الأسبوع ده لسه.' }));
@@ -92,13 +93,44 @@ function renderWeek() {
     stats.append(el('span', { className: 'stat', textContent: `أكتر مواضيع: ${names}` }));
   }
 
+  const week = state.weeks[dateKey(start)];
+  if (week) {
+    $('week-digest').append(
+      el('p', { className: 'digest-text', textContent: week.digest }),
+      el('ul', { className: 'highlights' }, week.highlights.map((h) => el('li', { textContent: h }))),
+    );
+  }
+
   for (const v of [...videos].reverse()) {
     const firstSentence = (v.summary.match(/^.*?[.!?](\s|$)/) || [v.summary])[0];
     list.append(el('li', {}, [
       el('a', { href: v.url, target: '_blank', rel: 'noopener', dir: 'auto', textContent: v.title }),
-      el('p', {}, [`${shortDateFmt.format(v.date)} · `, el('bdi', { textContent: firstSentence.trim() })]),
+      el('p', {}, [`${shortDateFmt.format(v.date)} · `, el('bdi', { textContent: v.ai ? v.ai.about : firstSentence.trim() })]),
     ]));
   }
+}
+
+// Matches the Saturday keys summarize.py writes into data.weeks.
+function dateKey(date) {
+  const pad = (n) => String(n).padStart(2, '0');
+  return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
+}
+
+function summaryBlock(v) {
+  if (!v.ai) return el('p', { className: 'summary', dir: 'auto', textContent: v.summary });
+  return el('div', { className: 'summary' }, [
+    el('p', { className: 'about', textContent: v.ai.about }),
+    el('ul', { className: 'points' }, v.ai.points.map((p) => el('li', { textContent: p }))),
+    el('p', { className: 'verdict', textContent: `💡 ${v.ai.verdict}` }),
+    v.ai.source === 'description'
+      ? el('p', { className: 'source-note', textContent: 'الملخص ده من وصف الفيديو، مش من الفيديو نفسه.' })
+      : null,
+  ]);
+}
+
+function searchText(v) {
+  const ai = v.ai ? [v.ai.about, v.ai.verdict, ...v.ai.points].join(' ') : '';
+  return `${v.title} ${v.summary} ${ai}`.toLowerCase();
 }
 
 function renderChips() {
@@ -130,7 +162,7 @@ function videoCard(v) {
     el('div', { className: 'video-body' }, [
       el('h3', {}, el('a', { href: v.url, target: '_blank', rel: 'noopener', dir: 'auto', textContent: v.title })),
       el('p', { className: 'meta', textContent: `${dateFmt.format(v.date)} · ${numberFmt.format(v.views)} مشاهدة` }),
-      el('p', { className: 'summary', dir: 'auto', textContent: v.summary }),
+      summaryBlock(v),
       el('div', { className: 'tags' }, v.tags.filter((t) => t !== 'shorts').map(
         (t) => el('span', { className: 'tag', textContent: TAG_LABELS[t] || t }),
       )),
@@ -143,7 +175,7 @@ function renderGrid() {
   const q = state.query.trim().toLowerCase();
   const videos = state.videos.filter((v) =>
     (state.tag === 'all' || v.tags.includes(state.tag)) &&
-    (!q || v.title.toLowerCase().includes(q) || v.summary.toLowerCase().includes(q)));
+    (!q || searchText(v).includes(q)));
   $('grid').replaceChildren(...videos.map(videoCard));
   $('empty').hidden = videos.length > 0;
 }
@@ -161,6 +193,7 @@ async function init() {
     state.videos = data.videos
       .map((v) => ({ ...v, date: new Date(v.published) }))
       .sort((a, b) => b.date - a.date);
+    state.weeks = data.weeks || {};
     // Open on the latest week that actually has videos.
     state.weekStart = startOfWeek(state.videos.length ? state.videos[0].date : new Date());
     $('footer').textContent = `آخر تحديث: ${dateFmt.format(new Date(data.updatedAt))} · البيانات من RSS قناة Flutter وبتتحدث كل يوم أوتوماتيك`;
