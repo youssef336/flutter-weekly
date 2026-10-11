@@ -3,7 +3,7 @@
     "name": "Flutter",
     "url": "https://www.youtube.com/@flutterdev"
   },
-  "updatedAt": "2026-10-11T08:19:27+00:00",
+  "updatedAt": "2026-10-11T08:22:18+00:00",
   "videos": [
     {
       "id": "K75yHVaxVK0",
@@ -11,13 +11,24 @@
       "url": "https://www.youtube.com/shorts/K75yHVaxVK0",
       "published": "2026-10-09T16:00:29+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/K75yHVaxVK0/hqdefault.jpg",
-      "views": 11331,
+      "views": 11341,
       "isShort": true,
       "summary": "When your non-dev friend just doesn’t understand the power of hot reload. A little bit this, a little bit of that and it updates it there. The power of hot reload.",
       "tags": [
         "shorts"
       ],
-      "description": "When your non-dev friend just doesn’t understand the power of hot reload.  A little bit this, a little bit of that and it updates it there. The power of hot reload. \n\n\n#Flutter #GoogleCloudNext \n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\nProducts Mentioned: Flutter"
+      "description": "When your non-dev friend just doesn’t understand the power of hot reload.  A little bit this, a little bit of that and it updates it there. The power of hot reload. \n\n\n#Flutter #GoogleCloudNext \n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\nProducts Mentioned: Flutter",
+      "ai": {
+        "about": "الفيديو بيعرض موقف كوميدي لواحد بيشرح ميزة الـ Hot Reload في Flutter لصاحبه اللي مش مبرمج وكيفية تأثيرها الفوري.",
+        "points": [
+          "الـ Hot Reload بيخلي أي تغيير في الـ Code يظهر فوراً على الشاشة من غير ما تحتاج تعمل Rebuild للـ App بالكامل.",
+          "التعديل بيسمع لحظياً على كل الـ Devices الموصلة بنفس الـ session في وقت واحد.",
+          "الفيديو بيبرز سرعة الـ Development في Flutter اللي بتسهل تجربة الـ UI وتعديله."
+        ],
+        "verdict": "الفيديو للتسلية ومشاركة الـ vibes بتاعة المطورين، الملخص كفاية جداً ومفيش شرح تقني محتاج تشوفه.",
+        "source": "video",
+        "model": "gemini-3-flash-preview"
+      }
     },
     {
       "id": "aEcIL0zwrnY",
@@ -25,7 +36,7 @@
       "url": "https://www.youtube.com/watch?v=aEcIL0zwrnY",
       "published": "2026-10-08T17:00:14+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/aEcIL0zwrnY/hqdefault.jpg",
-      "views": 5191,
+      "views": 5188,
       "isShort": false,
       "summary": "Think focus navigation is just for desktop keyboards and web browsers? Think again. Live from Fluttercon USA in Orlando, Craig sits down with Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, to break down Flutter’s focus system.",
       "tags": [
@@ -33,7 +44,20 @@
         "event",
         "community"
       ],
-      "description": "Think focus navigation is just for desktop keyboards and web browsers? Think again. Live from Fluttercon USA in Orlando, Craig sits down with Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, to break down Flutter’s focus system. Learn about FocusScope and how testing for accessibility can expose hidden UX flaws.\n\nResources:\nUnderstanding Flutter's keyboard focus system → https://g.dev/flutter/focus\nUser input and accessibility → https://g.dev/flutter/adaptive-responsive\nFocus → https://g.dev/flutter/focus-class\nFocusManager class → https://g.dev/flutter/focusmanager\nFocusScope class → https://g.dev/flutter/focusscope\n\nChapters:\n0:00 - Live from Fluttercon Orlando\n0:50 - Beyond desktop: Remotes, assistive tech, & TV interfaces\n1:43 - FocusScope\n3:13 - Testing \n4:17 - Meeting needs for users needs: Assistive technologies \n5:24 - Accessibility & semantics in production\n \n\n#Flutter #Fluttercon"
+      "description": "Think focus navigation is just for desktop keyboards and web browsers? Think again. Live from Fluttercon USA in Orlando, Craig sits down with Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, to break down Flutter’s focus system. Learn about FocusScope and how testing for accessibility can expose hidden UX flaws.\n\nResources:\nUnderstanding Flutter's keyboard focus system → https://g.dev/flutter/focus\nUser input and accessibility → https://g.dev/flutter/adaptive-responsive\nFocus → https://g.dev/flutter/focus-class\nFocusManager class → https://g.dev/flutter/focusmanager\nFocusScope class → https://g.dev/flutter/focusscope\n\nChapters:\n0:00 - Live from Fluttercon Orlando\n0:50 - Beyond desktop: Remotes, assistive tech, & TV interfaces\n1:43 - FocusScope\n3:13 - Testing \n4:17 - Meeting needs for users needs: Assistive technologies \n5:24 - Accessibility & semantics in production\n \n\n#Flutter #Fluttercon",
+      "ai": {
+        "about": "الفيديو عبارة عن مقابلة مع Vadym Pinchuk بيشرح فيها إزاي نظام الـ Focus في Flutter شغال وأهميته لتحسين تجربة المستخدم والـ accessibility.",
+        "points": [
+          "نظام الـ Focus مش مجرد لوحة مفاتيح، ده بيشمل أي وسيلة إدخال زي الريموت والـ assistive technologies.",
+          "الـ FocusManager الافتراضي بيتبع ترتيب القراءة، ولازم تستخدم FocusScope و FocusTraversalGroup عشان تحدد مسارات تنقل منطقية في الأبلكيشن المعقد.",
+          "تقدر تختبر الـ Focus باستخدام الـ Unit tests والـ Widget tests عشان تتأكد إن الـ widgets واخدة التركيز صح.",
+          "أهم مرحلة في التطوير هي تجربة الأبلكيشن مع مستخدمين حقيقيين بيعتمدوا على الـ assistive technologies عشان تكتشف المشاكل اللي الـ برامج مش بتبينها.",
+          "لازم المطورين يتناقشوا مع المصممين في تفاصيل الـ semantics والـ Focus من بدري عشان التصميم يكون مريح للكل."
+        ],
+        "verdict": "يهمك لو بتبني تطبيقات Web أو Desktop أو TV أو مهتم بالـ accessibility، والملخص كفاية جداً.",
+        "source": "video",
+        "model": "gemini-3-flash-preview"
+      }
     },
     {
       "id": "CcyX-pqjDp0",
@@ -41,7 +65,7 @@
       "url": "https://www.youtube.com/watch?v=CcyX-pqjDp0",
       "published": "2026-10-07T16:00:03+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/CcyX-pqjDp0/hqdefault.jpg",
-      "views": 6646,
+      "views": 6684,
       "isShort": false,
       "summary": "Live from Fluttercon USA in Orlando, Andrew from the Flutter team catches up with Arthur Thompson, a Developer Relations Engineer for Firebase. They discuss how Firebase is evolving for the agentic era, why every Firebase project is secretly a Google Cloud project (making scale seamless), securing AI features with…",
       "tags": [
@@ -50,7 +74,20 @@
         "event",
         "community"
       ],
-      "description": "Live from Fluttercon USA in Orlando, Andrew from the Flutter team catches up with Arthur Thompson, a Developer Relations Engineer for Firebase. They discuss how Firebase is evolving for the agentic era, why every Firebase project is secretly a Google Cloud project (making scale seamless), securing AI features with Firebase AI Logic and App Check, and using MCP servers and Firebase skills in mobile development.\n\nResources:\n[Codelab] Build a full-stack Dart app with Cloud Functions for Firebase → https://g.dev/flutter/codelab-firebasefunctions \nFirebase AI Logic → https://g.dev/flutter/firebase-ai-logic\nFirebase SQL Connect → https://g.dev/flutter/sql-connect-docs\nFirebase App Check → https://g.dev/flutter/app-check-docs\nFirebase Authentication → https://g.dev/flutter/auth-docs\n\nChapters:\n0:00 - Live from Fluttercon\n0:35 - What is Firebase in 2026? \n1:40 - Dispelling the \"outgrowing Firebase\" myth\n3:10 - Firebase roadmap highlights: AI Logic, SQL Connect, agent integrations\n4:27 - Empowering developers to build agentic experiences\n5:07 - Securing generative AI features: Server-side prompt management & Firebase App Check \n6:40 - Firebase skills & MCP servers for AI coding agents \n8:15 - Where to begin with Firebase: Firebase Authentication \n9:13 - Combining Flutter & Firebase in the agentic era \n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\nProducts Mentioned: Flutter"
+      "description": "Live from Fluttercon USA in Orlando, Andrew from the Flutter team catches up with Arthur Thompson, a Developer Relations Engineer for Firebase. They discuss how Firebase is evolving for the agentic era, why every Firebase project is secretly a Google Cloud project (making scale seamless), securing AI features with Firebase AI Logic and App Check, and using MCP servers and Firebase skills in mobile development.\n\nResources:\n[Codelab] Build a full-stack Dart app with Cloud Functions for Firebase → https://g.dev/flutter/codelab-firebasefunctions \nFirebase AI Logic → https://g.dev/flutter/firebase-ai-logic\nFirebase SQL Connect → https://g.dev/flutter/sql-connect-docs\nFirebase App Check → https://g.dev/flutter/app-check-docs\nFirebase Authentication → https://g.dev/flutter/auth-docs\n\nChapters:\n0:00 - Live from Fluttercon\n0:35 - What is Firebase in 2026? \n1:40 - Dispelling the \"outgrowing Firebase\" myth\n3:10 - Firebase roadmap highlights: AI Logic, SQL Connect, agent integrations\n4:27 - Empowering developers to build agentic experiences\n5:07 - Securing generative AI features: Server-side prompt management & Firebase App Check \n6:40 - Firebase skills & MCP servers for AI coding agents \n8:15 - Where to begin with Firebase: Firebase Authentication \n9:13 - Combining Flutter & Firebase in the agentic era \n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\nProducts Mentioned: Flutter",
+      "ai": {
+        "about": "لقاء مع Arthur Thompson بيكلمنا فيه عن أحدث ميزات Firebase لـ Flutter وازاي نستخدم الـ AI والـ Security بشكل أحسن.",
+        "points": [
+          "إطلاق Firebase AI Logic و SQL Connect لتبسيط التعامل مع الـ AI وقواعد البيانات الـ SQL.",
+          "الـ Firebase Project هو في الأساس Google Cloud Project، وده بيضمن الـ scalability مهما كبر الـ app.",
+          "تأمين الـ AI بإن الـ prompts تكون server-side templates لمنع الـ prompt injection وتسهيل الـ updates.",
+          "إضافة ميزة replay protection في App Check لضمان إن الـ tokens تستخدم مرة واحدة بس لمنع الـ abuse.",
+          "توسيع دعم Firebase Skills و MCP ليشمل الـ mobile و Flutter بدل ما كان مقتصر على الـ web."
+        ],
+        "verdict": "يهمك لو عاوز تعرف آخر تطورات Firebase في الـ AI والـ Security، والملخص كافي جداً للمعلومات المهمة.",
+        "source": "video",
+        "model": "gemini-3-flash-preview"
+      }
     },
     {
       "id": "4sxrFXhMxy4",
@@ -58,14 +95,26 @@
       "url": "https://www.youtube.com/watch?v=4sxrFXhMxy4",
       "published": "2026-10-06T16:00:20+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/4sxrFXhMxy4/hqdefault.jpg",
-      "views": 14294,
+      "views": 14296,
       "isShort": false,
       "summary": "Use guard clauses with the when keyword in Dart to add extra constraints to pattern matching in switches.",
       "tags": [
         "dart",
         "tutorial"
       ],
-      "description": "Documentation → https://g.dev/flutter/guard-clause\n\nUse guard clauses with the when keyword in Dart to add extra constraints to pattern matching in switches.\n\n#Flutter #TechniqueOfTheWeek \n\nWatch more Technique of the Week → https://goo.gle/FlutterTechnique\nSubscribe to Flutter → http://goo.gle/FlutterYT"
+      "description": "Documentation → https://g.dev/flutter/guard-clause\n\nUse guard clauses with the when keyword in Dart to add extra constraints to pattern matching in switches.\n\n#Flutter #TechniqueOfTheWeek \n\nWatch more Technique of the Week → https://goo.gle/FlutterTechnique\nSubscribe to Flutter → http://goo.gle/FlutterYT",
+      "ai": {
+        "about": "الفيديو بيشرح الـ guard clauses في لغة Dart، وإزاي بتزود شروط إضافية (boolean checks) جوا الـ case statements باستخدام كلمة when.",
+        "points": [
+          "الـ guard clause بتسمح لك تحط شرط boolean بعد الـ pattern في الـ case statement باستخدام كلمة when.",
+          "لو الـ pattern عمل match بس الـ guard clause طلعت false، الكود بيكمل يدور في الـ cases اللي بعدها ومش بيخرج من الـ switch.",
+          "الـ technique دي بتخلي الكود أنضف بكتير وبدل ما تضطر تعمل nested if-statements جوا الـ case body.",
+          "تقدر تستخدم الـ guard clauses في الـ switch statements والـ switch expressions والـ if-case statements."
+        ],
+        "verdict": "مفيدة جداً لو بتستخدم pattern matching كتير في Dart 3 وعايز كودك يكون مقروء أكتر، والملخص كافي جداً للمعلومة.",
+        "source": "video",
+        "model": "gemini-3-flash-preview"
+      }
     },
     {
       "id": "Tovm9bWNGpE",
@@ -73,7 +122,7 @@
       "url": "https://www.youtube.com/shorts/Tovm9bWNGpE",
       "published": "2026-10-01T17:00:13+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/Tovm9bWNGpE/hqdefault.jpg",
-      "views": 13140,
+      "views": 13139,
       "isShort": true,
       "summary": "In Flutter 3.47, Flutter Widget Previewer has officially graduated to stable! You can now design, inspect, and iterate on individual UI widgets in real time without the overhead of running your full application. Run flutter upgrade to get Flutter 3.47 today!",
       "tags": [
@@ -81,7 +130,18 @@
         "release",
         "widget"
       ],
-      "description": "In Flutter 3.47, Flutter Widget Previewer has officially graduated to stable! You can now design, inspect, and iterate on individual UI widgets in real time without the overhead of running your full application. Run flutter upgrade to get Flutter 3.47 today!\n\n\nWatch more Flutter Upgrade Bytes → https://goo.gle/FlutterUpgradeBytes   \n\n#Flutter \n\nSpeaker: Khanh Nguyen\nProducts Mentioned: Flutter,  Dart"
+      "description": "In Flutter 3.47, Flutter Widget Previewer has officially graduated to stable! You can now design, inspect, and iterate on individual UI widgets in real time without the overhead of running your full application. Run flutter upgrade to get Flutter 3.47 today!\n\n\nWatch more Flutter Upgrade Bytes → https://goo.gle/FlutterUpgradeBytes   \n\n#Flutter \n\nSpeaker: Khanh Nguyen\nProducts Mentioned: Flutter,  Dart",
+      "ai": {
+        "about": "الفيديو بيعرض أهم مميزات تحديث Flutter 3.47، خصوصاً وصول الـ Widget previews للمرحلة الـ stable وتحسينات لمطوري Apple.",
+        "points": [
+          "ميزة الـ Widget previews بقت stable، ودلوقتي تقدر تصمم وتعدل الـ widgets لوحدها في الوقت الفعلي من غير ما تحتاج تعمل run للتطبيق بالكامل.",
+          "وقت الـ build لمطوري Apple بقى أسرع بفضل تحسين الـ SwiftPM pipelines اللي بتفلتر الـ package schemes غير الضرورية.",
+          "عملية الـ iOS code signing بقت أوضح وبتظهر الـ Team ID والـ Team Name وأنت بتختار الشهادات (certificates)."
+        ],
+        "verdict": "الملخص كفاية عشان تعرف الجديد، والـ Widget previews ميزة أساسية لازم تبدأ تستخدمها عشان توفر وقت في التطوير.",
+        "source": "video",
+        "model": "gemini-3-flash-preview"
+      }
     },
     {
       "id": "CCf_SRvuck0",
@@ -96,7 +156,18 @@
         "shorts",
         "performance"
       ],
-      "description": "Toyota’s engineering and design teams share why standard, off-the-shelf embedders fell short for complex navigation and automotive functions, and how building a custom embedder allowed them to maintain high-performance plugins tailored for the road.\n\n\nWatch more Flutter Dev Stories → https://goo.gle/FlutterDevStories \n\n#Flutter #Toyota #RAV4\n\nProducts Mentioned: Flutter"
+      "description": "Toyota’s engineering and design teams share why standard, off-the-shelf embedders fell short for complex navigation and automotive functions, and how building a custom embedder allowed them to maintain high-performance plugins tailored for the road.\n\n\nWatch more Flutter Dev Stories → https://goo.gle/FlutterDevStories \n\n#Flutter #Toyota #RAV4\n\nProducts Mentioned: Flutter",
+      "ai": {
+        "about": "الفيديو بيوضح الأسباب التقنية اللي خلت شركة تويوتا تبني Custom Embedder لـ Flutter عشان تشغل بيه أنظمة الشاشات (Infotainment) في عربياتها.",
+        "points": [
+          "تويوتا لقت إن الـ Embedders الجاهزة لـ Desktop Linux مش متوافقة تماماً مع طبيعة الـ Embedded Linux واحتياجات الـ compositor في أنظمة العربيات.",
+          "بناء Custom Embedder سمح لهم يعملوا plugins مخصوصة تتحكم في وظائف العربية الحيوية (زي الـ Navigation) وتربطها مباشرة بـ Flutter layer.",
+          "الـ Custom Embedder ساعدهم يحققوا كفاءة أعلى في صيانة الكود وتطوير ميزات تانية مخصوصة لقطاع السيارات بسرعة وسهولة."
+        ],
+        "verdict": "الملخص كفاية لو عايز تعرف الفكرة العامة، لكن اتفرج لو مهتم بمجال الـ Embedded Systems وازاي Flutter بيشتغل بعيد عن الموبايل والويب.",
+        "source": "video",
+        "model": "gemini-3-flash-preview"
+      }
     },
     {
       "id": "HC2UDbpRUzs",
@@ -104,14 +175,25 @@
       "url": "https://www.youtube.com/watch?v=HC2UDbpRUzs",
       "published": "2026-09-29T16:00:03+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/HC2UDbpRUzs/hqdefault.jpg",
-      "views": 7770,
+      "views": 7766,
       "isShort": false,
       "summary": "Join Emma and Jorge Coca, VP of Engineering at Very Good Ventures (VGV), live from FlutterCon USA in Orlando to explore AI-assisted workflows. Learn how VGV open-sourced Wingspan to codify engineering best practices into AI skills, plus discover approaches to testing AI-generated features.",
       "tags": [
         "ai",
         "event"
       ],
-      "description": "Join Emma and Jorge Coca, VP of Engineering at Very Good Ventures (VGV), live from FlutterCon USA in Orlando to explore AI-assisted workflows. Learn how VGV open-sourced Wingspan to codify engineering best practices into AI skills, plus discover approaches to testing AI-generated features.\n\nResources:\nVGV → https://g.dev/flutter/vgv\nWingspan on GitHub → https://g.dev/flutter/vgv-wingspan\n\nChapters:\n0:00 - Live from Fluttercon Orlando\n1:58 - Working with AI: Skills and process \n3:19 - Enterprise workflow solutions: Standard vs customization \n5:10 - Q&A: What’s your approach to testing AI generated features? \n8:47 - What’s next \n\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter"
+      "description": "Join Emma and Jorge Coca, VP of Engineering at Very Good Ventures (VGV), live from FlutterCon USA in Orlando to explore AI-assisted workflows. Learn how VGV open-sourced Wingspan to codify engineering best practices into AI skills, plus discover approaches to testing AI-generated features.\n\nResources:\nVGV → https://g.dev/flutter/vgv\nWingspan on GitHub → https://g.dev/flutter/vgv-wingspan\n\nChapters:\n0:00 - Live from Fluttercon Orlando\n1:58 - Working with AI: Skills and process \n3:19 - Enterprise workflow solutions: Standard vs customization \n5:10 - Q&A: What’s your approach to testing AI generated features? \n8:47 - What’s next \n\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter",
+      "ai": {
+        "about": "الفيديو بيشرح إزاي تبني AI-assisted workflow للشركات يضمن إن الكود بيتبع الـ Flutter best practices باستخدام أداة Wingspan.",
+        "points": [
+          "شرح لمشروع Wingspan وهو مشروع open-source من VGV بيحول الـ engineering best practices لـ AI skills.",
+          "الكلام عن الـ enterprise workflow solutions والفرق بين الـ standard والـ customization.",
+          "طرق الـ testing المتبعة للـ features اللي بيعملها الـ AI للتأكد من جودتها."
+        ],
+        "verdict": "يهمك لو عاوز تدمج الـ AI في الـ workflow بتاعك كـ Flutter developer مع الحفاظ على الـ standards وجودة الكود.",
+        "source": "description",
+        "model": "gemini-3-flash-preview"
+      }
     },
     {
       "id": "VzMQ6Cg0194",
@@ -126,7 +208,20 @@
         "community",
         "performance"
       ],
-      "description": "Contribute to Flutter → https://goo.gle/4pdikpJ \nFlutter Notable Commits →  https://goo.gle/4wGTvFb \n\nWelcome to the new Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From framework updates to major upgrades in desktop performance and developer tooling, this August 2026 recap showcases how Google and the global Flutter community are advancing the framework together.\n\nChapters:\n0:00 - What are notable commits?\n0:43 - Framework and widgets\n3:47 - Engine and graphics\n5:45 - Desktop platforms\n7:41 - Tooling and developer experience\n10:25 - Web platform\n12:25 - First time contributors\n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n#Flutter"
+      "description": "Contribute to Flutter → https://goo.gle/4pdikpJ \nFlutter Notable Commits →  https://goo.gle/4wGTvFb \n\nWelcome to the new Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From framework updates to major upgrades in desktop performance and developer tooling, this August 2026 recap showcases how Google and the global Flutter community are advancing the framework together.\n\nChapters:\n0:00 - What are notable commits?\n0:43 - Framework and widgets\n3:47 - Engine and graphics\n5:45 - Desktop platforms\n7:41 - Tooling and developer experience\n10:25 - Web platform\n12:25 - First time contributors\n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n#Flutter",
+      "ai": {
+        "about": "ملخص التغييرات والتحسينات الجديدة في نسخة الـ main لـ Flutter لشهر أغسطس 2026.",
+        "points": [
+          "الـ ScrollPhysics بقى reactive وبيدعم الـ dynamic changes من غير ما تحتاج تعمل ريبلد للـ widget tree.",
+          "ميزة الـ ResizeImage بقت بتستخدم الـ useLogicalPixels عشان توفر في مساحة الـ image cache memory.",
+          "تحسينات في الـ graphics لـ Impeller ودعم الـ shader pre-compilation في الـ Flutter GPU عشان يمنع الـ jank.",
+          "أمر الـ flutter clean بقى فيه flag جديد --no-xcode-clean عشان يسرع الـ iOS builds عن طريق الحفاظ على الـ Xcode derived data.",
+          "الـ DevTools بقى بيدعم WebSocket profiling كامل وكمان الـ IDEs بتقدر تفتح الـ widgets مباشرة من الـ error notifications."
+        ],
+        "verdict": "يهمك لو بتستخدم نسخة الـ main أو مهتم بتطورات الـ Performance والـ Tooling، والملخص ده كفاية جداً ليك.",
+        "source": "video",
+        "model": "gemini-3-flash-preview"
+      }
     },
     {
       "id": "YanRtf7wHEI",
@@ -134,7 +229,7 @@
       "url": "https://www.youtube.com/shorts/YanRtf7wHEI",
       "published": "2026-09-24T16:00:30+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/YanRtf7wHEI/hqdefault.jpg",
-      "views": 20443,
+      "views": 20451,
       "isShort": true,
       "summary": "Building Flutter apps for desktop? Your rendering engine just got a massive upgrade! In Flutter 3.47, the Impeller rendering engine is officially enabled by default across macOS, Windows, and Linux.",
       "tags": [
@@ -142,7 +237,18 @@
         "release",
         "performance"
       ],
-      "description": "Building Flutter apps for desktop? Your rendering engine just got a massive upgrade!  In Flutter 3.47, the Impeller rendering engine is officially enabled by default across macOS, Windows, and Linux. Flutter Web gets closer to WebAssembly (Wasm) as the default target with deferred loading! \n\n Run flutter upgrade to get Flutter 3.47 today!\n\nWatch more Flutter Upgrade Bytes → https://goo.gle/FlutterUpgradeBytes   \n\n#Flutter \n\nSpeaker: Khanh Nguyen\nProducts Mentioned: Flutter"
+      "description": "Building Flutter apps for desktop? Your rendering engine just got a massive upgrade!  In Flutter 3.47, the Impeller rendering engine is officially enabled by default across macOS, Windows, and Linux. Flutter Web gets closer to WebAssembly (Wasm) as the default target with deferred loading! \n\n Run flutter upgrade to get Flutter 3.47 today!\n\nWatch more Flutter Upgrade Bytes → https://goo.gle/FlutterUpgradeBytes   \n\n#Flutter \n\nSpeaker: Khanh Nguyen\nProducts Mentioned: Flutter",
+      "ai": {
+        "about": "الفيديو بيشرح أهم مميزات Flutter 3.47، وعلى رأسها تفعيل محرك Impeller افتراضياً لكل منصات الـ Desktop.",
+        "points": [
+          "محرك الرندر Impeller بقى شغال Default على Windows و Linux و macOS، وده بيحل مشكلة الـ shader compilation jank وبيحسن جودة النصوص الـ high-DPI.",
+          "دعم الـ popup windows وصل أخيراً لنسخ الـ Windows والـ Linux، مع إصلاحات لـ bugs كتير كانت بتواجه مطوري الـ Desktop.",
+          "الـ WebAssembly (Wasm) بقى هو الـ default compilation target للويب، وبيدعم الـ deferred loading عشان الـ bundles تحمل بشكل أسرع."
+        ],
+        "verdict": "الملخص كافي جداً، اعمل flutter upgrade وجرب الأداء الجديد بنفسك.",
+        "source": "video",
+        "model": "gemini-3-flash-preview"
+      }
     },
     {
       "id": "neL3QX9uTg8",
@@ -150,14 +256,26 @@
       "url": "https://www.youtube.com/shorts/neL3QX9uTg8",
       "published": "2026-09-23T16:00:37+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/neL3QX9uTg8/hqdefault.jpg",
-      "views": 5874,
+      "views": 5876,
       "isShort": true,
       "summary": "Holafly is the global leader in eSIMs for travelers, offering coverage in over 200 destinations and the best value for money With an outstanding 4.7/5 rating on Trustpilot and more than 25 million of eSIM sold, it has become the preferred eSIM choice for international travelers. Its unlimited data and build-in back up…",
       "tags": [
         "shorts",
         "community"
       ],
-      "description": "Holafly is the global leader in eSIMs for travelers, offering coverage in over 200 destinations and the best value for money With an outstanding 4.7/5 rating on Trustpilot and more than 25 million of eSIM sold, it has become the preferred eSIM choice for international travelers. Its unlimited data and build-in back up plan offering ensures peace of mind anywhere in the world.\n\nDiscover how Holafly manages a multi-disciplinary enterprise structure built for massive scale. Check out the related video to learn more!\n\nWatch more Flutter Dev Stories → https://goo.gle/FlutterDevStories \n\nProducts Mentioned: Flutter"
+      "description": "Holafly is the global leader in eSIMs for travelers, offering coverage in over 200 destinations and the best value for money With an outstanding 4.7/5 rating on Trustpilot and more than 25 million of eSIM sold, it has become the preferred eSIM choice for international travelers. Its unlimited data and build-in back up plan offering ensures peace of mind anywhere in the world.\n\nDiscover how Holafly manages a multi-disciplinary enterprise structure built for massive scale. Check out the related video to learn more!\n\nWatch more Flutter Dev Stories → https://goo.gle/FlutterDevStories \n\nProducts Mentioned: Flutter",
+      "ai": {
+        "about": "قصة انتقال Holafly من التطوير الـ Native للـ Flutter عشان يوحدوا الـ codebase وفرق العمل.",
+        "points": [
+          "كان عندهم تطبيقات Native للأندرويد و iOS بفريقين منفصلين وكل فريق شغال لوحده.",
+          "اختاروا Flutter كـ cross-platform framework عشان يحلوا مشكلة تكرار الكود والمجهود.",
+          "نفذوا Radical approach بإنهم عملوا Clone كامل لكل الـ features اللي في الـ Native app بالـ Flutter.",
+          "قدروا يخلصوا الـ Migration بالكامل ويطلعوا النسخة الجديدة في 3 شهور بس."
+        ],
+        "verdict": "مفيد لو فريقك بيفكر يحول من Native لـ Flutter عشان تعرف الوقت والمجهود المتوقع، والملخص كفاية.",
+        "source": "video",
+        "model": "gemini-3-flash-preview"
+      }
     },
     {
       "id": "b6-8ze1ULj8",
@@ -225,7 +343,7 @@
       "url": "https://www.youtube.com/watch?v=8OUcGUiKj8M",
       "published": "2026-09-16T16:02:00+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/8OUcGUiKj8M/hqdefault.jpg",
-      "views": 11732,
+      "views": 11731,
       "isShort": false,
       "summary": "Live from FlutterCon USA in Orlando, Andrew from the Flutter team catches up with Eric Seidel, co-founder of Flutter and founder of Shorebird! Eric shares the origin story behind Shorebird code push, insights from his Fluttercon keynote on AI agents, how U.S. enterprise adoption is accelerating, and why strong…",
       "tags": [
@@ -236,5 +354,36 @@
       "description": "Live from FlutterCon USA in Orlando, Andrew from the Flutter team catches up with Eric Seidel, co-founder of Flutter and founder of Shorebird! Eric shares the origin story behind Shorebird code push, insights from his Fluttercon keynote on AI agents, how U.S. enterprise adoption is accelerating, and why strong architecture and engineering fundamentals matter more than ever in the AI era.\n\nResources:\nShorebird → https://g.dev/flutter/shorebird\nEric’s talk from Fluttercon →  https://g.dev/flutter/eric-fluttercon\n\nChapters:\n0:00 - Live from Fluttercon \n0:47 - Shorebird & code push \n2:03 - Fluttercon keynote recap\n5:15 - Flutter community \n7:17 - U.S. enterprise transition to Flutter \n9:45 - How LLMs are lowering the barrier moving between technologies \n11:23 - Unexpected Flutter uses \n12:26 - Q&A: How do you see Flutter developers balancing AI tools with strong fundamentals and architecture decisions and writing maintainable, production level code? \n\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter"
     }
   ],
-  "weeks": {}
+  "weeks": {
+    "2026-10-03": {
+      "ids": [
+        "4sxrFXhMxy4",
+        "CcyX-pqjDp0",
+        "K75yHVaxVK0",
+        "aEcIL0zwrnY"
+      ],
+      "digest": "الأسبوع ده كان فيه تركيز على تظبيط الكود بـ Dart والجديد في Firebase. الـ guard clauses باستخدام when بقت بتسهل كتابة الـ switch statements والـ logic المعقد من غير كتر nested ifs. في Firebase بقى فيه ميزات ذكاء اصطناعي و SQL Connect مع اهتمام كبير بالـ Security زي الـ replay protection في App Check. وكمان نصائح مهمة عن نظام الـ Focus عشان تضمن إن الـ App بتاعك شغال صح مع الـ accessibility والـ keyboard navigation.",
+      "highlights": [
+        "استخدم الـ guard clauses بكلمة when في الـ switch و if-case عشان تخلي الكود أنضف وتتجنب الـ nested conditions.",
+        "ميزات Firebase الجديدة (AI Logic و SQL Connect) بتسهل ربط الـ AI وقواعد البيانات مع إمكانية استخدام server-side templates للـ prompts عشان تمنع الـ injection.",
+        "في نظام الـ Focus، اعتمد على FocusScope و FocusTraversalGroup لتنظيم حركة الـ widgets واختبرها بالـ Widget tests.",
+        "ميزة الـ replay protection الجديدة في App Check بتمنع الـ abuse عن طريق التأكد إن الـ tokens بتستخدم مرة واحدة بس."
+      ]
+    },
+    "2026-09-26": {
+      "ids": [
+        "CCf_SRvuck0",
+        "HC2UDbpRUzs",
+        "Tovm9bWNGpE",
+        "VzMQ6Cg0194"
+      ],
+      "digest": "أسبوع مليان تحديثات، أهمها وصول Flutter 3.47 اللي خلى الـ Widget previews مستقرة أخيراً وده هيسهل بناء الـ UI من غير ما ترن الأبليكيشن كله. كمان الـ ScrollPhysics بقى Reactive يعني أداء أحسن ومفيش ريبلد للدلوقتي، وفي ميزات جديدة في الـ CLI زي flutter clean --no-xcode-clean عشان تسرع الـ iOS builds. غير كده، تويوتا كشفت ليه بتستخدم Custom Embedder في العربيات، وظهرت أدوات AI جديدة زي Wingspan بتساعد الشركات تلتزم بالـ Best Practices.",
+      "highlights": [
+        "الـ Widget previews بقت Stable في Flutter 3.47، صمم وجرب الـ widgets لوحدها في الوقت الفعلي من غير ما تعمل Run للتطبيق بالكامل.",
+        "تحسينات كبيرة في الـ iOS builds بفضل الـ SwiftPM pipelines اللي بتفلتر الـ schemes وفلاج --no-xcode-clean اللي بيحافظ على الـ derived data.",
+        "الـ ScrollPhysics بقى يدعم الـ dynamic changes من غير ريبلد للـ widget tree، والـ ResizeImage بقى يوفر في الـ image cache memory.",
+        "دعم الـ WebSocket profiling في الـ DevTools وإمكانية فتح الـ widgets مباشرة من الـ error notifications في الـ IDE."
+      ]
+    }
+  }
 }
