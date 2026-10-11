@@ -122,6 +122,15 @@ function summaryBlock(v) {
     el('p', { className: 'about', textContent: v.ai.about }),
     el('ul', { className: 'points' }, v.ai.points.map((p) => el('li', { textContent: p }))),
     el('p', { className: 'verdict', textContent: `💡 ${v.ai.verdict}` }),
+    v.ai.terms && v.ai.terms.length
+      ? el('details', { className: 'terms' }, [
+        el('summary', { textContent: `📘 مصطلحات (${v.ai.terms.length})` }),
+        el('dl', {}, v.ai.terms.flatMap((t) => [
+          el('dt', { dir: 'ltr', textContent: t.term }),
+          el('dd', { textContent: t.meaning }),
+        ])),
+      ])
+      : null,
     v.ai.source === 'description'
       ? el('p', { className: 'source-note', textContent: 'الملخص ده من وصف الفيديو، مش من الفيديو نفسه.' })
       : null,
@@ -129,7 +138,8 @@ function summaryBlock(v) {
 }
 
 function searchText(v) {
-  const ai = v.ai ? [v.ai.about, v.ai.verdict, ...v.ai.points].join(' ') : '';
+  const terms = (v.ai && v.ai.terms) || [];
+  const ai = v.ai ? [v.ai.about, v.ai.verdict, ...v.ai.points, ...terms.map((t) => t.term)].join(' ') : '';
   return `${v.title} ${v.summary} ${ai}`.toLowerCase();
 }
 

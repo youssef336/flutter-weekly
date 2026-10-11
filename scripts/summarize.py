@@ -28,17 +28,23 @@ CAIRO = ZoneInfo('Africa/Cairo')
 MAX_VIDEOS_PER_RUN = 10
 PAUSE_SECONDS = 8  # stay well under the free-tier requests-per-minute limit
 
+# Bump when the writing style changes: summaries with an older style get rewritten.
+STYLE_VERSION = 2
 STYLE = (
-    'اكتب بالعربي المصري البسيط الواضح، وسيب المصطلحات التقنية وأسماء الـ APIs والـ packages '
-    'بالإنجليزي زي ما هي (Flutter, Dart, widget, hot reload…). القارئ مطوّر Flutter مش فاضي '
-    'يتفرج على الفيديو، فركّز على الجديد والمفيد عملياً، ومن غير مقدمات أو مجاملات.'
+    'اكتب بالعربي المصري البسيط، كأنك بتشرح لصاحبك اللي لسه junior في Flutter وبادئ قريب. '
+    'سيب أسماء الـ APIs والـ packages والمصطلحات بالإنجليزي زي ما هي، بس أول مرة يظهر مصطلح '
+    'مش أساسي اشرحه بين قوسين في كلمتين بسيطين، مثلاً: Impeller (المحرك اللي بيرسم الشاشة). '
+    'استخدم جمل قصيرة، وقول الفايدة العملية: الحاجة دي بتفرق معاك في إيه. '
+    'لو فيه مثال بسيط من الحياة يوضح الفكرة استخدمه. من غير مقدمات أو مجاملات، '
+    'ومتألفش أي معلومة مش موجودة.'
 )
 
 VIDEO_PROMPT = STYLE + '''
 لخّص فيديو قناة Flutter الرسمية ده. العنوان: "{title}".
 - about: جملة واحدة الفيديو بيتكلم عن إيه.
 - points: من 3 لـ 5 نقط بأهم الحاجات اللي اتقالت (للـ Short من 1 لـ 3). كل نقطة جملة قصيرة فيها معلومة حقيقية من الفيديو.
-- verdict: سطر واحد: يهمك لو إيه، ومحتاج تتفرج عليه بنفسك ولا الملخص كفاية.'''
+- verdict: سطر واحد: يهمك لو إيه، ومحتاج تتفرج عليه بنفسك ولا الملخص كفاية.
+- terms: من 0 لـ 3 مصطلحات تقنية من الفيديو ممكن junior ميعرفهاش، كل واحد term بالإنجليزي و meaning جملة بسيطة بالعربي.'''
 
 DESCRIPTION_PROMPT = STYLE + '''
 مش متاح الفيديو نفسه، فلخّص من العنوان والوصف بس، ومتألفش حاجة مش مكتوبة.
@@ -47,7 +53,8 @@ DESCRIPTION_PROMPT = STYLE + '''
 {description}
 - about: جملة واحدة الفيديو بيتكلم عن إيه.
 - points: من 2 لـ 4 نقط من اللي في الوصف.
-- verdict: سطر واحد: يهمك لو إيه.'''
+- verdict: سطر واحد: يهمك لو إيه.
+- terms: من 0 لـ 3 مصطلحات تقنية ممكن junior ميعرفهاش، term بالإنجليزي و meaning جملة بسيطة بالعربي.'''
 
 WEEK_PROMPT = STYLE + '''
 دي ملخصات فيديوهات قناة Flutter الرسمية في أسبوع واحد:
@@ -61,8 +68,16 @@ VIDEO_SCHEMA = {
         'about': {'type': 'STRING'},
         'points': {'type': 'ARRAY', 'items': {'type': 'STRING'}},
         'verdict': {'type': 'STRING'},
+        'terms': {
+            'type': 'ARRAY',
+            'items': {
+                'type': 'OBJECT',
+                'properties': {'term': {'type': 'STRING'}, 'meaning': {'type': 'STRING'}},
+                'required': ['term', 'meaning'],
+            },
+        },
     },
-    'required': ['about', 'points', 'verdict'],
+    'required': ['about', 'points', 'verdict', 'terms'],
 }
 
 WEEK_SCHEMA = {
@@ -138,7 +153,12 @@ def summarize_video(gemini, video):
             VIDEO_SCHEMA)
         ai['source'] = 'description'
     ai['model'] = gemini.models[0]
+    ai['style'] = STYLE_VERSION
     return ai
+
+
+def is_current(video):
+    return video.get('ai', {}).get('style') == STYLE_VERSION
 
 
 def week_key(published):
@@ -153,17 +173,18 @@ def summarize_weeks(gemini, data):
         by_week.setdefault(week_key(video['published']), []).append(video)
     weeks = data.setdefault('weeks', {})
     for key, videos in sorted(by_week.items(), reverse=True):
-        if not all('ai' in v for v in videos):
-            continue  # wait until every video of the week has its own summary
+        if not all(is_current(v) for v in videos):
+            continue  # wait until every video of the week has its own up-to-date summary
         ids = sorted(v['id'] for v in videos)
-        if weeks.get(key, {}).get('ids') == ids:
+        week = weeks.get(key, {})
+        if week.get('ids') == ids and week.get('style') == STYLE_VERSION:
             continue
         print(f'week {key}: {len(videos)} videos')
         listing = '\n'.join(
             f"- {v['title']}: {v['ai']['about']} " + ' '.join(v['ai']['points'])
             for v in sorted(videos, key=lambda v: v['published']))
         result = gemini.generate([{'text': WEEK_PROMPT.format(videos=listing)}], WEEK_SCHEMA)
-        weeks[key] = {'ids': ids, **result}
+        weeks[key] = {'ids': ids, 'style': STYLE_VERSION, **result}
         save(data)
         time.sleep(PAUSE_SECONDS)
 
@@ -179,7 +200,10 @@ def main():
         return
     gemini = Gemini(key)
     data = json.loads(DATA_FILE.read_text('utf-8'))
-    pending = [v for v in data['videos'] if 'ai' not in v][:MAX_VIDEOS_PER_RUN]
+    # Never-summarized videos first, then rewrite ones in an older style; newest first in each.
+    missing = [v for v in data['videos'] if 'ai' not in v]
+    outdated = [v for v in data['videos'] if 'ai' in v and not is_current(v)]
+    pending = (missing + outdated)[:MAX_VIDEOS_PER_RUN]
     try:
         for video in pending:
             print(f"video {video['id']}: {video['title']}")
