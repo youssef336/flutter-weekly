@@ -1,0 +1,170 @@
+:root {
+  --bg: #f6f8fb;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --border: #e2e8f0;
+  --accent: #0468d7;
+  --accent-soft: #e6f0fc;
+  --short: #c2410c;
+  --shadow: 0 1px 2px rgb(15 23 42 / 6%), 0 4px 16px rgb(15 23 42 / 4%);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b1120;
+    --surface: #131c2e;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --border: #1f2a40;
+    --accent: #54c5f8;
+    --accent-soft: #10304a;
+    --short: #fb923c;
+    --shadow: none;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #0b1120;
+  --surface: #131c2e;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --border: #1f2a40;
+  --accent: #54c5f8;
+  --accent-soft: #10304a;
+  --short: #fb923c;
+  --shadow: none;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Cairo', system-ui, sans-serif;
+  line-height: 1.7;
+}
+
+h1, h2, h3, p { margin: 0; }
+a { color: var(--accent); }
+
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+.muted { color: var(--muted); }
+
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 20px 0;
+  margin-bottom: 24px;
+}
+.header-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand h1 { font-size: 1.5rem; font-weight: 800; }
+.brand p { font-size: 0.9rem; }
+.logo { width: 40px; height: 40px; fill: var(--accent); flex-shrink: 0; }
+.channel-link { font-weight: 600; text-decoration: none; white-space: nowrap; }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+}
+
+/* Weekly summary */
+.week { padding: 20px; margin-bottom: 32px; }
+.week-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.week-label { text-align: center; }
+.week-label h2 { font-size: 1.3rem; }
+.nav-btn {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.nav-btn:disabled { opacity: 0.35; cursor: default; }
+
+.stats { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; justify-content: center; }
+.stat {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 999px;
+  padding: 4px 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.week-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.week-list li {
+  border-inline-start: 3px solid var(--accent);
+  padding: 4px 12px;
+}
+.week-list a { font-weight: 700; text-decoration: none; color: var(--text); }
+.week-list a:hover { color: var(--accent); }
+.week-list p { font-size: 0.92rem; color: var(--muted); }
+.week-empty { text-align: center; padding: 16px 0; }
+
+/* All videos */
+.list-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.list-head h2 { font-size: 1.3rem; }
+.search {
+  font: inherit;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  width: min(100%, 280px);
+}
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+.chip {
+  font: inherit;
+  font-size: 0.85rem;
+  padding: 4px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+
+.video { overflow: hidden; display: flex; flex-direction: column; }
+.thumb { position: relative; display: block; aspect-ratio: 16 / 9; overflow: hidden; background: var(--border); }
+/* Absolute so the 4:3 letterboxed thumbnail can't stretch the box; cover crops the bars. */
+.thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.badge {
+  position: absolute; top: 8px; inset-inline-start: 8px;
+  background: var(--short); color: #fff;
+  font-size: 0.75rem; font-weight: 700;
+  padding: 0 10px; border-radius: 6px;
+}
+.video-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.video h3 { font-size: 1rem; line-height: 1.5; }
+.video h3 a { color: var(--text); text-decoration: none; }
+.video h3 a:hover { color: var(--accent); }
+.meta { font-size: 0.82rem; color: var(--muted); }
+.summary { font-size: 0.9rem; color: var(--muted); flex: 1; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { font-size: 0.75rem; background: var(--accent-soft); color: var(--accent); border-radius: 6px; padding: 0 8px; }
+.watch { font-weight: 700; text-decoration: none; font-size: 0.9rem; }
+
+.empty { text-align: center; padding: 32px 0; }
+.footer { text-align: center; font-size: 0.85rem; padding: 32px 16px; }
+
+@media (max-width: 600px) {
+  .brand h1 { font-size: 1.25rem; }
+  .week { padding: 16px; }
+  .grid { grid-template-columns: 1fr; }
+  .search { width: 100%; }
+}

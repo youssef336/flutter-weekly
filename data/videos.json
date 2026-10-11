@@ -1,0 +1,224 @@
+{
+  "channel": {
+    "name": "Flutter",
+    "url": "https://www.youtube.com/@flutterdev"
+  },
+  "updatedAt": "2026-10-11T08:10:44+00:00",
+  "videos": [
+    {
+      "id": "K75yHVaxVK0",
+      "title": "Showing your non-dev friend hot reload",
+      "url": "https://www.youtube.com/shorts/K75yHVaxVK0",
+      "published": "2026-10-09T16:00:29+00:00",
+      "thumbnail": "https://i4.ytimg.com/vi/K75yHVaxVK0/hqdefault.jpg",
+      "views": 11331,
+      "isShort": true,
+      "summary": "When your non-dev friend just doesn’t understand the power of hot reload. A little bit this, a little bit of that and it updates it there. The power of hot reload.",
+      "tags": [
+        "shorts"
+      ]
+    },
+    {
+      "id": "aEcIL0zwrnY",
+      "title": "Flutter’s focus system | Vadym Pinchuk",
+      "url": "https://www.youtube.com/watch?v=aEcIL0zwrnY",
+      "published": "2026-10-08T17:00:14+00:00",
+      "thumbnail": "https://i2.ytimg.com/vi/aEcIL0zwrnY/hqdefault.jpg",
+      "views": 5191,
+      "isShort": false,
+      "summary": "Think focus navigation is just for desktop keyboards and web browsers? Think again. Live from Fluttercon USA in Orlando, Craig sits down with Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, to break down Flutter’s focus system.",
+      "tags": [
+        "dart",
+        "event",
+        "community"
+      ]
+    },
+    {
+      "id": "CcyX-pqjDp0",
+      "title": "Write and deploy full stack Dart apps with Flutter and Cloud Functions for Firebase",
+      "url": "https://www.youtube.com/watch?v=CcyX-pqjDp0",
+      "published": "2026-10-07T16:00:03+00:00",
+      "thumbnail": "https://i4.ytimg.com/vi/CcyX-pqjDp0/hqdefault.jpg",
+      "views": 6646,
+      "isShort": false,
+      "summary": "Live from Fluttercon USA in Orlando, Andrew from the Flutter team catches up with Arthur Thompson, a Developer Relations Engineer for Firebase. They discuss how Firebase is evolving for the agentic era, why every Firebase project is secretly a Google Cloud project (making scale seamless), securing AI features with…",
+      "tags": [
+        "dart",
+        "ai",
+        "event",
+        "community"
+      ]
+    },
+    {
+      "id": "4sxrFXhMxy4",
+      "title": "Guard Clauses (Technique of the Week)",
+      "url": "https://www.youtube.com/watch?v=4sxrFXhMxy4",
+      "published": "2026-10-06T16:00:20+00:00",
+      "thumbnail": "https://i1.ytimg.com/vi/4sxrFXhMxy4/hqdefault.jpg",
+      "views": 14294,
+      "isShort": false,
+      "summary": "Use guard clauses with the when keyword in Dart to add extra constraints to pattern matching in switches.",
+      "tags": [
+        "dart",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "Tovm9bWNGpE",
+      "title": "Widget previews are FINALLY stable in Flutter 3.47! 🔍",
+      "url": "https://www.youtube.com/shorts/Tovm9bWNGpE",
+      "published": "2026-10-01T17:00:13+00:00",
+      "thumbnail": "https://i1.ytimg.com/vi/Tovm9bWNGpE/hqdefault.jpg",
+      "views": 13140,
+      "isShort": true,
+      "summary": "In Flutter 3.47, Flutter Widget Previewer has officially graduated to stable! You can now design, inspect, and iterate on individual UI widgets in real time without the overhead of running your full application. Run flutter upgrade to get Flutter 3.47 today!",
+      "tags": [
+        "shorts",
+        "release",
+        "widget"
+      ]
+    },
+    {
+      "id": "CCf_SRvuck0",
+      "title": "Why Toyota built a custom embedder",
+      "url": "https://www.youtube.com/shorts/CCf_SRvuck0",
+      "published": "2026-09-30T19:00:25+00:00",
+      "thumbnail": "https://i4.ytimg.com/vi/CCf_SRvuck0/hqdefault.jpg",
+      "views": 5379,
+      "isShort": true,
+      "summary": "Toyota’s engineering and design teams share why standard, off-the-shelf embedders fell short for complex navigation and automotive functions, and how building a custom embedder allowed them to maintain high-performance plugins tailored for the road.",
+      "tags": [
+        "shorts",
+        "performance"
+      ]
+    },
+    {
+      "id": "HC2UDbpRUzs",
+      "title": "Building an AI-assisted workflow enforcing Flutter best practices for enterprises | Jorge Coca",
+      "url": "https://www.youtube.com/watch?v=HC2UDbpRUzs",
+      "published": "2026-09-29T16:00:03+00:00",
+      "thumbnail": "https://i1.ytimg.com/vi/HC2UDbpRUzs/hqdefault.jpg",
+      "views": 7770,
+      "isShort": false,
+      "summary": "Join Emma and Jorge Coca, VP of Engineering at Very Good Ventures (VGV), live from FlutterCon USA in Orlando to explore AI-assisted workflows. Learn how VGV open-sourced Wingspan to codify engineering best practices into AI skills, plus discover approaches to testing AI-generated features.",
+      "tags": [
+        "ai",
+        "event"
+      ]
+    },
+    {
+      "id": "VzMQ6Cg0194",
+      "title": "Flutter notable commits - August 2026",
+      "url": "https://www.youtube.com/watch?v=VzMQ6Cg0194",
+      "published": "2026-09-28T16:04:04+00:00",
+      "thumbnail": "https://i3.ytimg.com/vi/VzMQ6Cg0194/hqdefault.jpg",
+      "views": 15302,
+      "isShort": false,
+      "summary": "Welcome to the new Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From framework updates to major upgrades in desktop performance and developer tooling, this August 2026 recap showcases how Google and the global…",
+      "tags": [
+        "community",
+        "performance"
+      ]
+    },
+    {
+      "id": "YanRtf7wHEI",
+      "title": "Impeller hits desktop by default in Flutter 3.47! 🖥️",
+      "url": "https://www.youtube.com/shorts/YanRtf7wHEI",
+      "published": "2026-09-24T16:00:30+00:00",
+      "thumbnail": "https://i2.ytimg.com/vi/YanRtf7wHEI/hqdefault.jpg",
+      "views": 20443,
+      "isShort": true,
+      "summary": "Building Flutter apps for desktop? Your rendering engine just got a massive upgrade! In Flutter 3.47, the Impeller rendering engine is officially enabled by default across macOS, Windows, and Linux.",
+      "tags": [
+        "shorts",
+        "release",
+        "performance"
+      ]
+    },
+    {
+      "id": "neL3QX9uTg8",
+      "title": "Why Holafly switched to a cross-platform framework",
+      "url": "https://www.youtube.com/shorts/neL3QX9uTg8",
+      "published": "2026-09-23T16:00:37+00:00",
+      "thumbnail": "https://i3.ytimg.com/vi/neL3QX9uTg8/hqdefault.jpg",
+      "views": 5874,
+      "isShort": true,
+      "summary": "Holafly is the global leader in eSIMs for travelers, offering coverage in over 200 destinations and the best value for money With an outstanding 4.7/5 rating on Trustpilot and more than 25 million of eSIM sold, it has become the preferred eSIM choice for international travelers. Its unlimited data and build-in back up…",
+      "tags": [
+        "shorts",
+        "community"
+      ]
+    },
+    {
+      "id": "b6-8ze1ULj8",
+      "title": "Sound processing tricks in Flutter that you MUST TRY | Andrii Khrystian",
+      "url": "https://www.youtube.com/watch?v=b6-8ze1ULj8",
+      "published": "2026-09-22T16:00:17+00:00",
+      "thumbnail": "https://i3.ytimg.com/vi/b6-8ze1ULj8/hqdefault.jpg",
+      "views": 15139,
+      "isShort": false,
+      "summary": "Live from FlutterCon USA in Orlando, Craig sits down with Andrii Khrystian, software engineer at Dynatrace and former physics student, to break down the mechanics of audio processing in Flutter! In this interview, Andrii explains why audio processing relies heavily on native C-libraries like FFmpeg, demonstrates a…",
+      "tags": [
+        "event",
+        "community"
+      ]
+    },
+    {
+      "id": "rvtSUH3WGaA",
+      "title": "Build mission-critical geospatial applications using ArcGIS Maps SDK for Flutter | Martino Yovo",
+      "url": "https://www.youtube.com/watch?v=rvtSUH3WGaA",
+      "published": "2026-09-21T17:02:41+00:00",
+      "thumbnail": "https://i3.ytimg.com/vi/rvtSUH3WGaA/hqdefault.jpg",
+      "views": 16136,
+      "isShort": false,
+      "summary": "Craig sits down with Martino Yovo, Product Engineer at Esri, to talk about the ArcGIS Maps SDK for Flutter! Discover why modern location-aware apps go far beyond standard consumer maps. From mission-critical emergency response and utility infrastructure to agriculture, custom multi-layer base maps, and full offline…",
+      "tags": [
+        "community"
+      ]
+    },
+    {
+      "id": "tFVFB-mel0w",
+      "title": "Primary constructors and private named parameters",
+      "url": "https://www.youtube.com/watch?v=tFVFB-mel0w",
+      "published": "2026-09-17T16:00:35+00:00",
+      "thumbnail": "https://i1.ytimg.com/vi/tFVFB-mel0w/hqdefault.jpg",
+      "views": 31927,
+      "isShort": false,
+      "summary": "Say goodbye to redundant constructor boilerplate starting with Dart 3.12! Craig breaks down two massive developer-experience upgrades: primary constructors and private named parameters. Discover how private named initializing formals eliminate tedious parameters starting with underscores, and learn how primary…",
+      "tags": [
+        "release",
+        "dart",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "4QG8nBe5cYU",
+      "title": "Toyota’s customer feedback loop",
+      "url": "https://www.youtube.com/shorts/4QG8nBe5cYU",
+      "published": "2026-09-16T19:27:51+00:00",
+      "thumbnail": "https://i1.ytimg.com/vi/4QG8nBe5cYU/hqdefault.jpg",
+      "views": 6637,
+      "isShort": true,
+      "summary": "How do you build a car app that works for everyone? You talk to everyone! 🏎️💬 Discover how Toyota is leveraging Flutter to rebuild its infotainment system.",
+      "tags": [
+        "shorts",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "8OUcGUiKj8M",
+      "title": "Why Flutter matters more in the AI world with Flutter co-founder, Eric Seidel",
+      "url": "https://www.youtube.com/watch?v=8OUcGUiKj8M",
+      "published": "2026-09-16T16:02:00+00:00",
+      "thumbnail": "https://i1.ytimg.com/vi/8OUcGUiKj8M/hqdefault.jpg",
+      "views": 11732,
+      "isShort": false,
+      "summary": "Live from FlutterCon USA in Orlando, Andrew from the Flutter team catches up with Eric Seidel, co-founder of Flutter and founder of Shorebird! Eric shares the origin story behind Shorebird code push, insights from his Fluttercon keynote on AI agents, how U.S. enterprise adoption is accelerating, and why strong…",
+      "tags": [
+        "ai",
+        "event",
+        "community"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flutter Weekly</title>
+  <meta name="description" content="ملخص أسبوعي لكل جديد على قناة Flutter الرسمية على يوتيوب">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <div class="brand">
+        <svg class="logo" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M14.3 2 4.6 11.7l3 3L20.3 2h-6zm0 9.3-5.2 5.2 5.2 5.5h6l-5.2-5.5 5.2-5.2h-6z"/>
+        </svg>
+        <div>
+          <h1>Flutter Weekly</h1>
+          <p class="muted">جديد قناة Flutter الرسمية على يوتيوب، ملخص أسبوع بأسبوع</p>
+        </div>
+      </div>
+      <a class="channel-link" href="https://www.youtube.com/@flutterdev/videos" target="_blank" rel="noopener">القناة على يوتيوب ↗</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="week card" aria-labelledby="week-title">
+      <div class="week-head">
+        <button class="nav-btn" id="prev-week" aria-label="الأسبوع اللي فات">→</button>
+        <div class="week-label">
+          <h2 id="week-title">ملخص الأسبوع</h2>
+          <p class="muted" id="week-range"></p>
+        </div>
+        <button class="nav-btn" id="next-week" aria-label="الأسبوع اللي بعده">←</button>
+      </div>
+      <div class="stats" id="week-stats"></div>
+      <ul class="week-list" id="week-list"></ul>
+    </section>
+
+    <section aria-labelledby="all-title">
+      <div class="list-head">
+        <h2 id="all-title">كل الفيديوهات</h2>
+        <input class="search" id="search" type="search" placeholder="دوّر بالعنوان…" aria-label="بحث">
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="التصنيفات"></div>
+      <div class="grid" id="grid"></div>
+      <p class="empty muted" id="empty" hidden>مفيش فيديوهات بالفلتر ده.</p>
+    </section>
+  </main>
+
+  <footer class="wrap muted footer" id="footer"></footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
