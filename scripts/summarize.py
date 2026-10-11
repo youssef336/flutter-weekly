@@ -89,6 +89,7 @@ class Gemini:
         if video:
             config['mediaResolution'] = 'MEDIA_RESOLUTION_LOW'  # ~3x fewer tokens per second of video
         body = json.dumps({'contents': [{'parts': parts}], 'generationConfig': config}).encode()
+        busy_retries = 3
         while self.models:
             request = urllib.request.Request(
                 API.format(model=self.models[0]), data=body, method='POST',
@@ -106,6 +107,11 @@ class Gemini:
                     continue
                 if err.code == 429:
                     raise QuotaExceeded(detail)
+                if err.code in (500, 503) and busy_retries:  # "high demand" spikes are short
+                    busy_retries -= 1
+                    print(f'  Gemini busy (HTTP {err.code}), retrying in 30s')
+                    time.sleep(30)
+                    continue
                 raise RuntimeError(f'HTTP {err.code}: {detail}')
         raise RuntimeError('no Gemini model available for this key')
 

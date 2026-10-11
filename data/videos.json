@@ -182,18 +182,7 @@
         "ai",
         "event"
       ],
-      "description": "Join Emma and Jorge Coca, VP of Engineering at Very Good Ventures (VGV), live from FlutterCon USA in Orlando to explore AI-assisted workflows. Learn how VGV open-sourced Wingspan to codify engineering best practices into AI skills, plus discover approaches to testing AI-generated features.\n\nResources:\nVGV → https://g.dev/flutter/vgv\nWingspan on GitHub → https://g.dev/flutter/vgv-wingspan\n\nChapters:\n0:00 - Live from Fluttercon Orlando\n1:58 - Working with AI: Skills and process \n3:19 - Enterprise workflow solutions: Standard vs customization \n5:10 - Q&A: What’s your approach to testing AI generated features? \n8:47 - What’s next \n\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter",
-      "ai": {
-        "about": "الفيديو بيشرح إزاي تبني AI-assisted workflow للشركات يضمن إن الكود بيتبع الـ Flutter best practices باستخدام أداة Wingspan.",
-        "points": [
-          "شرح لمشروع Wingspan وهو مشروع open-source من VGV بيحول الـ engineering best practices لـ AI skills.",
-          "الكلام عن الـ enterprise workflow solutions والفرق بين الـ standard والـ customization.",
-          "طرق الـ testing المتبعة للـ features اللي بيعملها الـ AI للتأكد من جودتها."
-        ],
-        "verdict": "يهمك لو عاوز تدمج الـ AI في الـ workflow بتاعك كـ Flutter developer مع الحفاظ على الـ standards وجودة الكود.",
-        "source": "description",
-        "model": "gemini-3-flash-preview"
-      }
+      "description": "Join Emma and Jorge Coca, VP of Engineering at Very Good Ventures (VGV), live from FlutterCon USA in Orlando to explore AI-assisted workflows. Learn how VGV open-sourced Wingspan to codify engineering best practices into AI skills, plus discover approaches to testing AI-generated features.\n\nResources:\nVGV → https://g.dev/flutter/vgv\nWingspan on GitHub → https://g.dev/flutter/vgv-wingspan\n\nChapters:\n0:00 - Live from Fluttercon Orlando\n1:58 - Working with AI: Skills and process \n3:19 - Enterprise workflow solutions: Standard vs customization \n5:10 - Q&A: What’s your approach to testing AI generated features? \n8:47 - What’s next \n\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter"
     },
     {
       "id": "VzMQ6Cg0194",
