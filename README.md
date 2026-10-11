@@ -14,6 +14,7 @@
   الفيديو عن إيه، 3–5 نقط بأهم اللي اتقال، ويهمك ولا لأ. وبعدين بيكتب ملخص لكل أسبوع.
   لو الفيديو منفعش، بيلخص من الوصف وبيكتب كده جنب الملخص.
 - `.github/workflows/update.yml` بيشغّل الاتنين كل يوم الساعة 6 الصبح UTC ويعمل commit لو فيه جديد.
+- الموقع static على GitHub Pages وبيقرا `data/videos.json`.
 
 ## مفتاح Gemini
 
@@ -24,7 +25,6 @@ gh secret set GEMINI_API_KEY -R youssef336/flutter-weekly
 ```
 
 ولو عايز موديل معين: `gh variable set GEMINI_MODEL -R youssef336/flutter-weekly --body gemini-2.5-flash`
-- الموقع static على GitHub Pages وبيقرا `data/videos.json`.
 
 ## تشغيل local
 
