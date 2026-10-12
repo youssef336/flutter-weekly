@@ -3,15 +3,58 @@
     "name": "Flutter",
     "url": "https://www.youtube.com/@flutterdev"
   },
-  "updatedAt": "2026-10-11T08:27:35+00:00",
+  "updatedAt": "2026-10-12T17:17:21+00:00",
   "videos": [
+    {
+      "id": "-PqgJYzPkKY",
+      "title": "Building and maintaining a culture of inclusive app development | Kali (Flutteristas)",
+      "url": "https://www.youtube.com/watch?v=-PqgJYzPkKY",
+      "published": "2026-10-12T16:00:19+00:00",
+      "thumbnail": "https://i2.ytimg.com/vi/-PqgJYzPkKY/hqdefault.jpg",
+      "views": 177,
+      "isShort": false,
+      "summary": "Craig sits down with Kali, CEO at ChecksOnME and Flutteristas member, live at Fluttercon USA in Orlando! They break down why common app development assumptions unintentionally lock real people out and if AI can help audit your app for inclusivity and accessibility.",
+      "description": "Craig sits down with Kali, CEO at ChecksOnME and Flutteristas member, live at Fluttercon USA in Orlando! They break down why common app development assumptions unintentionally lock real people out and if AI can help audit your app for inclusivity and accessibility. \n\nResources:\nFlutteraistas → https://g.dev/flutter/flutteristas\nChecksOnMe → https://g.dev/flutter/checksonme \nFlutter AI skills → https://goo.gle/4yfeaRB \n\nChapters:\n0:00 - Live from Fluttercon Orlando\n0:52 - Localization  \n1:57 - Address systems & state provinces\n3:08- Can AI catch what developers overlook?\n5:27 - Inclusivity fails and successes in the real-world\n5:45 - The male-default crash dummy\n6:35 - What a men's room changing table teaches us about design\n8:45 - Mononyms: Is it an edge case, or are you just unfamiliar with it? \n13:01 - Recap\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT",
+      "tags": [
+        "ai",
+        "event",
+        "community"
+      ],
+      "ai": {
+        "about": "الفيديو بيتكلم عن إزاي تخلي تطبيقاتك شاملة (inclusive) وتناسب كل أنواع المستخدمين باختلاف ثقافاتهم وأسمائهم من غير تعقيد.",
+        "points": [
+          "الـ Localization مش مجرد ترجمة لغات، دي خطوة أساسية عشان تطبيقك يكون شامل لكل الناس في كل مكان.",
+          "بلاش تحط شروط (validations) صعبة في خانات الاسم، لأن فيه ناس أساميها حرف واحد بس أو ليهم اسم واحد بس (mononymous).",
+          "تقدر تستخدم خانة واحدة للـ Full Name أو تضيف خانة للـ Preferred Name (الاسم اللي المستخدم يحب يتنادى بيه) بدل ما تقسم الاسم لـ First و Last.",
+          "التنوع في الفريق بيساعدك تكتشف الـ Unknown unknowns (الحاجات اللي مكنتش تعرف إنك متعرفهاش) وتفهم احتياجات مستخدمين مختلفين عنك."
+        ],
+        "verdict": "مهم جداً لو عاوز تحسن الـ User Experience وتخلي تطبيقك احترافي عالمياً، والملخص هيعرفك أهم النقط العملية.",
+        "terms": [
+          {
+            "term": "Localization",
+            "meaning": "تجهيز التطبيق عشان يشتغل بكذا لغة ويناسب ثقافات مختلفة."
+          },
+          {
+            "term": "Mononymous",
+            "meaning": "الشخص اللي ليه اسم واحد بس معروف بيه قانونياً."
+          },
+          {
+            "term": "Validation",
+            "meaning": "القواعد اللي بتبرمجها عشان تتأكد إن الداتا اللي المستخدم كتبها شكلها صح."
+          }
+        ],
+        "source": "video",
+        "model": "gemini-3-flash-preview",
+        "style": 2
+      }
+    },
     {
       "id": "K75yHVaxVK0",
       "title": "Showing your non-dev friend hot reload",
       "url": "https://www.youtube.com/shorts/K75yHVaxVK0",
       "published": "2026-10-09T16:00:29+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/K75yHVaxVK0/hqdefault.jpg",
-      "views": 11345,
+      "views": 28226,
       "isShort": true,
       "summary": "When your non-dev friend just doesn’t understand the power of hot reload. A little bit this, a little bit of that and it updates it there. The power of hot reload.",
       "tags": [
@@ -19,15 +62,26 @@
       ],
       "description": "When your non-dev friend just doesn’t understand the power of hot reload.  A little bit this, a little bit of that and it updates it there. The power of hot reload. \n\n\n#Flutter #GoogleCloudNext \n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\nProducts Mentioned: Flutter",
       "ai": {
-        "about": "الفيديو بيعرض موقف كوميدي لواحد بيشرح ميزة الـ Hot Reload في Flutter لصاحبه اللي مش مبرمج وكيفية تأثيرها الفوري.",
+        "about": "الفيديو بيوضح بالهزار إزاي ميزة الـ Hot Reload في فلاتر بتخليك تعدل الكود وتشوف النتيجة فوراً، واختلاف رد فعل المبرمجين عن الناس العادية تجاهها.",
         "points": [
-          "الـ Hot Reload بيخلي أي تغيير في الـ Code يظهر فوراً على الشاشة من غير ما تحتاج تعمل Rebuild للـ App بالكامل.",
-          "التعديل بيسمع لحظياً على كل الـ Devices الموصلة بنفس الـ session في وقت واحد.",
-          "الفيديو بيبرز سرعة الـ Development في Flutter اللي بتسهل تجربة الـ UI وتعديله."
+          "الـ Hot Reload بيسمح لك تشوف تغييرات الكود في لحظتها على الشاشة من غير ما تحتاج تعمل Restart للأبلكيشن.",
+          "التغيير اللي المبرمج عمله على اللابتوب سمع فوراً في الشاشة الكبيرة اللي بتعرض الأبلكيشن.",
+          "الفيديو بيأكد إن الميزات التقنية اللي بنشوفها سحرية ممكن تكون عادية جداً في نظر حد مش متخصص."
         ],
-        "verdict": "الفيديو للتسلية ومشاركة الـ vibes بتاعة المطورين، الملخص كفاية جداً ومفيش شرح تقني محتاج تشوفه.",
+        "verdict": "الفيديو كوميدي وقصير جداً، الملخص كفاية لو عايز تفهم الفكرة بس، لكن اتفرج عليه لو حابب تشوف الموقف نفسه.",
+        "terms": [
+          {
+            "term": "Hot Reload",
+            "meaning": "ميزة بتحدث الكود وتظهر التعديلات فوراً في الأبلكيشن وهو شغال من غير ما تعيده من الأول."
+          },
+          {
+            "term": "UI",
+            "meaning": "واجهة المستخدم (User Interface) وهي كل حاجة اليوزر بيشوفها ويتفاعل معاها في الأبلكيشن."
+          }
+        ],
         "source": "video",
-        "model": "gemini-3-flash-preview"
+        "model": "gemini-3-flash-preview",
+        "style": 2
       }
     },
     {
@@ -36,7 +90,7 @@
       "url": "https://www.youtube.com/watch?v=aEcIL0zwrnY",
       "published": "2026-10-08T17:00:14+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/aEcIL0zwrnY/hqdefault.jpg",
-      "views": 5188,
+      "views": 5921,
       "isShort": false,
       "summary": "Think focus navigation is just for desktop keyboards and web browsers? Think again. Live from Fluttercon USA in Orlando, Craig sits down with Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, to break down Flutter’s focus system.",
       "tags": [
@@ -46,17 +100,30 @@
       ],
       "description": "Think focus navigation is just for desktop keyboards and web browsers? Think again. Live from Fluttercon USA in Orlando, Craig sits down with Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, to break down Flutter’s focus system. Learn about FocusScope and how testing for accessibility can expose hidden UX flaws.\n\nResources:\nUnderstanding Flutter's keyboard focus system → https://g.dev/flutter/focus\nUser input and accessibility → https://g.dev/flutter/adaptive-responsive\nFocus → https://g.dev/flutter/focus-class\nFocusManager class → https://g.dev/flutter/focusmanager\nFocusScope class → https://g.dev/flutter/focusscope\n\nChapters:\n0:00 - Live from Fluttercon Orlando\n0:50 - Beyond desktop: Remotes, assistive tech, & TV interfaces\n1:43 - FocusScope\n3:13 - Testing \n4:17 - Meeting needs for users needs: Assistive technologies \n5:24 - Accessibility & semantics in production\n \n\n#Flutter #Fluttercon",
       "ai": {
-        "about": "الفيديو عبارة عن مقابلة مع Vadym Pinchuk بيشرح فيها إزاي نظام الـ Focus في Flutter شغال وأهميته لتحسين تجربة المستخدم والـ accessibility.",
+        "about": "الفيديو ده بيشرح إزاي الـ Focus system في Flutter بيساعدك تخلي الـ Navigation (التنقل) في الأبليكيشن بتاعك أسهل للأجهزة المختلفة وكمان للـ Accessibility (سهولة الاستخدام لذوي الاحتياجات الخاصة).",
         "points": [
-          "نظام الـ Focus مش مجرد لوحة مفاتيح، ده بيشمل أي وسيلة إدخال زي الريموت والـ assistive technologies.",
-          "الـ FocusManager الافتراضي بيتبع ترتيب القراءة، ولازم تستخدم FocusScope و FocusTraversalGroup عشان تحدد مسارات تنقل منطقية في الأبلكيشن المعقد.",
-          "تقدر تختبر الـ Focus باستخدام الـ Unit tests والـ Widget tests عشان تتأكد إن الـ widgets واخدة التركيز صح.",
-          "أهم مرحلة في التطوير هي تجربة الأبلكيشن مع مستخدمين حقيقيين بيعتمدوا على الـ assistive technologies عشان تكتشف المشاكل اللي الـ برامج مش بتبينها.",
-          "لازم المطورين يتناقشوا مع المصممين في تفاصيل الـ semantics والـ Focus من بدري عشان التصميم يكون مريح للكل."
+          "الـ Focus system مش بس للويب أو الكمبيوتر، ده أساسي لأي حاجة بتعتمد على الكيبورد أو الريموت أو حتى برامج مساعدة ذوي الاحتياجات الخاصة.",
+          "استخدم الـ FocusScope (ودجت بتجمع عناصر معينة مع بعض) والـ FocusTraversalGroup (ودجت بتحدد قواعد التنقل) عشان تظبط حركة الـ Focus بين العناصر في الشاشات المعقدة.",
+          "أهم اختبار عشان تتأكد إن الأبليكيشن بتاعك شغال صح هو إنك تجربه بـ Screen Reader (برنامج قارئ الشاشة) أو تخلي مستخدمين حقيقيين يجربوه."
         ],
-        "verdict": "يهمك لو بتبني تطبيقات Web أو Desktop أو TV أو مهتم بالـ accessibility، والملخص كفاية جداً.",
+        "verdict": "مهم جداً لو بتعمل تطبيقات للـ TV أو الـ Web أو مهتم بالـ Accessibility، والملخص ده فيه الخلاصة اللي محتاجها.",
+        "terms": [
+          {
+            "term": "FocusManager",
+            "meaning": "ده 'المدير' المسؤول في فلاتر إنه يعرف مين الـ Widget اللي واخد التركيز حالياً ومستني أمر من المستخدم."
+          },
+          {
+            "term": "FocusTraversalGroup",
+            "meaning": "ودجت بتستخدمها عشان تحدد 'قواعد المشي' أو الترتيب اللي الـ Focus بيتحرك بيه بين الزراير والعناصر."
+          },
+          {
+            "term": "Assistive Technology",
+            "meaning": "أي أداة مساعدة زي الـ Screen Reader بتساعد الناس اللي عندهم تحديات بصرية إنهم يستخدموا التطبيق بتاعك."
+          }
+        ],
         "source": "video",
-        "model": "gemini-3-flash-preview"
+        "model": "gemini-3-flash-preview",
+        "style": 2
       }
     },
     {
@@ -65,7 +132,7 @@
       "url": "https://www.youtube.com/watch?v=CcyX-pqjDp0",
       "published": "2026-10-07T16:00:03+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/CcyX-pqjDp0/hqdefault.jpg",
-      "views": 6684,
+      "views": 7315,
       "isShort": false,
       "summary": "Live from Fluttercon USA in Orlando, Andrew from the Flutter team catches up with Arthur Thompson, a Developer Relations Engineer for Firebase. They discuss how Firebase is evolving for the agentic era, why every Firebase project is secretly a Google Cloud project (making scale seamless), securing AI features with…",
       "tags": [
@@ -76,17 +143,31 @@
       ],
       "description": "Live from Fluttercon USA in Orlando, Andrew from the Flutter team catches up with Arthur Thompson, a Developer Relations Engineer for Firebase. They discuss how Firebase is evolving for the agentic era, why every Firebase project is secretly a Google Cloud project (making scale seamless), securing AI features with Firebase AI Logic and App Check, and using MCP servers and Firebase skills in mobile development.\n\nResources:\n[Codelab] Build a full-stack Dart app with Cloud Functions for Firebase → https://g.dev/flutter/codelab-firebasefunctions \nFirebase AI Logic → https://g.dev/flutter/firebase-ai-logic\nFirebase SQL Connect → https://g.dev/flutter/sql-connect-docs\nFirebase App Check → https://g.dev/flutter/app-check-docs\nFirebase Authentication → https://g.dev/flutter/auth-docs\n\nChapters:\n0:00 - Live from Fluttercon\n0:35 - What is Firebase in 2026? \n1:40 - Dispelling the \"outgrowing Firebase\" myth\n3:10 - Firebase roadmap highlights: AI Logic, SQL Connect, agent integrations\n4:27 - Empowering developers to build agentic experiences\n5:07 - Securing generative AI features: Server-side prompt management & Firebase App Check \n6:40 - Firebase skills & MCP servers for AI coding agents \n8:15 - Where to begin with Firebase: Firebase Authentication \n9:13 - Combining Flutter & Firebase in the agentic era \n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\nProducts Mentioned: Flutter",
       "ai": {
-        "about": "لقاء مع Arthur Thompson بيكلمنا فيه عن أحدث ميزات Firebase لـ Flutter وازاي نستخدم الـ AI والـ Security بشكل أحسن.",
+        "about": "دردشة سريعة من مؤتمر FlutterCon عن إزاي Firebase بيتطور عشان يساند المبرمجين في عصر الـ AI وازاي تضمن إن تطبيقك يفضل شغال بكفاءة لما يكبر.",
         "points": [
-          "إطلاق Firebase AI Logic و SQL Connect لتبسيط التعامل مع الـ AI وقواعد البيانات الـ SQL.",
-          "الـ Firebase Project هو في الأساس Google Cloud Project، وده بيضمن الـ scalability مهما كبر الـ app.",
-          "تأمين الـ AI بإن الـ prompts تكون server-side templates لمنع الـ prompt injection وتسهيل الـ updates.",
-          "إضافة ميزة replay protection في App Check لضمان إن الـ tokens تستخدم مرة واحدة بس لمنع الـ abuse.",
-          "توسيع دعم Firebase Skills و MCP ليشمل الـ mobile و Flutter بدل ما كان مقتصر على الـ web."
+          "مشروع الـ Firebase هو في الأساس Google Cloud project، وده معناه إن تطبيقك هيقدر يشيل ملايين المستخدمين من غير ما تشيل هم الـ scaling (توسيع قدرة السيرفرات).",
+          "ميزة الـ AI Logic بتخليك تحط الـ Prompts (الأوامر اللي بتبعتها للذكاء الاصطناعي) على السيرفر مش في الكود، عشان تحميها من الـ Prompt Injection (اختراق وتعديل أوامر الـ AI).",
+          "الـ App Check دلوقتى بقى فيه Replay Protection، ودي وظيفتها تضمن إن الـ token يُستخدم مرة واحدة بس عشان تمنع أي حد يسرق الدخول ويقلد اليوزر.",
+          "لو لسه بتبدأ، أحسن ميزة تجربها هي الـ Authentication لأنها بتشيل عنك حمل تأمين حسابات المستخدمين اللي بيبقى فيه مخاطرة لو عملته بنفسك."
         ],
-        "verdict": "يهمك لو عاوز تعرف آخر تطورات Firebase في الـ AI والـ Security، والملخص كافي جداً للمعلومات المهمة.",
+        "verdict": "يهمك لو بتفكر إزاي تأمن تطبيقات الـ AI بتاعتك أو عايز تعرف مستقبل Firebase، والملخص كفاية جداً لأن المقابلة عامة مش شرح كود.",
+        "terms": [
+          {
+            "term": "Scaling",
+            "meaning": "قدرة السيرفر إنه يستوعب عدد مستخدمين أكتر بكتير من غير ما يهنج أو يقع."
+          },
+          {
+            "term": "Prompt Injection",
+            "meaning": "لما حد يحاول يبعت كلام خبيث للـ AI عشان يخليه يكسر القواعد بتاعته ويعمل حاجات مش مسموحة."
+          },
+          {
+            "term": "Token",
+            "meaning": "زي تذكرة دخول رقمية مؤقتة بتثبت للسيرفر إن الشخص ده هو اليوزر الحقيقي."
+          }
+        ],
         "source": "video",
-        "model": "gemini-3-flash-preview"
+        "model": "gemini-3-flash-preview",
+        "style": 2
       }
     },
     {
@@ -95,7 +176,7 @@
       "url": "https://www.youtube.com/watch?v=4sxrFXhMxy4",
       "published": "2026-10-06T16:00:20+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/4sxrFXhMxy4/hqdefault.jpg",
-      "views": 14296,
+      "views": 15177,
       "isShort": false,
       "summary": "Use guard clauses with the when keyword in Dart to add extra constraints to pattern matching in switches.",
       "tags": [
@@ -104,16 +185,28 @@
       ],
       "description": "Documentation → https://g.dev/flutter/guard-clause\n\nUse guard clauses with the when keyword in Dart to add extra constraints to pattern matching in switches.\n\n#Flutter #TechniqueOfTheWeek \n\nWatch more Technique of the Week → https://goo.gle/FlutterTechnique\nSubscribe to Flutter → http://goo.gle/FlutterYT",
       "ai": {
-        "about": "الفيديو بيشرح الـ guard clauses في لغة Dart، وإزاي بتزود شروط إضافية (boolean checks) جوا الـ case statements باستخدام كلمة when.",
+        "about": "الفيديو بيشرح إزاي تستخدم الـ Guard clauses عشان تزود شروط إضافية في الـ case statements في لغة Dart.",
         "points": [
-          "الـ guard clause بتسمح لك تحط شرط boolean بعد الـ pattern في الـ case statement باستخدام كلمة when.",
-          "لو الـ pattern عمل match بس الـ guard clause طلعت false، الكود بيكمل يدور في الـ cases اللي بعدها ومش بيخرج من الـ switch.",
-          "الـ technique دي بتخلي الكود أنضف بكتير وبدل ما تضطر تعمل nested if-statements جوا الـ case body.",
-          "تقدر تستخدم الـ guard clauses في الـ switch statements والـ switch expressions والـ if-case statements."
+          "الـ Guard clauses بتخليك تعمل اختبارات (Boolean checks) معقدة جوه الـ case نفسها باستخدام كلمة when.",
+          "لو عندك شكل هندسي Rectangle وعاوز تعرف لو هو Square فعلاً، الـ guard clause بتخليك تقارن الطول بالعرض بسهولة من غير ما تعمل classes كتير.",
+          "ميزة الـ guard clauses إنها بتخلي الكود أنضف وبدل ما تستخدم if كتير جوه الـ case وتلخبط نفسك.",
+          "لو الشرط اللي بعد when مطللعش صح، البرنامج بيكمل ويدور في الـ case اللي بعدها بدل ما يخرج من الـ switch خالص.",
+          "تقدر تستخدم الطريقة دي في الـ Switch statements والـ Switch expressions وحتى الـ If-case statements."
         ],
-        "verdict": "مفيدة جداً لو بتستخدم pattern matching كتير في Dart 3 وعايز كودك يكون مقروء أكتر، والملخص كافي جداً للمعلومة.",
+        "verdict": "مفيد جداً لو عاوز كودك يكون Declarative (بتوصف إيه اللي عاوزه يحصل بدل الخطوات بالتفصيل) ومحتاج تنظم الشروط المعقدة؛ الملخص كافي جداً.",
+        "terms": [
+          {
+            "term": "Guard Clauses",
+            "meaning": "شروط بتتحط في بداية الكود أو الـ case عشان تمنع تنفيذ الباقي لو مش محققة."
+          },
+          {
+            "term": "Pattern Matching",
+            "meaning": "ميزة في Dart بتخليك تطابق شكل البيانات وتطلع منها قيم بسهولة."
+          }
+        ],
         "source": "video",
-        "model": "gemini-3-flash-preview"
+        "model": "gemini-3-flash-preview",
+        "style": 2
       }
     },
     {
@@ -122,7 +215,7 @@
       "url": "https://www.youtube.com/shorts/Tovm9bWNGpE",
       "published": "2026-10-01T17:00:13+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/Tovm9bWNGpE/hqdefault.jpg",
-      "views": 13139,
+      "views": 13320,
       "isShort": true,
       "summary": "In Flutter 3.47, Flutter Widget Previewer has officially graduated to stable! You can now design, inspect, and iterate on individual UI widgets in real time without the overhead of running your full application. Run flutter upgrade to get Flutter 3.47 today!",
       "tags": [
@@ -132,15 +225,30 @@
       ],
       "description": "In Flutter 3.47, Flutter Widget Previewer has officially graduated to stable! You can now design, inspect, and iterate on individual UI widgets in real time without the overhead of running your full application. Run flutter upgrade to get Flutter 3.47 today!\n\n\nWatch more Flutter Upgrade Bytes → https://goo.gle/FlutterUpgradeBytes   \n\n#Flutter \n\nSpeaker: Khanh Nguyen\nProducts Mentioned: Flutter,  Dart",
       "ai": {
-        "about": "الفيديو بيعرض أهم مميزات تحديث Flutter 3.47، خصوصاً وصول الـ Widget previews للمرحلة الـ stable وتحسينات لمطوري Apple.",
+        "about": "الفيديو بيشرح الإضافات الجديدة في تحديث Flutter 3.47 اللي بتسهل حياة المبرمجين، خصوصاً في معاينة التصميمات وسرعة الـ build.",
         "points": [
-          "ميزة الـ Widget previews بقت stable، ودلوقتي تقدر تصمم وتعدل الـ widgets لوحدها في الوقت الفعلي من غير ما تحتاج تعمل run للتطبيق بالكامل.",
-          "وقت الـ build لمطوري Apple بقى أسرع بفضل تحسين الـ SwiftPM pipelines اللي بتفلتر الـ package schemes غير الضرورية.",
-          "عملية الـ iOS code signing بقت أوضح وبتظهر الـ Team ID والـ Team Name وأنت بتختار الشهادات (certificates)."
+          "دلوقت تقدر تشوف وتعدل الـ Widgets بتاعتك لوحدها في الوقت الحقيقي بفضل الـ Widget Previews (معاينة الودجت) اللي بقت مستقرة.",
+          "الـ Build (تحويل الكود لبرنامج) بقى أسرع لمطورين Apple عشان حسنوا الـ SwiftPM (نظام إدارة المكتبات) وشالوا الخطوات اللي ملهاش لازمة.",
+          "الـ iOS Code Signing (التوقيع الرقمي للأبلكيشن) بقى أوضح بكتير وبقينا بنشوف الـ Team ID واسم الفريق وأنت بتختار الشهادات."
         ],
-        "verdict": "الملخص كفاية عشان تعرف الجديد، والـ Widget previews ميزة أساسية لازم تبدأ تستخدمها عشان توفر وقت في التطوير.",
+        "verdict": "لو بتزهق من تضييع الوقت كل ما تحب تجرب شكل زرار أو ويدجت بسيطة، فالملخص ده بيقولك إن الوقت ده خلص مع التحديث الجديد.",
+        "terms": [
+          {
+            "term": "Widget Previews",
+            "meaning": "أداة بتخليك تشوف شكل الويدجت اللي بتبرمجها لوحدها وبسرعة من غير ما تفتح الأبلكيشن كله."
+          },
+          {
+            "term": "SwiftPM",
+            "meaning": "نظام من Apple بيسهل على المبرمجين إضافة واستخدام مكاتب برمجية جاهزة في مشاريعهم."
+          },
+          {
+            "term": "Code Signing",
+            "meaning": "خطوة أمان أساسية عشان الأبلكيشن يشتغل على أيفون حقيقي، بتأكد هوية المبرمج اللي عمل التطبيق."
+          }
+        ],
         "source": "video",
-        "model": "gemini-3-flash-preview"
+        "model": "gemini-3-flash-preview",
+        "style": 2
       }
     },
     {
@@ -149,7 +257,7 @@
       "url": "https://www.youtube.com/shorts/CCf_SRvuck0",
       "published": "2026-09-30T19:00:25+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/CCf_SRvuck0/hqdefault.jpg",
-      "views": 5379,
+      "views": 5427,
       "isShort": true,
       "summary": "Toyota’s engineering and design teams share why standard, off-the-shelf embedders fell short for complex navigation and automotive functions, and how building a custom embedder allowed them to maintain high-performance plugins tailored for the road.",
       "tags": [
@@ -158,15 +266,30 @@
       ],
       "description": "Toyota’s engineering and design teams share why standard, off-the-shelf embedders fell short for complex navigation and automotive functions, and how building a custom embedder allowed them to maintain high-performance plugins tailored for the road.\n\n\nWatch more Flutter Dev Stories → https://goo.gle/FlutterDevStories \n\n#Flutter #Toyota #RAV4\n\nProducts Mentioned: Flutter",
       "ai": {
-        "about": "الفيديو بيوضح الأسباب التقنية اللي خلت شركة تويوتا تبني Custom Embedder لـ Flutter عشان تشغل بيه أنظمة الشاشات (Infotainment) في عربياتها.",
+        "about": "تويوتا عملت Custom Embedder (الكود اللي بيخلي فلاتر يشتغل على نظام معين) بتاعها عشان تشغل Flutter في شاشات العربيات بكفاءة وتتحكم في كل التفاصيل.",
         "points": [
-          "تويوتا لقت إن الـ Embedders الجاهزة لـ Desktop Linux مش متوافقة تماماً مع طبيعة الـ Embedded Linux واحتياجات الـ compositor في أنظمة العربيات.",
-          "بناء Custom Embedder سمح لهم يعملوا plugins مخصوصة تتحكم في وظائف العربية الحيوية (زي الـ Navigation) وتربطها مباشرة بـ Flutter layer.",
-          "الـ Custom Embedder ساعدهم يحققوا كفاءة أعلى في صيانة الكود وتطوير ميزات تانية مخصوصة لقطاع السيارات بسرعة وسهولة."
+          "نسخ الـ Linux العادية مش بتنفع مع أنظمة العربيات الـ Embedded Linux عشان كدا احتاجوا يبنوا الـ embedder بتاعهم من الصفر.",
+          "الـ Custom embedder ساعدهم يظبطوا الـ Compositor (الجزء المسؤول عن رسم وترتيب طبقات الشاشة) بشكل يناسب احتياجات العربية الخاصة.",
+          "الموضوع ده سهّل عليهم يعملوا Plugins (إضافات بتوصل الكود بالهاردوير) مخصوصة لميزات زي الخرائط والتحكم في أجزاء العربية من جوا فلاتر مباشرة."
         ],
-        "verdict": "الملخص كفاية لو عايز تعرف الفكرة العامة، لكن اتفرج لو مهتم بمجال الـ Embedded Systems وازاي Flutter بيشتغل بعيد عن الموبايل والويب.",
+        "verdict": "مهم جداً لو مهتم بمجال الـ Embedded Systems أو عايز تعرف إزاي الشركات الكبيرة بتطوع فلاتر لمشاريع ضخمة، والملخص كفاية لو وقتك ضيق.",
+        "terms": [
+          {
+            "term": "Embedded Linux",
+            "meaning": "نسخة خفيفة من نظام لينكس متفصلة عشان تشتغل على أجهزة معينة زي شاشات العربيات مش كمبيوتر عادي."
+          },
+          {
+            "term": "Compositor",
+            "meaning": "المحرك المسؤول عن تجميع وترتيب الصور والرسومات عشان تظهر للمستخدم على الشاشة كفيديو أو واجهة."
+          },
+          {
+            "term": "Plugins",
+            "meaning": "همزة الوصل اللي بتخلي كود Dart بتاعك يقدر يكلم الهاردوير بتاع الجهاز ويتحكم فيه."
+          }
+        ],
         "source": "video",
-        "model": "gemini-3-flash-preview"
+        "model": "gemini-3-flash-preview",
+        "style": 2
       }
     },
     {
@@ -175,7 +298,7 @@
       "url": "https://www.youtube.com/watch?v=HC2UDbpRUzs",
       "published": "2026-09-29T16:00:03+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/HC2UDbpRUzs/hqdefault.jpg",
-      "views": 7766,
+      "views": 7862,
       "isShort": false,
       "summary": "Join Emma and Jorge Coca, VP of Engineering at Very Good Ventures (VGV), live from FlutterCon USA in Orlando to explore AI-assisted workflows. Learn how VGV open-sourced Wingspan to codify engineering best practices into AI skills, plus discover approaches to testing AI-generated features.",
       "tags": [
@@ -184,17 +307,31 @@
       ],
       "description": "Join Emma and Jorge Coca, VP of Engineering at Very Good Ventures (VGV), live from FlutterCon USA in Orlando to explore AI-assisted workflows. Learn how VGV open-sourced Wingspan to codify engineering best practices into AI skills, plus discover approaches to testing AI-generated features.\n\nResources:\nVGV → https://g.dev/flutter/vgv\nWingspan on GitHub → https://g.dev/flutter/vgv-wingspan\n\nChapters:\n0:00 - Live from Fluttercon Orlando\n1:58 - Working with AI: Skills and process \n3:19 - Enterprise workflow solutions: Standard vs customization \n5:10 - Q&A: What’s your approach to testing AI generated features? \n8:47 - What’s next \n\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter",
       "ai": {
-        "about": "الفيديو بيتكلم عن إزاي شركة VGV بتستخدم الـ AI عشان تحسن عملية تطوير تطبيقات الـ Flutter مع الالتزام بالـ best practices.",
+        "about": "الفيديو بيتكلم عن إزاي الشركات تقدر تستخدم الذكاء الاصطناعي في الـ Workflow (خطوات الشغل) بتاعها عشان يكتب كود Flutter ملتزم بأعلى المعايير الفنية.",
         "points": [
-          "الـ LLMs قوية بس محتاجة تتغذى بـ standards الشركة عشان تطلع كود متناسق مع أسلوبكم.",
-          "شركة VGV حولت موقع Very Good Engineering لـ skills يقدر الـ AI يستخدمها في كتابة الكود.",
-          "التحقق من الكود (testing) بنسبة 100% code coverage بقى أهم بكتير مع استخدام الـ AI لضمان الجودة.",
-          "الـ AI مفيد جداً في الـ brainstorming ومواضيع الـ L300 المعقدة زي الـ custom shaders حتى لو مش خبير فيها.",
-          "الهدف الجاي هو إزاي نخلي الـ AI يطلع UI فيه ذوق وروح الـ brand مش مجرد كود شغال."
+          "الـ AI محتاج يتغذى بـ Best practices (أفضل طرق البرمجة) والـ Standards الخاصة بالشركة عشان يطلع كود احترافي مش مجرد كود عشوائي.",
+          "شركة VGV حولت التوثيق البرمجي بتاعها لـ \"مهارات\" الـ AI يقدر يستخدمها في الـ Brainstorming (العصف الذهني) وكتابة الكود.",
+          "الوصول لـ 100% Code coverage (نسبة تغطية الكود بالاختبارات) بقى أهم من أي وقت فات عشان تضمن جودة الكود اللي الـ AI بيكتبه.",
+          "المستقبل في دمج \"الذوق\" مع الـ AI عشان يقدر يطلع تصاميم وكود لايق على هوية كل براند (Brand) لوحدها."
         ],
-        "verdict": "يهمك لو شغال في شركة كبيرة وعايز تستخدم الـ AI باحترافية، والملخص كفاية لو فاهم أساسيات الـ AI.",
+        "verdict": "يهمك لو عايز تعرف إزاي الـ AI ممكن يساعدك تكتب كود أنظف وأسرع في بيئة شغل احترافية، والملخص ده كفاية يوصلك الفكرة.",
+        "terms": [
+          {
+            "term": "LLM",
+            "meaning": "نماذج ذكاء اصطناعي زي ChatGPT متدربة على كميات داتا ضخمة عشان تفهم وتكتب كود."
+          },
+          {
+            "term": "State management",
+            "meaning": "النظام اللي بيتحكم في البيانات اللي بتظهر وتتغير على شاشة الموبايل."
+          },
+          {
+            "term": "Markdown frontmatter",
+            "meaning": "بيانات بتتحط في أول ملفات الشرح عشان الـ AI يقدر يصنف المعلومات ويفهمها بدقة."
+          }
+        ],
         "source": "video",
-        "model": "gemini-3-flash-preview"
+        "model": "gemini-3-flash-preview",
+        "style": 2
       }
     },
     {
@@ -203,7 +340,7 @@
       "url": "https://www.youtube.com/watch?v=VzMQ6Cg0194",
       "published": "2026-09-28T16:04:04+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/VzMQ6Cg0194/hqdefault.jpg",
-      "views": 15302,
+      "views": 15516,
       "isShort": false,
       "summary": "Welcome to the new Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From framework updates to major upgrades in desktop performance and developer tooling, this August 2026 recap showcases how Google and the global…",
       "tags": [
@@ -231,7 +368,7 @@
       "url": "https://www.youtube.com/shorts/YanRtf7wHEI",
       "published": "2026-09-24T16:00:30+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/YanRtf7wHEI/hqdefault.jpg",
-      "views": 20451,
+      "views": 20554,
       "isShort": true,
       "summary": "Building Flutter apps for desktop? Your rendering engine just got a massive upgrade! In Flutter 3.47, the Impeller rendering engine is officially enabled by default across macOS, Windows, and Linux.",
       "tags": [
@@ -258,7 +395,7 @@
       "url": "https://www.youtube.com/shorts/neL3QX9uTg8",
       "published": "2026-09-23T16:00:37+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/neL3QX9uTg8/hqdefault.jpg",
-      "views": 5876,
+      "views": 5909,
       "isShort": true,
       "summary": "Holafly is the global leader in eSIMs for travelers, offering coverage in over 200 destinations and the best value for money With an outstanding 4.7/5 rating on Trustpilot and more than 25 million of eSIM sold, it has become the preferred eSIM choice for international travelers. Its unlimited data and build-in back up…",
       "tags": [
@@ -285,7 +422,7 @@
       "url": "https://www.youtube.com/watch?v=b6-8ze1ULj8",
       "published": "2026-09-22T16:00:17+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/b6-8ze1ULj8/hqdefault.jpg",
-      "views": 15139,
+      "views": 15193,
       "isShort": false,
       "summary": "Live from FlutterCon USA in Orlando, Craig sits down with Andrii Khrystian, software engineer at Dynatrace and former physics student, to break down the mechanics of audio processing in Flutter! In this interview, Andrii explains why audio processing relies heavily on native C-libraries like FFmpeg, demonstrates a…",
       "tags": [
@@ -313,7 +450,7 @@
       "url": "https://www.youtube.com/watch?v=rvtSUH3WGaA",
       "published": "2026-09-21T17:02:41+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/rvtSUH3WGaA/hqdefault.jpg",
-      "views": 16136,
+      "views": 16183,
       "isShort": false,
       "summary": "Craig sits down with Martino Yovo, Product Engineer at Esri, to talk about the ArcGIS Maps SDK for Flutter! Discover why modern location-aware apps go far beyond standard consumer maps. From mission-critical emergency response and utility infrastructure to agriculture, custom multi-layer base maps, and full offline…",
       "tags": [
@@ -340,7 +477,7 @@
       "url": "https://www.youtube.com/watch?v=tFVFB-mel0w",
       "published": "2026-09-17T16:00:35+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/tFVFB-mel0w/hqdefault.jpg",
-      "views": 31927,
+      "views": 32000,
       "isShort": false,
       "summary": "Say goodbye to redundant constructor boilerplate starting with Dart 3.12! Craig breaks down two massive developer-experience upgrades: primary constructors and private named parameters. Discover how private named initializing formals eliminate tedious parameters starting with underscores, and learn how primary…",
       "tags": [
@@ -369,14 +506,40 @@
       "url": "https://www.youtube.com/shorts/4QG8nBe5cYU",
       "published": "2026-09-16T19:27:51+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/4QG8nBe5cYU/hqdefault.jpg",
-      "views": 6637,
+      "views": 6673,
       "isShort": true,
       "summary": "How do you build a car app that works for everyone? You talk to everyone! 🏎️💬 Discover how Toyota is leveraging Flutter to rebuild its infotainment system.",
       "tags": [
         "shorts",
         "tutorial"
       ],
-      "description": "How do you build a car app that works for everyone? You talk to everyone! 🏎️💬 Discover how Toyota is leveraging Flutter to rebuild its infotainment system. Their team opens up about their UX research process by gathering feedback from drivers of all ages and tech backgrounds so they can constantly refine their software and keep building ever better products for their customers.\n\nWatch more Flutter Dev Stories → https://goo.gle/FlutterDevStories \n\n#Flutter #Toyota #RAV4\n\nProducts Mentioned: Flutter"
+      "description": "How do you build a car app that works for everyone? You talk to everyone! 🏎️💬 Discover how Toyota is leveraging Flutter to rebuild its infotainment system. Their team opens up about their UX research process by gathering feedback from drivers of all ages and tech backgrounds so they can constantly refine their software and keep building ever better products for their customers.\n\nWatch more Flutter Dev Stories → https://goo.gle/FlutterDevStories \n\n#Flutter #Toyota #RAV4\n\nProducts Mentioned: Flutter",
+      "ai": {
+        "about": "الفيديو بيشرح إزاي تويوتا بتستخدم Flutter عشان تعمل Feedback Loop (نظام بياخد رأي المستخدم ويصلح البرنامج) وتطور شاشات العربيات بسرعة.",
+        "points": [
+          "تويوتا بتعتمد على الـ UX research (أبحاث تجربة المستخدم) والـ Data analytics (تحليل بيانات المستخدمين) اللي جاية من شاشة العربية مباشرة عشان يحسنوا التجربة.",
+          "بيجربوا الـ UI مع ناس من كل الأعمار عشان يتأكدوا إن أي حد يقدر يتعامل مع تكنولوجيا Flutter في العربية بسهولة.",
+          "أي تفاعل مش مظبوط من السواق مع الشاشة بيبقى فرصة للمطورين إنهم يعدلوا الـ Digital products بتاعتهم ويخلوها أحسن."
+        ],
+        "verdict": "مهم ليك لو عايز تشوف Flutter وهي شغالة في منتجات تقيلة ومختلفة عن الموبايل زي العربيات، والملخص ده فيه الخلاصة.",
+        "terms": [
+          {
+            "term": "Head unit",
+            "meaning": "دي الشاشة اللي في نص تابلوه العربية وبنشغل عليها الخرائط والمزيكا."
+          },
+          {
+            "term": "UX research",
+            "meaning": "دراسة سلوك المستخدم عشان نعرف إيه اللي بيضايقه وإيه اللي بيسهل عليه استخدام البرنامج."
+          },
+          {
+            "term": "Data Analytics",
+            "meaning": "جمع وتحليل البيانات اللي بتطلع من استخدام الناس للبرنامج عشان نفهم هما بيعملوا إيه بالظبط."
+          }
+        ],
+        "source": "video",
+        "model": "gemini-3-flash-preview",
+        "style": 2
+      }
     },
     {
       "id": "8OUcGUiKj8M",
@@ -392,7 +555,34 @@
         "event",
         "community"
       ],
-      "description": "Live from FlutterCon USA in Orlando, Andrew from the Flutter team catches up with Eric Seidel, co-founder of Flutter and founder of Shorebird! Eric shares the origin story behind Shorebird code push, insights from his Fluttercon keynote on AI agents, how U.S. enterprise adoption is accelerating, and why strong architecture and engineering fundamentals matter more than ever in the AI era.\n\nResources:\nShorebird → https://g.dev/flutter/shorebird\nEric’s talk from Fluttercon →  https://g.dev/flutter/eric-fluttercon\n\nChapters:\n0:00 - Live from Fluttercon \n0:47 - Shorebird & code push \n2:03 - Fluttercon keynote recap\n5:15 - Flutter community \n7:17 - U.S. enterprise transition to Flutter \n9:45 - How LLMs are lowering the barrier moving between technologies \n11:23 - Unexpected Flutter uses \n12:26 - Q&A: How do you see Flutter developers balancing AI tools with strong fundamentals and architecture decisions and writing maintainable, production level code? \n\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter"
+      "description": "Live from FlutterCon USA in Orlando, Andrew from the Flutter team catches up with Eric Seidel, co-founder of Flutter and founder of Shorebird! Eric shares the origin story behind Shorebird code push, insights from his Fluttercon keynote on AI agents, how U.S. enterprise adoption is accelerating, and why strong architecture and engineering fundamentals matter more than ever in the AI era.\n\nResources:\nShorebird → https://g.dev/flutter/shorebird\nEric’s talk from Fluttercon →  https://g.dev/flutter/eric-fluttercon\n\nChapters:\n0:00 - Live from Fluttercon \n0:47 - Shorebird & code push \n2:03 - Fluttercon keynote recap\n5:15 - Flutter community \n7:17 - U.S. enterprise transition to Flutter \n9:45 - How LLMs are lowering the barrier moving between technologies \n11:23 - Unexpected Flutter uses \n12:26 - Q&A: How do you see Flutter developers balancing AI tools with strong fundamentals and architecture decisions and writing maintainable, production level code? \n\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter",
+      "ai": {
+        "about": "دردشة مع Eric Seidel (واحد من اللي بدأوا Flutter) عن إزاي الـ AI بيغير دور المبرمج، وإزاي شركات عالمية بتستخدم Flutter عشان توفر وقت ومجهود.",
+        "points": [
+          "إريك عمل Shorebird عشان يحل مشكلة الـ Over-the-air updates (تحديث التطبيق من غير ما ترفعه للمتجر) اللي كانت صعبة تتحل جوه جوجل بسبب قوانين الـ Play Store.",
+          "الـ AI مش هياخد مكان المبرمج، بس هيحولك لـ Architect (مهندس بيخطط للنظام) بدل ما تضيع وقتك في كتابة كود متكرر وممل.",
+          "شركات ضخمة زي SoFi قدرت توفر 60% من حجم الكود بتاعها لما حولت لـ Flutter، وده خلاهم يسرعوا عملية التطوير جداً.",
+          "في عصر الـ AI، ميزة Flutter الحقيقية هي إنك تقدر تركز على الـ Brand والـ User Experience بتاعتك في كل المنصات مرة واحدة بجودة عالية."
+        ],
+        "verdict": "مهم جداً لو قلقان من الـ AI وعايز تعرف إزاي تستغله في شغلك، والملخص ده فيه أهم الخلاصة.",
+        "terms": [
+          {
+            "term": "Shorebird",
+            "meaning": "أداة بتسمحلك تعمل تحديثات للكود (Code Push) فوراً للمستخدمين من غير ما تستنى مراجعة المتجر."
+          },
+          {
+            "term": "Boilerplate",
+            "meaning": "الأجزاء من الكود اللي بنضطر نكتبها كتير في كل مشروع رغم إنها روتينية، والـ AI دلوقتي بيعملها في ثواني."
+          },
+          {
+            "term": "Architecture",
+            "meaning": "الطريقة اللي بننظم بيها الكود وبنوزع المهام بين ملفات المشروع عشان يكون سهل في التعديل والمتابعة."
+          }
+        ],
+        "source": "video",
+        "model": "gemini-3-flash-preview",
+        "style": 2
+      }
     }
   ],
   "weeks": {
@@ -403,12 +593,13 @@
         "K75yHVaxVK0",
         "aEcIL0zwrnY"
       ],
-      "digest": "الأسبوع ده كان فيه تركيز على تظبيط الكود بـ Dart والجديد في Firebase. الـ guard clauses باستخدام when بقت بتسهل كتابة الـ switch statements والـ logic المعقد من غير كتر nested ifs. في Firebase بقى فيه ميزات ذكاء اصطناعي و SQL Connect مع اهتمام كبير بالـ Security زي الـ replay protection في App Check. وكمان نصائح مهمة عن نظام الـ Focus عشان تضمن إن الـ App بتاعك شغال صح مع الـ accessibility والـ keyboard navigation.",
+      "style": 2,
+      "digest": "الأسبوع ده فلاتر ركزت على إزاي تخلي كودك أنضف وأذكى باستخدام الـ Guard Clauses اللي بتسهل عليك الشروط المعقدة في الـ Switch. كمان كان فيه كلام مهم عن قوة Firebase في الـ scaling (توسيع قدرة السيرفرات) وتأمين الـ AI Prompts بعيد عن الموبايل. وبالنسبة لتجربة المستخدم، اتكلمنا عن الـ Focus system وازاي تظبط التنقل بالكيبورد أو للي بيستخدموا الـ Screen Readers (برامج قارئ الشاشة). وفي الآخر، فيديو بسيط بيفكرنا بقيمة الـ Hot Reload اللي بتخلينا نعدل الكود ونشوف النتيجة في لحظتها.",
       "highlights": [
-        "استخدم الـ guard clauses بكلمة when في الـ switch و if-case عشان تخلي الكود أنضف وتتجنب الـ nested conditions.",
-        "ميزات Firebase الجديدة (AI Logic و SQL Connect) بتسهل ربط الـ AI وقواعد البيانات مع إمكانية استخدام server-side templates للـ prompts عشان تمنع الـ injection.",
-        "في نظام الـ Focus، اعتمد على FocusScope و FocusTraversalGroup لتنظيم حركة الـ widgets واختبرها بالـ Widget tests.",
-        "ميزة الـ replay protection الجديدة في App Check بتمنع الـ abuse عن طريق التأكد إن الـ tokens بتستخدم مرة واحدة بس."
+        "استخدم الـ Guard Clauses بكلمة when عشان توفر على نفسك if كتير وتخلي الـ Switch بتاعتك أذكى وأنضف.",
+        "لو بتستخدم AI، خلي الـ Prompts (الأوامر اللي بتبعتها للذكاء الاصطناعي) على السيرفر في Firebase عشان تحميها من الـ Prompt Injection (اختراق وتعديل أوامر الـ AI).",
+        "الـ App Check في Firebase بقى فيه Replay Protection عشان يضمن إن الـ token (مفتاح الدخول المشفر) يُستخدم مرة واحدة بس ويمنع السرقة.",
+        "استخدم الـ FocusTraversalGroup (ودجت بتحدد قواعد التنقل) عشان تظبط حركة الـ Focus بين العناصر في الشاشات الزحمة وتسهل الاستخدام."
       ]
     },
     "2026-09-26": {
@@ -424,6 +615,18 @@
         "تحسينات كبيرة في الـ iOS builds بفضل الـ SwiftPM pipelines اللي بتفلتر الـ schemes وفلاج --no-xcode-clean اللي بيحافظ على الـ derived data.",
         "الـ ScrollPhysics بقى يدعم الـ dynamic changes من غير ريبلد للـ widget tree، والـ ResizeImage بقى يوفر في الـ image cache memory.",
         "دعم الـ WebSocket profiling في الـ DevTools وإمكانية فتح الـ widgets مباشرة من الـ error notifications في الـ IDE."
+      ]
+    },
+    "2026-10-10": {
+      "ids": [
+        "-PqgJYzPkKY"
+      ],
+      "style": 2,
+      "digest": "الأسبوع ده الكلام كان عن إزاي تعمل تطبيق Inclusive (شامل لكل الناس مهما اختلفوا). الموضوع مش بس Localization (تجهيز التطبيق لغوياً وثقافياً)، ده أسلوب تفكير في التصميم والبرمجة. اتعلمنا إن الـ Validations (شروط التأكد من صحة البيانات) الرخمة في خانات الأسامي ممكن تضايق مستخدمين أساميهم مختلفة عنك. الهدف إنك تفتح تطبيقك للعالم كله من غير ما تحط عوائق برمجية ملهاش لازمة. التنوع في فريقك بيخليك تكتشف الـ Unknown unknowns (مشاكل مكنتش متخيل إنها موجودة أصلاً) وتصلحها.",
+      "highlights": [
+        "استخدم خانة واحدة للـ Full Name أو ضيف Preferred Name (الاسم اللي المستخدم بيحبه) بدل ما تقسم الاسم لنصين، عشان فيه ناس أساميها حرف واحد أو اسم واحد بس.",
+        "الـ Localization مش مجرد ترجمة، دي خطوة بتخليك تفهم احتياجات مستخدمين من بلاد تانية وتعملهم تطبيق يحسوا إنه بتاعهم.",
+        "التنوع في فريقك هو اللي بيخليك تكتشف غلطات في الـ User Experience (تجربة المستخدم) مكنتش هتعرفها لو كل الفريق بيفكر بنفس الطريقة."
       ]
     }
   }
