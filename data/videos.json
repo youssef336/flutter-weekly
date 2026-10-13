@@ -3,7 +3,7 @@
     "name": "Flutter",
     "url": "https://www.youtube.com/@flutterdev"
   },
-  "updatedAt": "2026-10-12T17:17:21+00:00",
+  "updatedAt": "2026-10-13T15:31:31+00:00",
   "videos": [
     {
       "id": "-PqgJYzPkKY",
@@ -11,7 +11,7 @@
       "url": "https://www.youtube.com/watch?v=-PqgJYzPkKY",
       "published": "2026-10-12T16:00:19+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/-PqgJYzPkKY/hqdefault.jpg",
-      "views": 177,
+      "views": 3258,
       "isShort": false,
       "summary": "Craig sits down with Kali, CEO at ChecksOnME and Flutteristas member, live at Fluttercon USA in Orlando! They break down why common app development assumptions unintentionally lock real people out and if AI can help audit your app for inclusivity and accessibility.",
       "description": "Craig sits down with Kali, CEO at ChecksOnME and Flutteristas member, live at Fluttercon USA in Orlando! They break down why common app development assumptions unintentionally lock real people out and if AI can help audit your app for inclusivity and accessibility. \n\nResources:\nFlutteraistas → https://g.dev/flutter/flutteristas\nChecksOnMe → https://g.dev/flutter/checksonme \nFlutter AI skills → https://goo.gle/4yfeaRB \n\nChapters:\n0:00 - Live from Fluttercon Orlando\n0:52 - Localization  \n1:57 - Address systems & state provinces\n3:08- Can AI catch what developers overlook?\n5:27 - Inclusivity fails and successes in the real-world\n5:45 - The male-default crash dummy\n6:35 - What a men's room changing table teaches us about design\n8:45 - Mononyms: Is it an edge case, or are you just unfamiliar with it? \n13:01 - Recap\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT",
@@ -54,7 +54,7 @@
       "url": "https://www.youtube.com/shorts/K75yHVaxVK0",
       "published": "2026-10-09T16:00:29+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/K75yHVaxVK0/hqdefault.jpg",
-      "views": 28226,
+      "views": 30331,
       "isShort": true,
       "summary": "When your non-dev friend just doesn’t understand the power of hot reload. A little bit this, a little bit of that and it updates it there. The power of hot reload.",
       "tags": [
@@ -90,7 +90,7 @@
       "url": "https://www.youtube.com/watch?v=aEcIL0zwrnY",
       "published": "2026-10-08T17:00:14+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/aEcIL0zwrnY/hqdefault.jpg",
-      "views": 5921,
+      "views": 6308,
       "isShort": false,
       "summary": "Think focus navigation is just for desktop keyboards and web browsers? Think again. Live from Fluttercon USA in Orlando, Craig sits down with Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, to break down Flutter’s focus system.",
       "tags": [
@@ -132,7 +132,7 @@
       "url": "https://www.youtube.com/watch?v=CcyX-pqjDp0",
       "published": "2026-10-07T16:00:03+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/CcyX-pqjDp0/hqdefault.jpg",
-      "views": 7315,
+      "views": 7593,
       "isShort": false,
       "summary": "Live from Fluttercon USA in Orlando, Andrew from the Flutter team catches up with Arthur Thompson, a Developer Relations Engineer for Firebase. They discuss how Firebase is evolving for the agentic era, why every Firebase project is secretly a Google Cloud project (making scale seamless), securing AI features with…",
       "tags": [
@@ -176,7 +176,7 @@
       "url": "https://www.youtube.com/watch?v=4sxrFXhMxy4",
       "published": "2026-10-06T16:00:20+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/4sxrFXhMxy4/hqdefault.jpg",
-      "views": 15177,
+      "views": 15637,
       "isShort": false,
       "summary": "Use guard clauses with the when keyword in Dart to add extra constraints to pattern matching in switches.",
       "tags": [
@@ -215,7 +215,7 @@
       "url": "https://www.youtube.com/shorts/Tovm9bWNGpE",
       "published": "2026-10-01T17:00:13+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/Tovm9bWNGpE/hqdefault.jpg",
-      "views": 13320,
+      "views": 13429,
       "isShort": true,
       "summary": "In Flutter 3.47, Flutter Widget Previewer has officially graduated to stable! You can now design, inspect, and iterate on individual UI widgets in real time without the overhead of running your full application. Run flutter upgrade to get Flutter 3.47 today!",
       "tags": [
@@ -257,7 +257,7 @@
       "url": "https://www.youtube.com/shorts/CCf_SRvuck0",
       "published": "2026-09-30T19:00:25+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/CCf_SRvuck0/hqdefault.jpg",
-      "views": 5427,
+      "views": 5464,
       "isShort": true,
       "summary": "Toyota’s engineering and design teams share why standard, off-the-shelf embedders fell short for complex navigation and automotive functions, and how building a custom embedder allowed them to maintain high-performance plugins tailored for the road.",
       "tags": [
@@ -298,7 +298,7 @@
       "url": "https://www.youtube.com/watch?v=HC2UDbpRUzs",
       "published": "2026-09-29T16:00:03+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/HC2UDbpRUzs/hqdefault.jpg",
-      "views": 7862,
+      "views": 7938,
       "isShort": false,
       "summary": "Join Emma and Jorge Coca, VP of Engineering at Very Good Ventures (VGV), live from FlutterCon USA in Orlando to explore AI-assisted workflows. Learn how VGV open-sourced Wingspan to codify engineering best practices into AI skills, plus discover approaches to testing AI-generated features.",
       "tags": [
@@ -340,7 +340,7 @@
       "url": "https://www.youtube.com/watch?v=VzMQ6Cg0194",
       "published": "2026-09-28T16:04:04+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/VzMQ6Cg0194/hqdefault.jpg",
-      "views": 15516,
+      "views": 15595,
       "isShort": false,
       "summary": "Welcome to the new Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From framework updates to major upgrades in desktop performance and developer tooling, this August 2026 recap showcases how Google and the global…",
       "tags": [
@@ -349,17 +349,32 @@
       ],
       "description": "Contribute to Flutter → https://goo.gle/4pdikpJ \nFlutter Notable Commits →  https://goo.gle/4wGTvFb \n\nWelcome to the new Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From framework updates to major upgrades in desktop performance and developer tooling, this August 2026 recap showcases how Google and the global Flutter community are advancing the framework together.\n\nChapters:\n0:00 - What are notable commits?\n0:43 - Framework and widgets\n3:47 - Engine and graphics\n5:45 - Desktop platforms\n7:41 - Tooling and developer experience\n10:25 - Web platform\n12:25 - First time contributors\n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n#Flutter",
       "ai": {
-        "about": "ملخص التغييرات والتحسينات الجديدة في نسخة الـ main لـ Flutter لشهر أغسطس 2026.",
+        "about": "الفيديو ده ملخص لأهم التحديثات والتحسينات اللي اتضافت لـ Flutter في شهر أغسطس 2026، وبيركز على الـ performance والأدوات اللي بتسهل حياة المبرمج.",
         "points": [
-          "الـ ScrollPhysics بقى reactive وبيدعم الـ dynamic changes من غير ما تحتاج تعمل ريبلد للـ widget tree.",
-          "ميزة الـ ResizeImage بقت بتستخدم الـ useLogicalPixels عشان توفر في مساحة الـ image cache memory.",
-          "تحسينات في الـ graphics لـ Impeller ودعم الـ shader pre-compilation في الـ Flutter GPU عشان يمنع الـ jank.",
-          "أمر الـ flutter clean بقى فيه flag جديد --no-xcode-clean عشان يسرع الـ iOS builds عن طريق الحفاظ على الـ Xcode derived data.",
-          "الـ DevTools بقى بيدعم WebSocket profiling كامل وكمان الـ IDEs بتقدر تفتح الـ widgets مباشرة من الـ error notifications."
+          "الـ ScrollPhysics بقى reactive (بيستجيب للتغيير فوراً)، يعني تقدر تغير حركة الـ scroll وانتا شغال من غير ما تضطر تعمل rebuild للـ widget tree كلها.",
+          "الـ ResizeImage بقى فيه خاصية useLogicalPixels ودي بتقلل استهلاك الـ RAM جداً في الشاشات الـ High-DPI، فـ الـ app بتاعك مش هيهنج بسبب الصور التقيلة.",
+          "محرك Impeller (المسؤول عن رسم الشاشة) أتحسن في رسم الـ blurs والدوائر، وده هيخلي الـ animations عندك شكلها أنعم ومن غير أي تقطيع أو مشاكل في الألوان.",
+          "الـ DevTools دلوقتى بتدعم الـ WebSocket profiling، يعني تقدر تراقب الداتا اللي بتبعتها وتستقبلها في الـ real-time apps بوضوح ومن غير تعقيد.",
+          "تقدر تستخدم أمر --no-xcode-clean وانتا بتنضف الـ cache، وده هيخلي وقت الـ build للـ iOS أسرع بكتير المرات اللي بعدها."
         ],
-        "verdict": "يهمك لو بتستخدم نسخة الـ main أو مهتم بتطورات الـ Performance والـ Tooling، والملخص ده كفاية جداً ليك.",
+        "verdict": "الملخص ده كفاية جداً للمبرمج الـ Junior، إلا لو مهتم بالتفاصيل العميقة في الـ graphics والـ Web rendering، وقتها اتفرج على الفيديو.",
+        "terms": [
+          {
+            "term": "Interpolation",
+            "meaning": "عملية حسابية بيعملها الـ framework عشان يطلع الوان أو حركات وسيطة بين نقطتين، عشان الانتقال يبان ناعم."
+          },
+          {
+            "term": "Tree-shaking",
+            "meaning": "عملية بتم وأنت بتعمل build للـ app بتمسح أي ملفات أو صور (زي الـ fonts) مش مستخدمة عشان تصغر مساحة الـ app."
+          },
+          {
+            "term": "Rasterizer",
+            "meaning": "الجزء في الـ engine اللي بيحول الأوامر البرمجية لصور وبيكسلات تظهر قدام المستخدم على الشاشة."
+          }
+        ],
         "source": "video",
-        "model": "gemini-3-flash-preview"
+        "model": "gemini-3-flash-preview",
+        "style": 2
       }
     },
     {
@@ -368,7 +383,7 @@
       "url": "https://www.youtube.com/shorts/YanRtf7wHEI",
       "published": "2026-09-24T16:00:30+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/YanRtf7wHEI/hqdefault.jpg",
-      "views": 20554,
+      "views": 20638,
       "isShort": true,
       "summary": "Building Flutter apps for desktop? Your rendering engine just got a massive upgrade! In Flutter 3.47, the Impeller rendering engine is officially enabled by default across macOS, Windows, and Linux.",
       "tags": [
@@ -378,15 +393,30 @@
       ],
       "description": "Building Flutter apps for desktop? Your rendering engine just got a massive upgrade!  In Flutter 3.47, the Impeller rendering engine is officially enabled by default across macOS, Windows, and Linux. Flutter Web gets closer to WebAssembly (Wasm) as the default target with deferred loading! \n\n Run flutter upgrade to get Flutter 3.47 today!\n\nWatch more Flutter Upgrade Bytes → https://goo.gle/FlutterUpgradeBytes   \n\n#Flutter \n\nSpeaker: Khanh Nguyen\nProducts Mentioned: Flutter",
       "ai": {
-        "about": "الفيديو بيشرح أهم مميزات Flutter 3.47، وعلى رأسها تفعيل محرك Impeller افتراضياً لكل منصات الـ Desktop.",
+        "about": "الفيديو بيشرح أهم مميزات Flutter 3.47، وتركيزه الأساسي على تحسين أداء تطبيقات الديسكتوب والويب.",
         "points": [
-          "محرك الرندر Impeller بقى شغال Default على Windows و Linux و macOS، وده بيحل مشكلة الـ shader compilation jank وبيحسن جودة النصوص الـ high-DPI.",
-          "دعم الـ popup windows وصل أخيراً لنسخ الـ Windows والـ Linux، مع إصلاحات لـ bugs كتير كانت بتواجه مطوري الـ Desktop.",
-          "الـ WebAssembly (Wasm) بقى هو الـ default compilation target للويب، وبيدعم الـ deferred loading عشان الـ bundles تحمل بشكل أسرع."
+          "المحرك Impeller (المحرك اللي بيرسم الشاشة) بقى شغال بشكل أساسي على macOS وWindows وLinux، وده بيمنع أي تقطيع في الـ animations.",
+          "نسخة الديسكتوب دلوقتي بتدعم الـ popup windows (الشبابيك المنبثقة) وحلوا مشاكل كتير كانت بتظهر في التعامل مع الـ windows.",
+          "في Flutter Web، بقوا بيعتمدوا أكتر على WebAssembly (Wasm) عشان التطبيقات تحمل وتشتغل بسرعة أعلى بكتير."
         ],
-        "verdict": "الملخص كافي جداً، اعمل flutter upgrade وجرب الأداء الجديد بنفسك.",
+        "verdict": "التحديث ده نقلة في أداء تطبيقات الديسكتوب، والملخص كافي جداً ليك كـ junior.",
+        "terms": [
+          {
+            "term": "Shader compilation jank",
+            "meaning": "التقطيع البسيط اللي كنت بتلاحظه أول ما تفتح التطبيق أو تشغل animation لأول مرة."
+          },
+          {
+            "term": "High-DPI text rasterization",
+            "meaning": "طريقة رسم الحروف بدقة عالية عشان الكلام يظهر واضح ومن غير بكسلة على الشاشات القوية."
+          },
+          {
+            "term": "WebAssembly (Wasm)",
+            "meaning": "تقنية بتخلي لغات البرمجة زي Dart تشتغل على المتصفح بسرعة قريبة جداً من التطبيقات العادية."
+          }
+        ],
         "source": "video",
-        "model": "gemini-3-flash-preview"
+        "model": "gemini-3-flash-preview",
+        "style": 2
       }
     },
     {
@@ -395,7 +425,7 @@
       "url": "https://www.youtube.com/shorts/neL3QX9uTg8",
       "published": "2026-09-23T16:00:37+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/neL3QX9uTg8/hqdefault.jpg",
-      "views": 5909,
+      "views": 5928,
       "isShort": true,
       "summary": "Holafly is the global leader in eSIMs for travelers, offering coverage in over 200 destinations and the best value for money With an outstanding 4.7/5 rating on Trustpilot and more than 25 million of eSIM sold, it has become the preferred eSIM choice for international travelers. Its unlimited data and build-in back up…",
       "tags": [
@@ -404,16 +434,30 @@
       ],
       "description": "Holafly is the global leader in eSIMs for travelers, offering coverage in over 200 destinations and the best value for money With an outstanding 4.7/5 rating on Trustpilot and more than 25 million of eSIM sold, it has become the preferred eSIM choice for international travelers. Its unlimited data and build-in back up plan offering ensures peace of mind anywhere in the world.\n\nDiscover how Holafly manages a multi-disciplinary enterprise structure built for massive scale. Check out the related video to learn more!\n\nWatch more Flutter Dev Stories → https://goo.gle/FlutterDevStories \n\nProducts Mentioned: Flutter",
       "ai": {
-        "about": "قصة انتقال Holafly من التطوير الـ Native للـ Flutter عشان يوحدوا الـ codebase وفرق العمل.",
+        "about": "الفيديو بيوضح تجربة شركة Holafly في التحول لاستخدام Flutter (إطار عمل لتطوير التطبيقات) عشان يقدروا يديروا توسعهم العالمي في تقديم خدمات الـ eSIM (شريحة الموبايل الرقمية).",
         "points": [
-          "كان عندهم تطبيقات Native للأندرويد و iOS بفريقين منفصلين وكل فريق شغال لوحده.",
-          "اختاروا Flutter كـ cross-platform framework عشان يحلوا مشكلة تكرار الكود والمجهود.",
-          "نفذوا Radical approach بإنهم عملوا Clone كامل لكل الـ features اللي في الـ Native app بالـ Flutter.",
-          "قدروا يخلصوا الـ Migration بالكامل ويطلعوا النسخة الجديدة في 3 شهور بس."
+          "شركة Holafly باعت أكتر من 25 مليون eSIM لخدمة المسافرين في 200 وجهة، وده تطلب نظام تقني قوي يستحمل الضغط.",
+          "بيشرحوا إزاي بيستخدموا Flutter في إدارة الـ Enterprise structure (تنظيم وهيكلة المشاريع الكبيرة) بتاعتهم بفعالية.",
+          "التحول ده ساعدهم يحافظوا على جودة الخدمة وتقييم عالي جداً للمستخدمين مع توفير ميزات زي الـ Unlimited data (باقات إنترنت غير محدودة)."
         ],
-        "verdict": "مفيد لو فريقك بيفكر يحول من Native لـ Flutter عشان تعرف الوقت والمجهود المتوقع، والملخص كفاية.",
-        "source": "video",
-        "model": "gemini-3-flash-preview"
+        "verdict": "يهمك لو عايز تعرف إزاي Flutter بيشيل شركات عالمية وليها Scale (حجم مستخدمين) ضخم جداً بنجاح.",
+        "terms": [
+          {
+            "term": "cross-platform",
+            "meaning": "كتابة كود واحد يشتغل على كذا نظام تشغيل زي Android و iOS"
+          },
+          {
+            "term": "eSIM",
+            "meaning": "شريحة موبايل رقمية مدمجة في الموبايل مش محتاجة كارت بلاستيك"
+          },
+          {
+            "term": "Enterprise structure",
+            "meaning": "طريقة تنظيم فرق الشغل والبرمجة في الشركات العملاقة"
+          }
+        ],
+        "source": "description",
+        "model": "gemini-3-flash-preview",
+        "style": 2
       }
     },
     {
@@ -422,7 +466,7 @@
       "url": "https://www.youtube.com/watch?v=b6-8ze1ULj8",
       "published": "2026-09-22T16:00:17+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/b6-8ze1ULj8/hqdefault.jpg",
-      "views": 15193,
+      "views": 15215,
       "isShort": false,
       "summary": "Live from FlutterCon USA in Orlando, Craig sits down with Andrii Khrystian, software engineer at Dynatrace and former physics student, to break down the mechanics of audio processing in Flutter! In this interview, Andrii explains why audio processing relies heavily on native C-libraries like FFmpeg, demonstrates a…",
       "tags": [
@@ -431,17 +475,31 @@
       ],
       "description": "Live from FlutterCon USA in Orlando, Craig sits down with Andrii Khrystian, software engineer at Dynatrace and former physics student, to break down the mechanics of audio processing in Flutter! In this interview, Andrii explains why audio processing relies heavily on native C-libraries like FFmpeg, demonstrates a live voice-changing Flutter app, dives into frequency manipulation, pulse-code modulation (PCM), and shares tips for post-processing audio effects in mobile apps.\n\nChapters:\n0:00 - Live from Fluttercon Orlando\n1:03 - From physics to software\n2:21 - The physics behind sound & audio processing \n3:05 - Demo \n5:05 - Native code & FFmpeg\n7:13 - Closing thoughts\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter",
       "ai": {
-        "about": "الفيديو عبارة عن مقابلة مع Andrii Khrystian بيتكلم فيها عن تقنيات معالجة الصوت في Flutter وإزاي تعمل مؤثرات صوتية متقدمة.",
+        "about": "الفيديو ده مقابلة مع Andrii Khrystian بيشرح فيها إزاي تتعامل مع الصوت وتعمل تأثيرات احترافية في Flutter باستخدام الـ Physics.",
         "points": [
-          "بيوضح إن معالجة الصوت المتقدمة في Flutter بتحتاج غالباً التعامل مع native code ومكتبات C زي FFmpeg.",
-          "استعرض تطبيق تجريبي بيغير نبرة الصوت (pitch shifting) باستخدام الـ FFmpeg package.",
-          "بيأكد على أهمية فهم أساسيات فيزياء الصوت والترددات (frequencies) عشان تطلع نتائج احترافية.",
-          "نصح المطورين يبدأوا بتسجيل الصوت الشخصي والتلاعب بالـ pitch كمدخل لتعلم الـ sound engineering في Flutter.",
-          "اتكلم عن إمكانية دمج معالجة الصوت مع الـ AI والـ speech-to-text لعمل تطبيقات زي مدرب الخطابة الرقمي."
+          "ابدأ بإنك تسجل صوتك وتعدل فيه عشان تتعلم أساسيات الـ Audio Processing (معالجة الصوت) في Flutter.",
+          "الـ Pitch Shifting (تغيير نبرة الصوت) هو أسهل تأثير تبدأ بيه عشان تعمل أصوات خيالية زي صوت Darth Vader.",
+          "معالجة الصوت بتحتاج منك تفهم الـ Native Code (الكود الأصلي للموبايل) لأن أغلب المكتبات المهمة مكتوبة بلغة C.",
+          "الـ FFmpeg هي أفضل Package تقدر تستخدمها في Flutter عشان تعالج ملفات الصوت وتتحكم في الـ Volume وتشيل الـ Noise (الدوشة)."
         ],
-        "verdict": "الفيديو مفيد لو ناوي تدخل في مجال الـ Audio Apps، والملخص كفاية عشان تعرف المكتبات (زي FFmpeg) والمفاهيم اللي هتحتاجها.",
+        "verdict": "لو عاوز تطلع برا الـ UI وتتعلم إزاي تعمل Apps للصوتيات الملخص ده كافي يديك البداية الصح، وممكن تشوف الفيديو عشان الـ Demo بس.",
+        "terms": [
+          {
+            "term": "FFmpeg",
+            "meaning": "أداة قوية جداً بتستخدم في تعديل ومعالجة ملفات الصوت والفيديو برمجياً."
+          },
+          {
+            "term": "Pitch Shifting",
+            "meaning": "تغيير تردد الصوت عشان تخليه أرفع أو أتخن من غير ما تغير سرعته."
+          },
+          {
+            "term": "Native Code",
+            "meaning": "الكود اللي بيتكتب بلغات النظام الأساسية زي C و Kotlin و Swift عشان يوصل لأعلى أداء ممكن."
+          }
+        ],
         "source": "video",
-        "model": "gemini-3-flash-preview"
+        "model": "gemini-3-flash-preview",
+        "style": 2
       }
     },
     {
@@ -450,7 +508,7 @@
       "url": "https://www.youtube.com/watch?v=rvtSUH3WGaA",
       "published": "2026-09-21T17:02:41+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/rvtSUH3WGaA/hqdefault.jpg",
-      "views": 16183,
+      "views": 16208,
       "isShort": false,
       "summary": "Craig sits down with Martino Yovo, Product Engineer at Esri, to talk about the ArcGIS Maps SDK for Flutter! Discover why modern location-aware apps go far beyond standard consumer maps. From mission-critical emergency response and utility infrastructure to agriculture, custom multi-layer base maps, and full offline…",
       "tags": [
@@ -458,17 +516,32 @@
       ],
       "description": "Craig sits down with Martino Yovo, Product Engineer at Esri, to talk about the ArcGIS Maps SDK for Flutter! Discover why modern location-aware apps go far beyond standard consumer maps. From mission-critical emergency response and utility infrastructure to agriculture, custom multi-layer base maps, and full offline routing capabilities, learn how Esri’s ArcGIS SDK brings enterprise-grade GIS (Geographic Information Systems) power directly into the Flutter ecosystem. \n\nResources:\nArcGIS Maps SDK for Flutter on pub.dev → https://goo.gle/4h5fYXm \nDocumentation → https://goo.gle/4xDbzkk  \nToolkit → https://goo.gle/3SkvYLO \n\nChapters:\n0:00 - Live from Fluttercon Orlando\n0:45 - What is GIS? \n1:20 - Real-world applications\n4:10 - The ArcGIS Maps SDK for Flutter \n5:09 - Agritech \n6:08 - Map layers & creating custom visual overlays \n6:59 - How to get Started with ArcGIS \n\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\nProducts Mentioned: Flutter",
       "ai": {
-        "about": "الفيديو عبارة عن مقابلة مع Martino Yovo من شركة Esri بيتكلم فيها عن الـ ArcGIS Maps SDK for Flutter وإزاي تبني تطبيقات خرائط متقدمة.",
+        "about": "الفيديو بيشرح إزاي تستخدم ArcGIS Maps SDK في Flutter عشان تعمل تطبيقات بتعتمد على الخرايط والبيانات الجغرافية المعقدة والـ Offline.",
         "points": [
-          "الـ ArcGIS Maps SDK بيسمح لمطورين Flutter إنهم يضيفوا مميزات الـ GIS (Geographic Information Systems) المتقدمة في تطبيقاتهم.",
-          "الـ SDK بيدعم الـ offline maps بشكل ممتاز، وده ضروري للتطبيقات اللي بتشتغل في أماكن مفيش فيها إنترنت زي حالات الطوارئ.",
-          "بيوفر الـ APIs اللازمة لعمليات معقدة زي الـ routing والـ geocoding والـ spatial analysis وتجهيز الـ custom layers.",
-          "مفيد جداً لقطاعات زي الزراعة (تقسيم الحقول) والمرافق (تتبع أعمدة الكهرباء) والنقل (متابعة إنشاء الطرق).",
-          "الـ package متاحة حالياً على pub.dev باسم arcgis_maps وتقدر تلاقي شرحها في developers.arcgis.com/flutter."
+          "الـ GIS هو النظام الذكي اللي ورا الخريطة وبيساعد الشركات تاخد قرارات صح بناءً على بيانات المكان مش مجرد رسمة.",
+          "الـ SDK ده بيدعم الـ Offline Mode بشكل قوي، وده مهم جداً في حالات الطوارئ أو الأماكن اللي مفيش فيها إنترنت.",
+          "تقدر تضيف بياناتك الخاصة وتعمل خرايط متفصلة لشغلك، زي تقسيمات أراضي زراعية أو شبكات كهرباء مش موجودة في الخرايط العادية.",
+          "بيوفر أدوات متطورة زي الـ Geocoding والـ Spatial Analysis (تحليل البيانات الجغرافية) عشان تحسب مسافات ومساحات بدقة عالية.",
+          "موجود كـ package باسم arcgis_maps على pub.dev ومعاه Documentation (شرح تفصيلي) يسهل عليك البدء فيه."
         ],
-        "verdict": "الفيديو ده ليك لو الخرائط العادية مش كفاية لتطبيقك ومحتاج تحليل بيانات جغرافي متقدم، والملخص كفاية جداً.",
+        "verdict": "يهمك لو هتعمل App لشركة محتاجة دقة عالية في الخرايط أو تشغيل من غير إنترنت، والملخص ده كفاية يديك فكرة عن إمكانياته.",
+        "terms": [
+          {
+            "term": "GIS",
+            "meaning": "نظام بيجمع ويحلل البيانات المرتبطة بمواقع جغرافية عشان يساعد في حل المشاكل وخد القرارات."
+          },
+          {
+            "term": "Geocoding",
+            "meaning": "تحويل أي عنوان مكتوب لإحداثيات (خط طول وعرض) عشان الخريطة تفهم مكانه فين بالظبط."
+          },
+          {
+            "term": "Spatial Analysis",
+            "meaning": "عملية معالجة للبيانات الجغرافية عشان تطلع معلومات مفيدة زي المسافة بين نقطتين أو مساحة مكان معين."
+          }
+        ],
         "source": "video",
-        "model": "gemini-3-flash-preview"
+        "model": "gemini-3-flash-preview",
+        "style": 2
       }
     },
     {
@@ -477,7 +550,7 @@
       "url": "https://www.youtube.com/watch?v=tFVFB-mel0w",
       "published": "2026-09-17T16:00:35+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/tFVFB-mel0w/hqdefault.jpg",
-      "views": 32000,
+      "views": 32064,
       "isShort": false,
       "summary": "Say goodbye to redundant constructor boilerplate starting with Dart 3.12! Craig breaks down two massive developer-experience upgrades: primary constructors and private named parameters. Discover how private named initializing formals eliminate tedious parameters starting with underscores, and learn how primary…",
       "tags": [
@@ -506,7 +579,7 @@
       "url": "https://www.youtube.com/shorts/4QG8nBe5cYU",
       "published": "2026-09-16T19:27:51+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/4QG8nBe5cYU/hqdefault.jpg",
-      "views": 6673,
+      "views": 6686,
       "isShort": true,
       "summary": "How do you build a car app that works for everyone? You talk to everyone! 🏎️💬 Discover how Toyota is leveraging Flutter to rebuild its infotainment system.",
       "tags": [
