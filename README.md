@@ -12,6 +12,11 @@
   <img src="https://img.shields.io/badge/GitHub%20Actions-daily-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
 </p>
 
+<p align="center">
+  <img src="docs/screens.jpg" alt="Screens" width="100%"/>
+  <br/><sub>Live site: weekly summary and video list</sub>
+</p>
+
 > **English summary.** Flutter Weekly is a static site (HTML + CSS + vanilla JS) that follows the
 > official [@flutterdev](https://www.youtube.com/@flutterdev/videos) channel. A daily GitHub Actions job
 > runs two standard-library-only Python scripts: one reads the channel's RSS feed, auto-tags each video
