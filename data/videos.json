@@ -3,7 +3,7 @@
     "name": "Flutter",
     "url": "https://www.youtube.com/@flutterdev"
   },
-  "updatedAt": "2026-10-13T15:31:31+00:00",
+  "updatedAt": "2026-10-14T13:16:46+00:00",
   "videos": [
     {
       "id": "-PqgJYzPkKY",
@@ -11,7 +11,7 @@
       "url": "https://www.youtube.com/watch?v=-PqgJYzPkKY",
       "published": "2026-10-12T16:00:19+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/-PqgJYzPkKY/hqdefault.jpg",
-      "views": 3258,
+      "views": 4155,
       "isShort": false,
       "summary": "Craig sits down with Kali, CEO at ChecksOnME and Flutteristas member, live at Fluttercon USA in Orlando! They break down why common app development assumptions unintentionally lock real people out and if AI can help audit your app for inclusivity and accessibility.",
       "description": "Craig sits down with Kali, CEO at ChecksOnME and Flutteristas member, live at Fluttercon USA in Orlando! They break down why common app development assumptions unintentionally lock real people out and if AI can help audit your app for inclusivity and accessibility. \n\nResources:\nFlutteraistas → https://g.dev/flutter/flutteristas\nChecksOnMe → https://g.dev/flutter/checksonme \nFlutter AI skills → https://goo.gle/4yfeaRB \n\nChapters:\n0:00 - Live from Fluttercon Orlando\n0:52 - Localization  \n1:57 - Address systems & state provinces\n3:08- Can AI catch what developers overlook?\n5:27 - Inclusivity fails and successes in the real-world\n5:45 - The male-default crash dummy\n6:35 - What a men's room changing table teaches us about design\n8:45 - Mononyms: Is it an edge case, or are you just unfamiliar with it? \n13:01 - Recap\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT",
@@ -54,7 +54,7 @@
       "url": "https://www.youtube.com/shorts/K75yHVaxVK0",
       "published": "2026-10-09T16:00:29+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/K75yHVaxVK0/hqdefault.jpg",
-      "views": 30331,
+      "views": 30913,
       "isShort": true,
       "summary": "When your non-dev friend just doesn’t understand the power of hot reload. A little bit this, a little bit of that and it updates it there. The power of hot reload.",
       "tags": [
@@ -90,7 +90,7 @@
       "url": "https://www.youtube.com/watch?v=aEcIL0zwrnY",
       "published": "2026-10-08T17:00:14+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/aEcIL0zwrnY/hqdefault.jpg",
-      "views": 6308,
+      "views": 6566,
       "isShort": false,
       "summary": "Think focus navigation is just for desktop keyboards and web browsers? Think again. Live from Fluttercon USA in Orlando, Craig sits down with Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, to break down Flutter’s focus system.",
       "tags": [
@@ -132,7 +132,7 @@
       "url": "https://www.youtube.com/watch?v=CcyX-pqjDp0",
       "published": "2026-10-07T16:00:03+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/CcyX-pqjDp0/hqdefault.jpg",
-      "views": 7593,
+      "views": 7756,
       "isShort": false,
       "summary": "Live from Fluttercon USA in Orlando, Andrew from the Flutter team catches up with Arthur Thompson, a Developer Relations Engineer for Firebase. They discuss how Firebase is evolving for the agentic era, why every Firebase project is secretly a Google Cloud project (making scale seamless), securing AI features with…",
       "tags": [
@@ -176,7 +176,7 @@
       "url": "https://www.youtube.com/watch?v=4sxrFXhMxy4",
       "published": "2026-10-06T16:00:20+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/4sxrFXhMxy4/hqdefault.jpg",
-      "views": 15637,
+      "views": 15932,
       "isShort": false,
       "summary": "Use guard clauses with the when keyword in Dart to add extra constraints to pattern matching in switches.",
       "tags": [
@@ -215,7 +215,7 @@
       "url": "https://www.youtube.com/shorts/Tovm9bWNGpE",
       "published": "2026-10-01T17:00:13+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/Tovm9bWNGpE/hqdefault.jpg",
-      "views": 13429,
+      "views": 13555,
       "isShort": true,
       "summary": "In Flutter 3.47, Flutter Widget Previewer has officially graduated to stable! You can now design, inspect, and iterate on individual UI widgets in real time without the overhead of running your full application. Run flutter upgrade to get Flutter 3.47 today!",
       "tags": [
@@ -257,7 +257,7 @@
       "url": "https://www.youtube.com/shorts/CCf_SRvuck0",
       "published": "2026-09-30T19:00:25+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/CCf_SRvuck0/hqdefault.jpg",
-      "views": 5464,
+      "views": 5521,
       "isShort": true,
       "summary": "Toyota’s engineering and design teams share why standard, off-the-shelf embedders fell short for complex navigation and automotive functions, and how building a custom embedder allowed them to maintain high-performance plugins tailored for the road.",
       "tags": [
@@ -298,7 +298,7 @@
       "url": "https://www.youtube.com/watch?v=HC2UDbpRUzs",
       "published": "2026-09-29T16:00:03+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/HC2UDbpRUzs/hqdefault.jpg",
-      "views": 7938,
+      "views": 8003,
       "isShort": false,
       "summary": "Join Emma and Jorge Coca, VP of Engineering at Very Good Ventures (VGV), live from FlutterCon USA in Orlando to explore AI-assisted workflows. Learn how VGV open-sourced Wingspan to codify engineering best practices into AI skills, plus discover approaches to testing AI-generated features.",
       "tags": [
@@ -340,7 +340,7 @@
       "url": "https://www.youtube.com/watch?v=VzMQ6Cg0194",
       "published": "2026-09-28T16:04:04+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/VzMQ6Cg0194/hqdefault.jpg",
-      "views": 15595,
+      "views": 15637,
       "isShort": false,
       "summary": "Welcome to the new Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From framework updates to major upgrades in desktop performance and developer tooling, this August 2026 recap showcases how Google and the global…",
       "tags": [
@@ -383,7 +383,7 @@
       "url": "https://www.youtube.com/shorts/YanRtf7wHEI",
       "published": "2026-09-24T16:00:30+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/YanRtf7wHEI/hqdefault.jpg",
-      "views": 20638,
+      "views": 20695,
       "isShort": true,
       "summary": "Building Flutter apps for desktop? Your rendering engine just got a massive upgrade! In Flutter 3.47, the Impeller rendering engine is officially enabled by default across macOS, Windows, and Linux.",
       "tags": [
@@ -425,7 +425,7 @@
       "url": "https://www.youtube.com/shorts/neL3QX9uTg8",
       "published": "2026-09-23T16:00:37+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/neL3QX9uTg8/hqdefault.jpg",
-      "views": 5928,
+      "views": 5935,
       "isShort": true,
       "summary": "Holafly is the global leader in eSIMs for travelers, offering coverage in over 200 destinations and the best value for money With an outstanding 4.7/5 rating on Trustpilot and more than 25 million of eSIM sold, it has become the preferred eSIM choice for international travelers. Its unlimited data and build-in back up…",
       "tags": [
@@ -466,7 +466,7 @@
       "url": "https://www.youtube.com/watch?v=b6-8ze1ULj8",
       "published": "2026-09-22T16:00:17+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/b6-8ze1ULj8/hqdefault.jpg",
-      "views": 15215,
+      "views": 15230,
       "isShort": false,
       "summary": "Live from FlutterCon USA in Orlando, Craig sits down with Andrii Khrystian, software engineer at Dynatrace and former physics student, to break down the mechanics of audio processing in Flutter! In this interview, Andrii explains why audio processing relies heavily on native C-libraries like FFmpeg, demonstrates a…",
       "tags": [
@@ -508,7 +508,7 @@
       "url": "https://www.youtube.com/watch?v=rvtSUH3WGaA",
       "published": "2026-09-21T17:02:41+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/rvtSUH3WGaA/hqdefault.jpg",
-      "views": 16208,
+      "views": 16228,
       "isShort": false,
       "summary": "Craig sits down with Martino Yovo, Product Engineer at Esri, to talk about the ArcGIS Maps SDK for Flutter! Discover why modern location-aware apps go far beyond standard consumer maps. From mission-critical emergency response and utility infrastructure to agriculture, custom multi-layer base maps, and full offline…",
       "tags": [
@@ -550,7 +550,7 @@
       "url": "https://www.youtube.com/watch?v=tFVFB-mel0w",
       "published": "2026-09-17T16:00:35+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/tFVFB-mel0w/hqdefault.jpg",
-      "views": 32064,
+      "views": 32109,
       "isShort": false,
       "summary": "Say goodbye to redundant constructor boilerplate starting with Dart 3.12! Craig breaks down two massive developer-experience upgrades: primary constructors and private named parameters. Discover how private named initializing formals eliminate tedious parameters starting with underscores, and learn how primary…",
       "tags": [
@@ -560,17 +560,31 @@
       ],
       "description": "Say goodbye to redundant constructor boilerplate starting with Dart 3.12! Craig breaks down two massive developer-experience upgrades: primary constructors and private named parameters. Discover how private named initializing formals eliminate tedious parameters starting with underscores, and learn how primary constructors wipe out the need to repeat field names and types across your class bodies.\n\nResources:\nPrimary constructors → https://g.dev/flutter/primary-constructors-docs \nPrivate named constructors → https://g.dev/flutter/constructors-docs \nFlutter skills → https://g.dev/flutter/skills-github \nDart. dev → https://g.dev/flutter/dart-dev \nDart 3.12 blog → https://g.dev/flutter/dart-3-12-blog \nDart 3.13 blog → https://g.dev/flutter/dart-3-13-blog \n\nChapters:\n0:00 - New Dart 3.12 features\n0:27 - Privacy\n1:58 - Private named parameters\n2:25 - Primary constructors \n4:13 - Note: It’s up to you!\n\nWatch more Decoding Flutter → https://goo.gle/DecodingFlutter \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\n#Flutter  \n\n\nProducts Mentioned: Flutter",
       "ai": {
-        "about": "الفيديو بيشرح ميزتين جداد في Dart 3.12 هما الـ Primary constructors والـ private named parameters لتقليل الـ boilerplate كود في الـ classes.",
+        "about": "الفيديو بيشرح ميزتين جداد في لغة Dart هيخلوا الكود بتاعك أنضف وأقل في الكتابة، وهما الـ Primary constructors والـ Private named parameters.",
         "points": [
-          "ميزة الـ private named parameters بتسمحلك تستخدم الـ underscore مع الـ named parameters عشان تعمل initialize لـ private fields من بره الفايل عادي.",
-          "الـ Primary constructors بتمكنك من تعريف الـ fields والـ constructor مباشرة في سطر واحد جنب اسم الـ class.",
-          "بمجرد كتابة final أو var جوه الـ primary constructor، الـ Dart بيفهم إنك بتعرّف field وبيربطه بالـ parameter أوتوماتيك.",
-          "تقدر تستخدم الـ initializers مع الـ primary constructors عن طريق الـ keyword (this) متبوعة بنقطتين (:) لكتابة الـ logic بتاعك.",
-          "الـ factory constructors بقت أسهل وممكن تستغنى فيها عن كتابة اسم الـ class بالكامل لو كنت بتستخدم الـ primary constructor."
+          "دلوقتي تقدر تستخدم Private named parameters (باراميترز بتبدأ بـ _ وليها اسم) في الـ constructors من غير أي تعقيد في الكود.",
+          "الـ Primary constructors (طريقة مختصرة لتعريف الـ constructor والـ fields في نفس الوقت) بتقلل الـ boilerplate (الكود المتكرر اللي ملوش لازمة) بشكل كبير.",
+          "تقدر تعرف الـ variables وتديها قيمتها مباشرة في سطر تعريف الكلاس نفسه باستخدام الأقواس الجديدة.",
+          "الميزات دي متاحة بداية من Dart 3.12 وهتساعدك تكتب كلاسات البيانات (data classes) بسرعة وسهولة."
         ],
-        "verdict": "يهمك لو عايز كودك يكون أنضف وأقصر، والملخص ده كفاية جداً يخليك تبدأ تستخدمهم.",
+        "verdict": "مفيد جداً ليك لو بتزهق من تكرار كتابة الـ constructors، والملخص ده فيه الخلاصة وممكن متتفرجش لو فهمت الفكرة.",
+        "terms": [
+          {
+            "term": "Boilerplate",
+            "meaning": "كود روتيني لازم يتكتب عشان اللغة تشتغل بس ملوش علاقة مباشرة بالمنطق بتاعك."
+          },
+          {
+            "term": "Primary Constructor",
+            "meaning": "طريقة دمج تعريف المتغيرات مع الـ constructor في سطر واحد عشان الكود يبان أشيك وأقصر."
+          },
+          {
+            "term": "Named Parameters",
+            "meaning": "باراميترز بنبعتها للدالة أو الـ constructor بالاسم بتاعها عشان نمنع اللخبطة."
+          }
+        ],
         "source": "video",
-        "model": "gemini-3-flash-preview"
+        "model": "gemini-3-flash-preview",
+        "style": 2
       }
     },
     {
@@ -579,7 +593,7 @@
       "url": "https://www.youtube.com/shorts/4QG8nBe5cYU",
       "published": "2026-09-16T19:27:51+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/4QG8nBe5cYU/hqdefault.jpg",
-      "views": 6686,
+      "views": 6700,
       "isShort": true,
       "summary": "How do you build a car app that works for everyone? You talk to everyone! 🏎️💬 Discover how Toyota is leveraging Flutter to rebuild its infotainment system.",
       "tags": [
