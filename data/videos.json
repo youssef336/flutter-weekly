@@ -3,15 +3,58 @@
     "name": "Flutter",
     "url": "https://www.youtube.com/@flutterdev"
   },
-  "updatedAt": "2026-10-14T13:16:46+00:00",
+  "updatedAt": "2026-10-15T13:02:04+00:00",
   "videos": [
+    {
+      "id": "nnIOW6uOlcw",
+      "title": "Instant GenUI with async A2UI",
+      "url": "https://www.youtube.com/watch?v=nnIOW6uOlcw",
+      "published": "2026-10-14T16:00:36+00:00",
+      "thumbnail": "https://i3.ytimg.com/vi/nnIOW6uOlcw/hqdefault.jpg",
+      "views": 12952,
+      "isShort": false,
+      "summary": "Learn how to eliminate startup latency in Generative UI (GenUI) applications! In this video, Andrew Brogdon demonstrates how to pre-generate and cache A2UI messages asynchronously on the backend using Dart Cloud Functions and Cloud Firestore, delivering an instant UI rendering experience on app launch in Flutter.",
+      "description": "Learn how to eliminate startup latency in Generative UI (GenUI) applications! In this video, Andrew Brogdon demonstrates how to pre-generate and cache A2UI messages asynchronously on the backend using Dart Cloud Functions and Cloud Firestore, delivering an instant UI rendering experience on app launch in Flutter.\n\nWe'll walk through both the backend background generation flow with Gemini API triggers and the client-side transport integration in Flutter, ensuring your AI-driven apps remain responsive and flexible.\n\nCheck out the resources mentioned in the video:\n* Intro to GenUI Codelab: https://g.dev/genui-codelab\n* Commis Demo Source Code (flutter/demos repo): https://g.dev/flutter-demos\n* genui package on pub.dev: https://g.dev/package-genui",
+      "tags": [
+        "dart",
+        "tutorial"
+      ],
+      "ai": {
+        "about": "الفيديو بيشرح إزاي تخلي واجهة المستخدم اللي الذكاء الاصطناعي بيصممها (GenUI) تظهر فوراً من غير ما المستخدم يستنى الـ model يحمل، وده عن طريق الـ caching (تخزين البيانات مؤقتاً لسرعة استرجاعها).",
+        "points": [
+          "بدل ما المستخدم يفضل مستني الـ loading spinner، ممكن تجهز الـ UI payloads (البيانات اللي بتوصف شكل الشاشة) مسبقاً وتخزنها قبل ما يفتح الأبلكيشن.",
+          "استخدم Firebase Functions عشان تشغل Gemini API في الخلفية أول ما يحصل تغيير في الـ database وتولد الـ A2UI (الرسايل اللي بتعرف البرنامج يرسم إيه) وتخزنها في Firestore.",
+          "في Flutter، أول ما الأبلكيشن يفتح، اسحب الداتا المتخزنة دي واديها للـ transport layer (الطبقة المسؤولة عن نقل الرسايل بين الكود والـ UI) عشان تظهر فوراً.",
+          "الطريقة دي بتفصل وقت تفكير الـ AI عن وقت فتح الأبلكيشن، فالمستخدم بيحس إن التجربة سريعة جداً ومافيش فيها تأخير.",
+          "الكود بيستخدم Dart في الـ backend مع Firebase، بس الفكرة تنفع مع أي لغة أو framework تاني."
+        ],
+        "verdict": "لو بتبني أبلكيشن فيه AI وعاوز الـ UX (تجربة المستخدم) تكون سريعة وشكلها احترافي، الفيديو ده مهم جداً تشوف فيه تطبيق عملي للكود.",
+        "terms": [
+          {
+            "term": "GenUI",
+            "meaning": "تقنية بتخلي الذكاء الاصطناعي هو اللي يقرر شكل الـ UI اللي هيظهر للمستخدم حسب الموقف."
+          },
+          {
+            "term": "A2UI",
+            "meaning": "اختصار لـ Agent-to-UI، وهي الرسايل اللي بيبعتها الـ AI عشان يقول للبرنامج يرسم widgets معينة."
+          },
+          {
+            "term": "Payload",
+            "meaning": "مصطلح بيوصف الداتا الأساسية اللي بتتبعت في الـ request، وفي الحالة دي هي الـ JSON اللي فيه تفاصيل الـ UI."
+          }
+        ],
+        "source": "video",
+        "model": "gemini-3-flash-preview",
+        "style": 2
+      }
+    },
     {
       "id": "-PqgJYzPkKY",
       "title": "Building and maintaining a culture of inclusive app development | Kali (Flutteristas)",
       "url": "https://www.youtube.com/watch?v=-PqgJYzPkKY",
       "published": "2026-10-12T16:00:19+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/-PqgJYzPkKY/hqdefault.jpg",
-      "views": 4155,
+      "views": 4544,
       "isShort": false,
       "summary": "Craig sits down with Kali, CEO at ChecksOnME and Flutteristas member, live at Fluttercon USA in Orlando! They break down why common app development assumptions unintentionally lock real people out and if AI can help audit your app for inclusivity and accessibility.",
       "description": "Craig sits down with Kali, CEO at ChecksOnME and Flutteristas member, live at Fluttercon USA in Orlando! They break down why common app development assumptions unintentionally lock real people out and if AI can help audit your app for inclusivity and accessibility. \n\nResources:\nFlutteraistas → https://g.dev/flutter/flutteristas\nChecksOnMe → https://g.dev/flutter/checksonme \nFlutter AI skills → https://goo.gle/4yfeaRB \n\nChapters:\n0:00 - Live from Fluttercon Orlando\n0:52 - Localization  \n1:57 - Address systems & state provinces\n3:08- Can AI catch what developers overlook?\n5:27 - Inclusivity fails and successes in the real-world\n5:45 - The male-default crash dummy\n6:35 - What a men's room changing table teaches us about design\n8:45 - Mononyms: Is it an edge case, or are you just unfamiliar with it? \n13:01 - Recap\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT",
@@ -54,7 +97,7 @@
       "url": "https://www.youtube.com/shorts/K75yHVaxVK0",
       "published": "2026-10-09T16:00:29+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/K75yHVaxVK0/hqdefault.jpg",
-      "views": 30913,
+      "views": 31541,
       "isShort": true,
       "summary": "When your non-dev friend just doesn’t understand the power of hot reload. A little bit this, a little bit of that and it updates it there. The power of hot reload.",
       "tags": [
@@ -90,7 +133,7 @@
       "url": "https://www.youtube.com/watch?v=aEcIL0zwrnY",
       "published": "2026-10-08T17:00:14+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/aEcIL0zwrnY/hqdefault.jpg",
-      "views": 6566,
+      "views": 6785,
       "isShort": false,
       "summary": "Think focus navigation is just for desktop keyboards and web browsers? Think again. Live from Fluttercon USA in Orlando, Craig sits down with Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, to break down Flutter’s focus system.",
       "tags": [
@@ -132,7 +175,7 @@
       "url": "https://www.youtube.com/watch?v=CcyX-pqjDp0",
       "published": "2026-10-07T16:00:03+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/CcyX-pqjDp0/hqdefault.jpg",
-      "views": 7756,
+      "views": 7898,
       "isShort": false,
       "summary": "Live from Fluttercon USA in Orlando, Andrew from the Flutter team catches up with Arthur Thompson, a Developer Relations Engineer for Firebase. They discuss how Firebase is evolving for the agentic era, why every Firebase project is secretly a Google Cloud project (making scale seamless), securing AI features with…",
       "tags": [
@@ -176,7 +219,7 @@
       "url": "https://www.youtube.com/watch?v=4sxrFXhMxy4",
       "published": "2026-10-06T16:00:20+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/4sxrFXhMxy4/hqdefault.jpg",
-      "views": 15932,
+      "views": 16262,
       "isShort": false,
       "summary": "Use guard clauses with the when keyword in Dart to add extra constraints to pattern matching in switches.",
       "tags": [
@@ -215,7 +258,7 @@
       "url": "https://www.youtube.com/shorts/Tovm9bWNGpE",
       "published": "2026-10-01T17:00:13+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/Tovm9bWNGpE/hqdefault.jpg",
-      "views": 13555,
+      "views": 13670,
       "isShort": true,
       "summary": "In Flutter 3.47, Flutter Widget Previewer has officially graduated to stable! You can now design, inspect, and iterate on individual UI widgets in real time without the overhead of running your full application. Run flutter upgrade to get Flutter 3.47 today!",
       "tags": [
@@ -257,7 +300,7 @@
       "url": "https://www.youtube.com/shorts/CCf_SRvuck0",
       "published": "2026-09-30T19:00:25+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/CCf_SRvuck0/hqdefault.jpg",
-      "views": 5521,
+      "views": 5570,
       "isShort": true,
       "summary": "Toyota’s engineering and design teams share why standard, off-the-shelf embedders fell short for complex navigation and automotive functions, and how building a custom embedder allowed them to maintain high-performance plugins tailored for the road.",
       "tags": [
@@ -298,7 +341,7 @@
       "url": "https://www.youtube.com/watch?v=HC2UDbpRUzs",
       "published": "2026-09-29T16:00:03+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/HC2UDbpRUzs/hqdefault.jpg",
-      "views": 8003,
+      "views": 8031,
       "isShort": false,
       "summary": "Join Emma and Jorge Coca, VP of Engineering at Very Good Ventures (VGV), live from FlutterCon USA in Orlando to explore AI-assisted workflows. Learn how VGV open-sourced Wingspan to codify engineering best practices into AI skills, plus discover approaches to testing AI-generated features.",
       "tags": [
@@ -340,7 +383,7 @@
       "url": "https://www.youtube.com/watch?v=VzMQ6Cg0194",
       "published": "2026-09-28T16:04:04+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/VzMQ6Cg0194/hqdefault.jpg",
-      "views": 15637,
+      "views": 15682,
       "isShort": false,
       "summary": "Welcome to the new Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From framework updates to major upgrades in desktop performance and developer tooling, this August 2026 recap showcases how Google and the global…",
       "tags": [
@@ -383,7 +426,7 @@
       "url": "https://www.youtube.com/shorts/YanRtf7wHEI",
       "published": "2026-09-24T16:00:30+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/YanRtf7wHEI/hqdefault.jpg",
-      "views": 20695,
+      "views": 20766,
       "isShort": true,
       "summary": "Building Flutter apps for desktop? Your rendering engine just got a massive upgrade! In Flutter 3.47, the Impeller rendering engine is officially enabled by default across macOS, Windows, and Linux.",
       "tags": [
@@ -425,7 +468,7 @@
       "url": "https://www.youtube.com/shorts/neL3QX9uTg8",
       "published": "2026-09-23T16:00:37+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/neL3QX9uTg8/hqdefault.jpg",
-      "views": 5935,
+      "views": 5952,
       "isShort": true,
       "summary": "Holafly is the global leader in eSIMs for travelers, offering coverage in over 200 destinations and the best value for money With an outstanding 4.7/5 rating on Trustpilot and more than 25 million of eSIM sold, it has become the preferred eSIM choice for international travelers. Its unlimited data and build-in back up…",
       "tags": [
@@ -466,7 +509,7 @@
       "url": "https://www.youtube.com/watch?v=b6-8ze1ULj8",
       "published": "2026-09-22T16:00:17+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/b6-8ze1ULj8/hqdefault.jpg",
-      "views": 15230,
+      "views": 15259,
       "isShort": false,
       "summary": "Live from FlutterCon USA in Orlando, Craig sits down with Andrii Khrystian, software engineer at Dynatrace and former physics student, to break down the mechanics of audio processing in Flutter! In this interview, Andrii explains why audio processing relies heavily on native C-libraries like FFmpeg, demonstrates a…",
       "tags": [
@@ -508,7 +551,7 @@
       "url": "https://www.youtube.com/watch?v=rvtSUH3WGaA",
       "published": "2026-09-21T17:02:41+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/rvtSUH3WGaA/hqdefault.jpg",
-      "views": 16228,
+      "views": 16247,
       "isShort": false,
       "summary": "Craig sits down with Martino Yovo, Product Engineer at Esri, to talk about the ArcGIS Maps SDK for Flutter! Discover why modern location-aware apps go far beyond standard consumer maps. From mission-critical emergency response and utility infrastructure to agriculture, custom multi-layer base maps, and full offline…",
       "tags": [
@@ -550,7 +593,7 @@
       "url": "https://www.youtube.com/watch?v=tFVFB-mel0w",
       "published": "2026-09-17T16:00:35+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/tFVFB-mel0w/hqdefault.jpg",
-      "views": 32109,
+      "views": 32194,
       "isShort": false,
       "summary": "Say goodbye to redundant constructor boilerplate starting with Dart 3.12! Craig breaks down two massive developer-experience upgrades: primary constructors and private named parameters. Discover how private named initializing formals eliminate tedious parameters starting with underscores, and learn how primary…",
       "tags": [
@@ -696,24 +739,58 @@
         "Tovm9bWNGpE",
         "VzMQ6Cg0194"
       ],
-      "digest": "أسبوع مليان تحديثات، أهمها وصول Flutter 3.47 اللي خلى الـ Widget previews مستقرة أخيراً وده هيسهل بناء الـ UI من غير ما ترن الأبليكيشن كله. كمان الـ ScrollPhysics بقى Reactive يعني أداء أحسن ومفيش ريبلد للدلوقتي، وفي ميزات جديدة في الـ CLI زي flutter clean --no-xcode-clean عشان تسرع الـ iOS builds. غير كده، تويوتا كشفت ليه بتستخدم Custom Embedder في العربيات، وظهرت أدوات AI جديدة زي Wingspan بتساعد الشركات تلتزم بالـ Best Practices.",
+      "style": 2,
+      "digest": "الأسبوع ده Flutter ركزت على إنها تخلي تجربتك أسرع بكتير، سواء وأنت بتعمل Build (تحويل الكود لبرنامج) أو في أداء الأبلكيشن نفسه مع الصور والـ Scrolling. شفنا إزاي الـ Widget Previews (معاينة الودجت لوحدها) بقت مستقرة في إصدار 3.47 وده هينجزك جداً في التصميم. كمان تويوتا بتستخدم Custom Embedder (كود بيشغل فلاتر على نظام معين) عشان تشغل الأبلكيشنز في العربيات بذكاء. والـ AI بدأ يدخل في صلب الـ Workflow (خطوات الشغل) عشان يساعدنا نكتب كود احترافي بـ Code coverage (تغطية الكود بالاختبارات) عالية.",
       "highlights": [
-        "الـ Widget previews بقت Stable في Flutter 3.47، صمم وجرب الـ widgets لوحدها في الوقت الفعلي من غير ما تعمل Run للتطبيق بالكامل.",
-        "تحسينات كبيرة في الـ iOS builds بفضل الـ SwiftPM pipelines اللي بتفلتر الـ schemes وفلاج --no-xcode-clean اللي بيحافظ على الـ derived data.",
-        "الـ ScrollPhysics بقى يدعم الـ dynamic changes من غير ريبلد للـ widget tree، والـ ResizeImage بقى يوفر في الـ image cache memory.",
-        "دعم الـ WebSocket profiling في الـ DevTools وإمكانية فتح الـ widgets مباشرة من الـ error notifications في الـ IDE."
+        "ميزة useLogicalPixels في الـ ResizeImage هتقلل استهلاك الـ RAM جداً وتمنع التهنيج في الشاشات الـ High-DPI (الشاشات اللي دقتها عالية).",
+        "الـ Widget Previews بقت مستقرة رسمياً، هتقدر تعدل وتشوف الـ Widgets بتاعتك في وقتها من غير ما تشغل الأبلكيشن كله.",
+        "الـ DevTools دلوقت بتدعم الـ WebSocket profiling، يعني هتقدر تراقب الداتا اللي رايحة وجاية في الـ Real-time apps بوضوح.",
+        "تحسينات كبيرة في الـ iOS build وسرعة الـ SwiftPM (نظام إدارة المكتبات) هتخلي وقت الـ Build لمطورين Apple أقل بكتير."
       ]
     },
     "2026-10-10": {
       "ids": [
-        "-PqgJYzPkKY"
+        "-PqgJYzPkKY",
+        "nnIOW6uOlcw"
       ],
       "style": 2,
-      "digest": "الأسبوع ده الكلام كان عن إزاي تعمل تطبيق Inclusive (شامل لكل الناس مهما اختلفوا). الموضوع مش بس Localization (تجهيز التطبيق لغوياً وثقافياً)، ده أسلوب تفكير في التصميم والبرمجة. اتعلمنا إن الـ Validations (شروط التأكد من صحة البيانات) الرخمة في خانات الأسامي ممكن تضايق مستخدمين أساميهم مختلفة عنك. الهدف إنك تفتح تطبيقك للعالم كله من غير ما تحط عوائق برمجية ملهاش لازمة. التنوع في فريقك بيخليك تكتشف الـ Unknown unknowns (مشاكل مكنتش متخيل إنها موجودة أصلاً) وتصلحها.",
+      "digest": "الأسبوع ده في Flutter التركيز كان على السرعة والشمولية في التطبيقات. اتعلمنا إزاي نستخدم الـ Caching (تخزين الداتا عشان ترجع بسرعة) عشان نخلي الـ GenUI (واجهة مستخدم بيولدها الذكاء الاصطناعي) تظهر فوراً للمستخدم من غير انتظار. كمان كان فيه نصايح مهمة عن إزاي تخلي الـ Forms (نماذج إدخال البيانات) بتاعتك مرنة وتقبل أسامي من ثقافات مختلفة. الهدف إننا نفصل وقت معالجة الـ AI عن وقت تشغيل الأبلكيشن ونبني تجربة مستخدم Inclusive (مناسبة لكل أنواع الناس) من غير تعقيد.",
       "highlights": [
-        "استخدم خانة واحدة للـ Full Name أو ضيف Preferred Name (الاسم اللي المستخدم بيحبه) بدل ما تقسم الاسم لنصين، عشان فيه ناس أساميها حرف واحد أو اسم واحد بس.",
-        "الـ Localization مش مجرد ترجمة، دي خطوة بتخليك تفهم احتياجات مستخدمين من بلاد تانية وتعملهم تطبيق يحسوا إنه بتاعهم.",
-        "التنوع في فريقك هو اللي بيخليك تكتشف غلطات في الـ User Experience (تجربة المستخدم) مكنتش هتعرفها لو كل الفريق بيفكر بنفس الطريقة."
+        "استخدم Firebase Functions مع Gemini عشان تجهز الـ UI payloads (البيانات اللي بتوصف شكل الشاشة) وتخزنها في Firestore قبل ما المستخدم يفتح الأبلكيشن.",
+        "بلاش تقيد المستخدم بشروط (Validations) صعبة في خانة الاسم، واستخدم خانة واحدة للـ Full Name أو ضيف Preferred Name (الاسم اللي المستخدم بيحب يتنادى بيه).",
+        "الـ Localization (تكييف التطبيق لثقافات مختلفة) مش مجرد ترجمة لغات، ده تفكير في إزاي تطبيقك يحترم خصوصية واختلاف كل مستخدم.",
+        "اعتمد على الـ Transport layer (الطبقة المسؤولة عن نقل الرسايل بين الكود والـ UI) لسحب الداتا المتخزنة وعرضها فوراً عشان المستخدم ميحسش بأي Loading spinner (Loading spinner)."
+      ]
+    },
+    "2026-09-19": {
+      "ids": [
+        "YanRtf7wHEI",
+        "b6-8ze1ULj8",
+        "neL3QX9uTg8",
+        "rvtSUH3WGaA"
+      ],
+      "style": 2,
+      "digest": "يا صاحبي، الأسبوع ده Flutter ركزت على الأداء العالي والتوسع في مجالات جديدة وصعبة. نسخة 3.47 نزلت رسمياً وخليت الـ Impeller (المحرك اللي بيرسم الشاشة) هو الأساس في الـ Desktop عشان الأداء يبقى ناعم ومن غير تقطيع. كمان بقى فيه دعم قوي جداً للخرايط الـ Offline (اللي بتشتغل من غير إنترنت) وتعديل الصوت باحترافية. الخلاصة إن الـ Flutter بتثبت رجلها أكتر في المشاريع الـ Enterprise (الشركات الضخمة اللي عندها نظام تقني معقد).",
+      "highlights": [
+        "تحديث Flutter 3.47 خلى الـ Impeller يشتغل أساسي على macOS و Windows، وسرّع تطبيقات الويب باستخدام الـ WebAssembly (تقنية بتخلي كود الويب يشتغل بسرعة قريبة من البرامج الأصلية).",
+        "لو هتعمل تطبيق فيه خرايط معقدة أو محتاج يشتغل في أماكن مقطوعة، استخدم الـ package اللي اسمها arcgis_maps لأنها بتدعم بيانات الـ GIS (نظام ذكي لربط المعلومات بمواقعها الجغرافية).",
+        "عشان تعمل تأثيرات صوت صايعة زي تغيير نبرة الصوت أو شيل الدوشة، الـ FFmpeg (مكتبة برمجية قوية لمعالجة ملفات الميديا) هي أحسن أداة تستخدمها في شغلك.",
+        "تجربة شركة Holafly أثبتت إن Flutter بيساعد في الـ Scaling (توسيع حجم التطبيق وقاعدة المستخدمين) لخدمة ملايين الناس حول العالم بسهولة."
+      ]
+    },
+    "2026-09-12": {
+      "ids": [
+        "4QG8nBe5cYU",
+        "8OUcGUiKj8M",
+        "tFVFB-mel0w"
+      ],
+      "style": 2,
+      "digest": "الأسبوع ده كان فيه كلام مهم من Eric Seidel عن إن الـ AI هيخليك تركز أكتر كـ Architect (مهندس بيخطط للنظام) بدل ما تغرق في الكود المتكرر. تويوتا كمان ورتنا إزاي بتستخدم الـ Feedback Loop (نظام بيجمع رأي المستخدمين) عشان تطور شاشات العربيات بسرعة بـ Flutter. وكمان لغة Dart نزلت تحديثات في نسخة 3.12 بتقلل الـ boilerplate (الكود الممل اللي بيتكرر كتير) عشان تكتب كود أنضف. الخلاصة إن Flutter بتكبر في مجالات كتير من أول العربيات لحد الـ AI.",
+      "highlights": [
+        "استخدم Shorebird عشان تعمل Over-the-air updates (تحديث التطبيق من غير ما ترفعه للمتجر) وتصلح أخطاءك بسرعة من غير وجع دماغ المتاجر.",
+        "جرب الـ Primary constructors (طريقة مختصرة لتعريف الكلاس والـ variables في سطر واحد) في Dart 3.12 عشان توفر وقت ومجهود في الكتابة.",
+        "تويوتا بتعتمد على الـ UX research (أبحاث تجربة المستخدم) عشان تحسن شاشات العربيات بـ Flutter، وده بيثبت قوة الفريمورك في الأنظمة التقيلة.",
+        "الـ Private named parameters (باراميترز بتبدأ بـ _ وليها اسم) بقت مدعومة في الـ constructors وده بيخلي الكود بتاعك أنضف وأكتر خصوصية."
       ]
     }
   }
