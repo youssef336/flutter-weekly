@@ -3,7 +3,7 @@
     "name": "Flutter",
     "url": "https://www.youtube.com/@flutterdev"
   },
-  "updatedAt": "2026-10-23T13:02:11+00:00",
+  "updatedAt": "2026-10-24T12:25:11+00:00",
   "videos": [
     {
       "id": "m-vM9FS6DAk",
@@ -11,7 +11,7 @@
       "url": "https://www.youtube.com/watch?v=m-vM9FS6DAk",
       "published": "2026-10-20T16:00:06+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/m-vM9FS6DAk/hqdefault.jpg",
-      "views": 14297,
+      "views": 15199,
       "isShort": false,
       "summary": "if-case statements in Dart are a clean, concise way to use pattern matching and destructuring against a single pattern.",
       "description": "Documentation → https://g.dev/flutter/if-case\n\nif-case statements in Dart are a clean, concise way to use pattern matching and destructuring against a single pattern.\n\n#Flutter #TechniqueOfTheWeek \n\nWatch more Technique of the Week → https://goo.gle/FlutterTechnique\nSubscribe to Flutter → http://goo.gle/FlutterYT",
@@ -53,7 +53,7 @@
       "url": "https://www.youtube.com/watch?v=2Ff_4Ne3pHY",
       "published": "2026-10-15T16:00:30+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/2Ff_4Ne3pHY/hqdefault.jpg",
-      "views": 8561,
+      "views": 8728,
       "isShort": false,
       "summary": "Craig and Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, live at FlutterCon USA in Orlando to discuss how to build adaptive Flutter apps for foldable devices! Don’t have any devices to test your app on a foldable device? Vadym shares how developers can emulate apps on foldable devices.",
       "description": "Craig and Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, live at FlutterCon USA in Orlando to discuss how to build adaptive Flutter apps for foldable devices! Don’t have any devices to test your app on a foldable device? Vadym shares how developers can emulate apps on foldable devices. \n\nDiscover why building for foldables goes way beyond simple responsive breakpoints. Foldables aren't just about dynamic widths and heights, apps need to adapt to different device postures (book mode, tabletop, open, closed). Learn how you can find hinges, folds, or cutouts on foldable device information in Flutter’s MediaQuery.displayFeatures.\n\nResources:\nDisplayFeature class docs→ ​​https://goo.gle/4zNrY77 \nMediaQuery class docs → https://goo.gle/4qP6HG7 \ndevice_preview on pub.dev → https://goo.gle/4yapEp4 \nHow to build Adaptive UI with Flutter (video) → https://goo.gle/3UKaFDZ \n\nChapters:\n0:00 - Live from Fluttercon Orlando\n0:43  - Testing foldables without real hardware (Emulator) \n1:31 - Beyond breakpoints: Why foldables are unique \n2:29 - Fold angles \n3:17 - Dual screens & separating display screens \n4:32 - Postures & Flutter’s MediaQuery.displayFeatures\n5:15 - Foldables checklist: Adapting bottom navigation & tablet layouts\n\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter",
@@ -96,7 +96,7 @@
       "url": "https://www.youtube.com/watch?v=nnIOW6uOlcw",
       "published": "2026-10-14T16:00:36+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/nnIOW6uOlcw/hqdefault.jpg",
-      "views": 30951,
+      "views": 31685,
       "isShort": false,
       "summary": "Learn how to eliminate startup latency in Generative UI (GenUI) applications! In this video, Andrew Brogdon demonstrates how to pre-generate and cache A2UI messages asynchronously on the backend using Dart Cloud Functions and Cloud Firestore, delivering an instant UI rendering experience on app launch in Flutter.",
       "description": "Learn how to eliminate startup latency in Generative UI (GenUI) applications! In this video, Andrew Brogdon demonstrates how to pre-generate and cache A2UI messages asynchronously on the backend using Dart Cloud Functions and Cloud Firestore, delivering an instant UI rendering experience on app launch in Flutter.\n\nWe'll walk through both the backend background generation flow with Gemini API triggers and the client-side transport integration in Flutter, ensuring your AI-driven apps remain responsive and flexible.\n\nCheck out the resources mentioned in the video:\n* Intro to GenUI Codelab: https://g.dev/genui-codelab\n* Commis Demo Source Code (flutter/demos repo): https://g.dev/flutter-demos\n* genui package on pub.dev: https://g.dev/package-genui\n\nSpeaker: Andrew Brogdon\nProducts Mentioned: GenUI SDK for Flutter",
@@ -139,7 +139,7 @@
       "url": "https://www.youtube.com/watch?v=-PqgJYzPkKY",
       "published": "2026-10-12T16:00:19+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/-PqgJYzPkKY/hqdefault.jpg",
-      "views": 5269,
+      "views": 5316,
       "isShort": false,
       "summary": "Craig sits down with Kali, CEO at ChecksOnME and Flutteristas member, live at Fluttercon USA in Orlando! They break down why common app development assumptions unintentionally lock real people out and if AI can help audit your app for inclusivity and accessibility.",
       "description": "Craig sits down with Kali, CEO at ChecksOnME and Flutteristas member, live at Fluttercon USA in Orlando! They break down why common app development assumptions unintentionally lock real people out and if AI can help audit your app for inclusivity and accessibility. \n\nResources:\nFlutteraistas → https://g.dev/flutter/flutteristas\nChecksOnMe → https://g.dev/flutter/checksonme \nFlutter AI skills → https://goo.gle/4yfeaRB \n\nChapters:\n0:00 - Live from Fluttercon Orlando\n0:52 - Localization  \n1:57 - Address systems & state provinces\n3:08- Can AI catch what developers overlook?\n5:27 - Inclusivity fails and successes in the real-world\n5:45 - The male-default crash dummy\n6:35 - What a men's room changing table teaches us about design\n8:45 - Mononyms: Is it an edge case, or are you just unfamiliar with it? \n13:01 - Recap\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT",
@@ -182,7 +182,7 @@
       "url": "https://www.youtube.com/shorts/K75yHVaxVK0",
       "published": "2026-10-09T16:00:29+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/K75yHVaxVK0/hqdefault.jpg",
-      "views": 32667,
+      "views": 32745,
       "isShort": true,
       "summary": "When your non-dev friend just doesn’t understand the power of hot reload. A little bit this, a little bit of that and it updates it there. The power of hot reload.",
       "tags": [
@@ -218,7 +218,7 @@
       "url": "https://www.youtube.com/watch?v=aEcIL0zwrnY",
       "published": "2026-10-08T17:00:14+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/aEcIL0zwrnY/hqdefault.jpg",
-      "views": 8256,
+      "views": 8363,
       "isShort": false,
       "summary": "Think focus navigation is just for desktop keyboards and web browsers? Think again. Live from Fluttercon USA in Orlando, Craig sits down with Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, to break down Flutter’s focus system.",
       "tags": [
@@ -260,7 +260,7 @@
       "url": "https://www.youtube.com/watch?v=CcyX-pqjDp0",
       "published": "2026-10-07T16:00:03+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/CcyX-pqjDp0/hqdefault.jpg",
-      "views": 8960,
+      "views": 8982,
       "isShort": false,
       "summary": "Live from Fluttercon USA in Orlando, Andrew from the Flutter team catches up with Arthur Thompson, a Developer Relations Engineer for Firebase. They discuss how Firebase is evolving for the agentic era, why every Firebase project is secretly a Google Cloud project (making scale seamless), securing AI features with…",
       "tags": [
@@ -304,7 +304,7 @@
       "url": "https://www.youtube.com/watch?v=4sxrFXhMxy4",
       "published": "2026-10-06T16:00:20+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/4sxrFXhMxy4/hqdefault.jpg",
-      "views": 17901,
+      "views": 17941,
       "isShort": false,
       "summary": "Use guard clauses with the when keyword in Dart to add extra constraints to pattern matching in switches.",
       "tags": [
@@ -343,7 +343,7 @@
       "url": "https://www.youtube.com/shorts/Tovm9bWNGpE",
       "published": "2026-10-01T17:00:13+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/Tovm9bWNGpE/hqdefault.jpg",
-      "views": 14328,
+      "views": 14422,
       "isShort": true,
       "summary": "In Flutter 3.47, Flutter Widget Previewer has officially graduated to stable! You can now design, inspect, and iterate on individual UI widgets in real time without the overhead of running your full application. Run flutter upgrade to get Flutter 3.47 today!",
       "tags": [
@@ -385,7 +385,7 @@
       "url": "https://www.youtube.com/shorts/CCf_SRvuck0",
       "published": "2026-09-30T19:00:25+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/CCf_SRvuck0/hqdefault.jpg",
-      "views": 5691,
+      "views": 5695,
       "isShort": true,
       "summary": "Toyota’s engineering and design teams share why standard, off-the-shelf embedders fell short for complex navigation and automotive functions, and how building a custom embedder allowed them to maintain high-performance plugins tailored for the road.",
       "tags": [
@@ -426,7 +426,7 @@
       "url": "https://www.youtube.com/watch?v=HC2UDbpRUzs",
       "published": "2026-09-29T16:00:03+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/HC2UDbpRUzs/hqdefault.jpg",
-      "views": 8177,
+      "views": 8192,
       "isShort": false,
       "summary": "Join Emma and Jorge Coca, VP of Engineering at Very Good Ventures (VGV), live from FlutterCon USA in Orlando to explore AI-assisted workflows. Learn how VGV open-sourced Wingspan to codify engineering best practices into AI skills, plus discover approaches to testing AI-generated features.",
       "tags": [
@@ -468,7 +468,7 @@
       "url": "https://www.youtube.com/watch?v=VzMQ6Cg0194",
       "published": "2026-09-28T16:04:04+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/VzMQ6Cg0194/hqdefault.jpg",
-      "views": 15829,
+      "views": 15843,
       "isShort": false,
       "summary": "Welcome to the new Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From framework updates to major upgrades in desktop performance and developer tooling, this August 2026 recap showcases how Google and the global…",
       "tags": [
@@ -511,7 +511,7 @@
       "url": "https://www.youtube.com/shorts/YanRtf7wHEI",
       "published": "2026-09-24T16:00:30+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/YanRtf7wHEI/hqdefault.jpg",
-      "views": 21538,
+      "views": 21604,
       "isShort": true,
       "summary": "Building Flutter apps for desktop? Your rendering engine just got a massive upgrade! In Flutter 3.47, the Impeller rendering engine is officially enabled by default across macOS, Windows, and Linux.",
       "tags": [
@@ -553,7 +553,7 @@
       "url": "https://www.youtube.com/shorts/neL3QX9uTg8",
       "published": "2026-09-23T16:00:37+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/neL3QX9uTg8/hqdefault.jpg",
-      "views": 6002,
+      "views": 6005,
       "isShort": true,
       "summary": "Holafly is the global leader in eSIMs for travelers, offering coverage in over 200 destinations and the best value for money With an outstanding 4.7/5 rating on Trustpilot and more than 25 million of eSIM sold, it has become the preferred eSIM choice for international travelers. Its unlimited data and build-in back up…",
       "tags": [
@@ -594,7 +594,7 @@
       "url": "https://www.youtube.com/watch?v=b6-8ze1ULj8",
       "published": "2026-09-22T16:00:17+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/b6-8ze1ULj8/hqdefault.jpg",
-      "views": 15366,
+      "views": 15376,
       "isShort": false,
       "summary": "Live from FlutterCon USA in Orlando, Craig sits down with Andrii Khrystian, software engineer at Dynatrace and former physics student, to break down the mechanics of audio processing in Flutter! In this interview, Andrii explains why audio processing relies heavily on native C-libraries like FFmpeg, demonstrates a…",
       "tags": [
