@@ -3,15 +3,56 @@
     "name": "Flutter",
     "url": "https://www.youtube.com/@flutterdev"
   },
-  "updatedAt": "2026-10-28T14:48:11+00:00",
+  "updatedAt": "2026-10-29T14:54:22+00:00",
   "videos": [
+    {
+      "id": "mZatSBeh_24",
+      "title": "Flutter notable commits - September 2026",
+      "url": "https://www.youtube.com/watch?v=mZatSBeh_24",
+      "published": "2026-10-28T16:00:03+00:00",
+      "thumbnail": "https://i2.ytimg.com/vi/mZatSBeh_24/hqdefault.jpg",
+      "views": 8577,
+      "isShort": false,
+      "summary": "Welcome to the new Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From framework polish and accessibility wins to Android security hardening and faster tooling, this September 2026 recap showcases how Google and…",
+      "description": "Contribute to Flutter → https://goo.gle/4pdikpJ \nFlutter Notable Commits →  https://goo.gle/4wGTvFb \n\nWelcome to the new Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From framework polish and accessibility wins to Android security hardening and faster tooling, this September 2026 recap showcases how Google and the global Flutter community are advancing the framework together.\n\nChapters:\n0:00 - Intro\n0:36 - Framework and widgets\n2:40 - Accessibility\n3:38 - Engine and graphics\n5:17 - Web platform\n6:25 - Android platform\n7:41 - iOS platform\n8:40 - Desktop platforms\n9:47 - Tooling and developer experience\n11:53 - First-time contributors",
+      "tags": [
+        "community"
+      ],
+      "ai": {
+        "about": "الفيديو ده بيعرفك أهم التغييرات والتحسينات اللي دخلت في Flutter خلال شهر سبتمبر 2026 عشان تخليه أسرع وأحسن.",
+        "points": [
+          "تحسينات في الـ Framework والـ Widgets (العناصر اللي بتبني بيها الشاشة) عشان شكل وتجربة التطبيقات تبقى أفضل.",
+          "تطوير الـ Security (تأمين التطبيقات) على Android وتصليح مشاكل الـ Tooling عشان الكود يشتغل أسرع.",
+          "إضافات جديدة للـ Engine (المحرك الداخلي) والـ Graphics والـ Accessibility (ميزات لسهولة الاستخدام) عشان الكل يعرف يستخدم التطبيقات بسهولة.",
+          "تكريم المبرمجين الجداد اللي شاركوا بـ Pull Requests (طلبات إضافة كود) لأول مرة في تطوير Flutter نفسه."
+        ],
+        "verdict": "مهم ليك لو حابب تعرف إيه الجديد اللي بيتطور في 'مطبخ' Flutter ومستقبل الـ Framework رايح فين.",
+        "terms": [
+          {
+            "term": "Commits",
+            "meaning": "التغييرات النهائية اللي بتتسجل وتتحفظ في الكود الأصلي للمشروع."
+          },
+          {
+            "term": "Framework",
+            "meaning": "مجموعة الأدوات والمكتبات الجاهزة اللي بتستخدمها عشان تبني تطبيقك."
+          },
+          {
+            "term": "Tooling",
+            "meaning": "الأدوات والبرامج اللي بتساعدك كمبرمج وأنت بتكتب الكود أو بتجربه."
+          }
+        ],
+        "source": "description",
+        "model": "gemini-3-flash-preview",
+        "style": 2
+      }
+    },
     {
       "id": "yPlUJzapKlo",
       "title": "Building a real-life Google coffee shop with GenUI",
       "url": "https://www.youtube.com/watch?v=yPlUJzapKlo",
       "published": "2026-10-26T16:02:18+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/yPlUJzapKlo/hqdefault.jpg",
-      "views": 5369,
+      "views": 5884,
       "isShort": false,
       "summary": "What happens when you mix Flutter, Firebase, Gemini AI, custom latte printers, and severe sleep deprivation? You get GenLatte! Join Craig and Nohe as they share their experience, unpacking the chaotic six-month development journey behind the iconic coffee demo at Google Cloud Next and Google I/O.",
       "description": "What happens when you mix Flutter, Firebase, Gemini AI, custom latte printers, and severe sleep deprivation? You get GenLatte! Join Craig and Nohe as they share their experience, unpacking the chaotic six-month development journey behind the iconic coffee demo at Google Cloud Next and Google I/O. From accidentally broadcasting Nohe’s face to random printers across the Bay Area to rewriting entire backends mid-flight over the Pacific, this is how GenLatte came to life using Flutter, Firebase, and Gemini. \n\nResources:\nGenUI SDK → https://g.dev/flutter/genui-docs \nHow I converted GenLatte to fullstack Dart (blog) → https://g.dev/flutter/genlatte-blog \nHow we built a Flutter-powered AI coffee shop (blog) → https://g.dev/flutter/coffee-shop-blog \n\n\nChapters:\n0:00 - Introduction to GenLatte\n2:41 - Printers\n5:56 - Late night pings, broken schemas, & moderation woes\n8:41 - Migrating to a Dart backend at 30,000 feet\n11:14 - “Just string-replace staging in production” \n14:30 - Image generation & the leading S-curve prompt saga\n17:30 - Keyboard malfunction & a destroyed GenLatte UI in vegas\n\n#Flutter #Firebase #Gemini \n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nSpeakers: Craig Labenz, Alexander Nohe\nProducts Mentioned: Flutter, Firebase, Dart",
@@ -52,7 +93,7 @@
       "url": "https://www.youtube.com/watch?v=m-vM9FS6DAk",
       "published": "2026-10-20T16:00:06+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/m-vM9FS6DAk/hqdefault.jpg",
-      "views": 17494,
+      "views": 17686,
       "isShort": false,
       "summary": "if-case statements in Dart are a clean, concise way to use pattern matching and destructuring against a single pattern.",
       "description": "Documentation → https://g.dev/flutter/if-case\n\nif-case statements in Dart are a clean, concise way to use pattern matching and destructuring against a single pattern.\n\n#Flutter #TechniqueOfTheWeek \n\nWatch more Technique of the Week → https://goo.gle/FlutterTechnique\nSubscribe to Flutter → http://goo.gle/FlutterYT",
@@ -94,7 +135,7 @@
       "url": "https://www.youtube.com/watch?v=2Ff_4Ne3pHY",
       "published": "2026-10-15T16:00:30+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/2Ff_4Ne3pHY/hqdefault.jpg",
-      "views": 9492,
+      "views": 9600,
       "isShort": false,
       "summary": "Craig and Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, live at FlutterCon USA in Orlando to discuss how to build adaptive Flutter apps for foldable devices! Don’t have any devices to test your app on a foldable device? Vadym shares how developers can emulate apps on foldable devices.",
       "description": "Craig and Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, live at FlutterCon USA in Orlando to discuss how to build adaptive Flutter apps for foldable devices! Don’t have any devices to test your app on a foldable device? Vadym shares how developers can emulate apps on foldable devices. \n\nDiscover why building for foldables goes way beyond simple responsive breakpoints. Foldables aren't just about dynamic widths and heights, apps need to adapt to different device postures (book mode, tabletop, open, closed). Learn how you can find hinges, folds, or cutouts on foldable device information in Flutter’s MediaQuery.displayFeatures.\n\nResources:\nDisplayFeature class docs→ ​​https://goo.gle/4zNrY77 \nMediaQuery class docs → https://goo.gle/4qP6HG7 \ndevice_preview on pub.dev → https://goo.gle/4yapEp4 \nHow to build Adaptive UI with Flutter (video) → https://goo.gle/3UKaFDZ \n\nChapters:\n0:00 - Live from Fluttercon Orlando\n0:43  - Testing foldables without real hardware (Emulator) \n1:31 - Beyond breakpoints: Why foldables are unique \n2:29 - Fold angles \n3:17 - Dual screens & separating display screens \n4:32 - Postures & Flutter’s MediaQuery.displayFeatures\n5:15 - Foldables checklist: Adapting bottom navigation & tablet layouts\n\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter",
@@ -137,7 +178,7 @@
       "url": "https://www.youtube.com/watch?v=nnIOW6uOlcw",
       "published": "2026-10-14T16:00:36+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/nnIOW6uOlcw/hqdefault.jpg",
-      "views": 34568,
+      "views": 35151,
       "isShort": false,
       "summary": "Learn how to eliminate startup latency in Generative UI (GenUI) applications! In this video, Andrew Brogdon demonstrates how to pre-generate and cache A2UI messages asynchronously on the backend using Dart Cloud Functions and Cloud Firestore, delivering an instant UI rendering experience on app launch in Flutter.",
       "description": "Learn how to eliminate startup latency in Generative UI (GenUI) applications! In this video, Andrew Brogdon demonstrates how to pre-generate and cache A2UI messages asynchronously on the backend using Dart Cloud Functions and Cloud Firestore, delivering an instant UI rendering experience on app launch in Flutter.\n\nWe'll walk through both the backend background generation flow with Gemini API triggers and the client-side transport integration in Flutter, ensuring your AI-driven apps remain responsive and flexible.\n\nCheck out the resources mentioned in the video:\n* Intro to GenUI Codelab: https://g.dev/genui-codelab\n* Commis Demo Source Code (flutter/demos repo): https://g.dev/flutter-demos\n* genui package on pub.dev: https://g.dev/package-genui\n\nSpeaker: Andrew Brogdon\nProducts Mentioned: GenUI SDK for Flutter",
@@ -180,7 +221,7 @@
       "url": "https://www.youtube.com/watch?v=-PqgJYzPkKY",
       "published": "2026-10-12T16:00:19+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/-PqgJYzPkKY/hqdefault.jpg",
-      "views": 5467,
+      "views": 5478,
       "isShort": false,
       "summary": "Craig sits down with Kali, CEO at ChecksOnME and Flutteristas member, live at Fluttercon USA in Orlando! They break down why common app development assumptions unintentionally lock real people out and if AI can help audit your app for inclusivity and accessibility.",
       "description": "Craig sits down with Kali, CEO at ChecksOnME and Flutteristas member, live at Fluttercon USA in Orlando! They break down why common app development assumptions unintentionally lock real people out and if AI can help audit your app for inclusivity and accessibility. \n\nResources:\nFlutteraistas → https://g.dev/flutter/flutteristas\nChecksOnMe → https://g.dev/flutter/checksonme \nFlutter AI skills → https://goo.gle/4yfeaRB \n\nChapters:\n0:00 - Live from Fluttercon Orlando\n0:52 - Localization  \n1:57 - Address systems & state provinces\n3:08- Can AI catch what developers overlook?\n5:27 - Inclusivity fails and successes in the real-world\n5:45 - The male-default crash dummy\n6:35 - What a men's room changing table teaches us about design\n8:45 - Mononyms: Is it an edge case, or are you just unfamiliar with it? \n13:01 - Recap\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT",
@@ -223,7 +264,7 @@
       "url": "https://www.youtube.com/shorts/K75yHVaxVK0",
       "published": "2026-10-09T16:00:29+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/K75yHVaxVK0/hqdefault.jpg",
-      "views": 32929,
+      "views": 32972,
       "isShort": true,
       "summary": "When your non-dev friend just doesn’t understand the power of hot reload. A little bit this, a little bit of that and it updates it there. The power of hot reload.",
       "tags": [
@@ -259,7 +300,7 @@
       "url": "https://www.youtube.com/watch?v=aEcIL0zwrnY",
       "published": "2026-10-08T17:00:14+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/aEcIL0zwrnY/hqdefault.jpg",
-      "views": 8928,
+      "views": 8975,
       "isShort": false,
       "summary": "Think focus navigation is just for desktop keyboards and web browsers? Think again. Live from Fluttercon USA in Orlando, Craig sits down with Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, to break down Flutter’s focus system.",
       "tags": [
@@ -301,7 +342,7 @@
       "url": "https://www.youtube.com/watch?v=CcyX-pqjDp0",
       "published": "2026-10-07T16:00:03+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/CcyX-pqjDp0/hqdefault.jpg",
-      "views": 9135,
+      "views": 9161,
       "isShort": false,
       "summary": "Live from Fluttercon USA in Orlando, Andrew from the Flutter team catches up with Arthur Thompson, a Developer Relations Engineer for Firebase. They discuss how Firebase is evolving for the agentic era, why every Firebase project is secretly a Google Cloud project (making scale seamless), securing AI features with…",
       "tags": [
@@ -345,7 +386,7 @@
       "url": "https://www.youtube.com/watch?v=4sxrFXhMxy4",
       "published": "2026-10-06T16:00:20+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/4sxrFXhMxy4/hqdefault.jpg",
-      "views": 18220,
+      "views": 18269,
       "isShort": false,
       "summary": "Use guard clauses with the when keyword in Dart to add extra constraints to pattern matching in switches.",
       "tags": [
@@ -384,7 +425,7 @@
       "url": "https://www.youtube.com/shorts/Tovm9bWNGpE",
       "published": "2026-10-01T17:00:13+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/Tovm9bWNGpE/hqdefault.jpg",
-      "views": 14847,
+      "views": 14935,
       "isShort": true,
       "summary": "In Flutter 3.47, Flutter Widget Previewer has officially graduated to stable! You can now design, inspect, and iterate on individual UI widgets in real time without the overhead of running your full application. Run flutter upgrade to get Flutter 3.47 today!",
       "tags": [
@@ -426,7 +467,7 @@
       "url": "https://www.youtube.com/shorts/CCf_SRvuck0",
       "published": "2026-09-30T19:00:25+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/CCf_SRvuck0/hqdefault.jpg",
-      "views": 5737,
+      "views": 5743,
       "isShort": true,
       "summary": "Toyota’s engineering and design teams share why standard, off-the-shelf embedders fell short for complex navigation and automotive functions, and how building a custom embedder allowed them to maintain high-performance plugins tailored for the road.",
       "tags": [
@@ -467,7 +508,7 @@
       "url": "https://www.youtube.com/watch?v=HC2UDbpRUzs",
       "published": "2026-09-29T16:00:03+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/HC2UDbpRUzs/hqdefault.jpg",
-      "views": 8226,
+      "views": 8236,
       "isShort": false,
       "summary": "Join Emma and Jorge Coca, VP of Engineering at Very Good Ventures (VGV), live from FlutterCon USA in Orlando to explore AI-assisted workflows. Learn how VGV open-sourced Wingspan to codify engineering best practices into AI skills, plus discover approaches to testing AI-generated features.",
       "tags": [
@@ -509,7 +550,7 @@
       "url": "https://www.youtube.com/watch?v=VzMQ6Cg0194",
       "published": "2026-09-28T16:04:04+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/VzMQ6Cg0194/hqdefault.jpg",
-      "views": 15895,
+      "views": 15927,
       "isShort": false,
       "summary": "Welcome to the new Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From framework updates to major upgrades in desktop performance and developer tooling, this August 2026 recap showcases how Google and the global…",
       "tags": [
@@ -552,7 +593,7 @@
       "url": "https://www.youtube.com/shorts/YanRtf7wHEI",
       "published": "2026-09-24T16:00:30+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/YanRtf7wHEI/hqdefault.jpg",
-      "views": 21899,
+      "views": 21972,
       "isShort": true,
       "summary": "Building Flutter apps for desktop? Your rendering engine just got a massive upgrade! In Flutter 3.47, the Impeller rendering engine is officially enabled by default across macOS, Windows, and Linux.",
       "tags": [
@@ -933,14 +974,16 @@
     },
     "2026-10-24": {
       "ids": [
+        "mZatSBeh_24",
         "yPlUJzapKlo"
       ],
       "style": 2,
-      "digest": "الأسبوع ده شفنا مشروع GenLatte اللي جمع بين Flutter وGemini AI عشان يعملوا تجربة كافيه ذكية. استخدموا الـ GenUI SDK (أدوات بتسهل ربط الذكاء الاصطناعي بواجهة الموبايل) عشان يطبعوا صور AI على القهوة. التجربة كانت ملهمة لأنهم حولوا الكود لـ Fullstack Dart (استخدام لغة Dart في السيرفر وتطبيق الموبايل مع بعض) وهما في الطيارة عشان ينجزوا الـ Backend (الجزء اللي بيعالج البيانات في الخفاء). ده بيثبت إن Flutter مرن جداً وبيخليك تحل مشاكل معقدة زي الربط مع الـ Printers (البرنترات) في وقت قياسي.",
+      "digest": "الأسبوع ده فلاتر مركزين على دمج الذكاء الاصطناعي بشكل عملي مع مشروع GenLatte اللي بيستخدم Gemini AI عشان يطبع صور على القهوة. كمان نزلوا تحديثات سبتمبر 2026 اللي ركزت على سرعة الـ Engine (المحرك اللي بيشغل التطبيق) وتأمين تطبيقات الأندرويد. الفكرة إنك دلوقتي تقدر تستخدم Fullstack Dart (تستخدم لغة Dart في كتابة كود السيرفر والتطبيق) عشان تسهل على نفسك الشغل. بجد التطورات دي هتخلي تطبيقاتك أسرع وشكلها أحسن بكتير.",
       "highlights": [
-        "الـ GenUI SDK بيسهل عليك جداً تدمج الـ Gemini AI في تطبيقك وتطلع نتائج شكلها احترافي.",
-        "استخدام Fullstack Dart بيخليك كـ Flutter developer تسيطر على المشروع كله بلغة واحدة من غير ما تحتاج تتعلم لغة Backend تانية.",
-        "مرونة Flutter بتساعدك تعدل الكود وتجرب مع الـ Hardware (الأجهزة الملموسة) بسرعة وده بيفيدك جداً في المشاريع الواقعية."
+        "استخدام GenUI SDK (أدوات بتسهل ربط الذكاء الاصطناعي بالتطبيق) عشان تضيف مميزات Gemini AI في مشروعك بسهولة.",
+        "الاعتماد على Fullstack Dart عشان توحد اللغة اللي بتكتب بيها الـ Backend (السيرفر وقواعد البيانات) والـ Frontend بنفس اللغة.",
+        "تحسينات في الـ Tooling (الأدوات اللي بتستخدمها وأنت بتبرمج) بتخلي وقت التطوير أقصر والأخطاء في الأندرويد أقل.",
+        "تطوير الـ Accessibility (ميزات بتخلي التطبيق سهل الاستخدام لذوي الاحتياجات الخاصة) عشان تطبيقك يناسب كل الناس."
       ]
     }
   }
