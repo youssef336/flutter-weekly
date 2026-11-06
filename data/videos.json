@@ -3,15 +3,58 @@
     "name": "Flutter",
     "url": "https://www.youtube.com/@flutterdev"
   },
-  "updatedAt": "2026-11-05T16:02:09+00:00",
+  "updatedAt": "2026-11-06T15:37:22+00:00",
   "videos": [
+    {
+      "id": "86R2NXSCDrg",
+      "title": "Client side functions for Flutter GenUI",
+      "url": "https://www.youtube.com/watch?v=86R2NXSCDrg",
+      "published": "2026-11-05T23:00:21+00:00",
+      "thumbnail": "https://i1.ytimg.com/vi/86R2NXSCDrg/hqdefault.jpg",
+      "views": 5283,
+      "isShort": false,
+      "summary": "Stop letting LLMs handle your app's heavy lifting and risk expensive calculation errors. In this tutorial, we explore how to use ATUI and Flutter's GenUI package to delegate local calculations directly to client-side functions. Watch how quickly it is to achieve deterministic accuracy, cut down latency, and maintain…",
+      "description": "Intro to GenUI Codelab → https://g.dev/ai/genui-codelab\nCommis Demo Source Code (flutter/demos repo) → https://g.dev/ai/git-flutter-demos\ngenui package on pub.dev → https://g.dev/ai/packages-genui\n\nStop letting LLMs handle your app's heavy lifting and risk expensive calculation errors. In this tutorial, we explore how to use ATUI and Flutter's GenUI package to delegate local calculations directly to client-side functions. Watch how quickly  it is to achieve deterministic accuracy, cut down latency, and maintain lightning-fast workflows using Flutter Stateful Hot Reload.\n\nSubscribe to Flutter → https://goo.gle/FlutterYT\n\nSpeaker: Andrew Brogdon\nProducts Mentioned: GenUI SDK for Flutter",
+      "tags": [
+        "ai",
+        "tutorial"
+      ],
+      "ai": {
+        "about": "الفيديو بيشرح إزاي تستخدم الـ client-side functions (وظايف بتشتغل على جهاز المستخدم مش السيرفر) في Flutter عشان الـ AI ميهلفطش في الحسابات والأرقام الدقيقة.",
+        "points": [
+          "الـ LLM (نموذج لغوي كبير زي ChatGPT) شاطر في الكلام بس ممكن يغلط في الحسابات ويطلع أرقام غلط (hallucination).",
+          "الـ Client-side functions بتخلي الـ AI يطلب من كود الـ Dart بتاعك يحسب الحسبة ويرجعله النتيجة المضمونة 100%.",
+          "بتحتاج تورث من SynchronousClientFunction وتحدد اسم الفانكشن والـ schema (وصف لشكل البيانات المطلوبة) عشان الـ AI يعرف يستخدمها.",
+          "الطريقة دي بتقلل الـ latency (التأخير في رد البرنامج) لأن الحسابات بتتم محلياً على الجهاز من غير ما نبعت للسيرفر.",
+          "الـ functions دي بتتعرف جوه الـ Catalog بتاعك عشان الـ GenUI (واجهة مستخدم بيولدها الذكاء الاصطناعي) يقدر يشوفها ويطلبها."
+        ],
+        "verdict": "يهمك جداً لو هتبني تطبيق فيه GenUI ومحتاج دقة في الأرقام، والملخص ده كفاية يديك الفكرة والخطوات الأساسية.",
+        "terms": [
+          {
+            "term": "Hallucination",
+            "meaning": "لما الذكاء الاصطناعي يفتي ويطلع معلومة أو رقم غلط بس بشكل يبان كأنه واثق من نفسه."
+          },
+          {
+            "term": "Schema",
+            "meaning": "خريطة أو وصف بيحدد شكل البيانات وأنواعها (زي String أو Number) اللي الكود محتاجها عشان يشتغل."
+          },
+          {
+            "term": "Latency",
+            "meaning": "الوقت اللي البرنامج بياخده عشان ينفذ أمر معين، وكل ما يقل بيكون البرنامج أسرع في الاستجابة."
+          }
+        ],
+        "source": "video",
+        "model": "gemini-3-flash-preview",
+        "style": 2
+      }
+    },
     {
       "id": "panArZuRR0I",
       "title": "Sealed classes (Technique of the Week)",
       "url": "https://www.youtube.com/watch?v=panArZuRR0I",
       "published": "2026-11-03T17:01:48+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/panArZuRR0I/hqdefault.jpg",
-      "views": 11688,
+      "views": 12797,
       "isShort": false,
       "summary": "Use sealed classes in Dart to unlock compile-time exhaustiveness checking when pattern matching over state hierarchies.",
       "description": "Sealed documentation → https://g.dev/flutter/sealed\nBranches documentation → https://g.dev/flutter/branches\n\nUse sealed classes in Dart to unlock compile-time exhaustiveness checking when pattern matching over state hierarchies.\n \n#Flutter #TechniqueOfTheWeek \n\nWatch more Technique of the Week → https://goo.gle/FlutterTechnique\nSubscribe to Flutter → http://goo.gle/FlutterYT",
@@ -48,7 +91,7 @@
       "url": "https://www.youtube.com/watch?v=QhYZEid79VU",
       "published": "2026-10-29T17:00:06+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/QhYZEid79VU/hqdefault.jpg",
-      "views": 10443,
+      "views": 10631,
       "isShort": false,
       "summary": "Discover how Buzz, an open-source workspace where humans and AI agents work together. With features like hot reload for rapid testing and a single codebase for iOS and Android, Flutter was the perfect solution. Hear directly from the Buzz team on how Flutter provided the speed, reliability, and efficiency required to…",
       "description": "Discover how Buzz, an open-source workspace where humans and AI agents work together. With features like hot reload for rapid testing and a single codebase for iOS and Android, Flutter was the perfect solution. Hear directly from the Buzz team on how Flutter provided the speed, reliability, and efficiency required to thrive in a high-demand market.\n\nChapters:\n0:00 - What is Buzz?\n1:26 - Why Buzz chose Flutter\n3:31 - Unlocking more mobile potential\n\n\nWatch more Flutter Dev Stories → https://goo.gle/FlutterDevStories \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n#Flutter \n\nProducts Mentioned: Flutter",
@@ -89,7 +132,7 @@
       "url": "https://www.youtube.com/watch?v=mZatSBeh_24",
       "published": "2026-10-28T16:00:03+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/mZatSBeh_24/hqdefault.jpg",
-      "views": 13009,
+      "views": 13113,
       "isShort": false,
       "summary": "Welcome to the new Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From framework polish and accessibility wins to Android security hardening and faster tooling, this September 2026 recap showcases how Google and…",
       "description": "Contribute to Flutter → https://goo.gle/4pdikpJ \nFlutter Notable Commits →  https://goo.gle/4wGTvFb \n\nWelcome to the new Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From framework polish and accessibility wins to Android security hardening and faster tooling, this September 2026 recap showcases how Google and the global Flutter community are advancing the framework together.\n\nChapters:\n0:00 - Intro\n0:36 - Framework and widgets\n2:40 - Accessibility\n3:38 - Engine and graphics\n5:17 - Web platform\n6:25 - Android platform\n7:41 - iOS platform\n8:40 - Desktop platforms\n9:47 - Tooling and developer experience\n11:53 - First-time contributors",
@@ -130,7 +173,7 @@
       "url": "https://www.youtube.com/watch?v=yPlUJzapKlo",
       "published": "2026-10-26T16:02:18+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/yPlUJzapKlo/hqdefault.jpg",
-      "views": 6707,
+      "views": 6738,
       "isShort": false,
       "summary": "What happens when you mix Flutter, Firebase, Gemini AI, custom latte printers, and severe sleep deprivation? You get GenLatte! Join Craig and Nohe as they share their experience, unpacking the chaotic six-month development journey behind the iconic coffee demo at Google Cloud Next and Google I/O.",
       "description": "What happens when you mix Flutter, Firebase, Gemini AI, custom latte printers, and severe sleep deprivation? You get GenLatte! Join Craig and Nohe as they share their experience, unpacking the chaotic six-month development journey behind the iconic coffee demo at Google Cloud Next and Google I/O. From accidentally broadcasting Nohe’s face to random printers across the Bay Area to rewriting entire backends mid-flight over the Pacific, this is how GenLatte came to life using Flutter, Firebase, and Gemini. \n\nResources:\nGenUI SDK → https://g.dev/flutter/genui-docs \nHow I converted GenLatte to fullstack Dart (blog) → https://g.dev/flutter/genlatte-blog \nHow we built a Flutter-powered AI coffee shop (blog) → https://g.dev/flutter/coffee-shop-blog \n\n\nChapters:\n0:00 - Introduction to GenLatte\n2:41 - Printers\n5:56 - Late night pings, broken schemas, & moderation woes\n8:41 - Migrating to a Dart backend at 30,000 feet\n11:14 - “Just string-replace staging in production” \n14:30 - Image generation & the leading S-curve prompt saga\n17:30 - Keyboard malfunction & a destroyed GenLatte UI in vegas\n\n#Flutter #Firebase #Gemini \n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nSpeakers: Craig Labenz, Alexander Nohe\nProducts Mentioned: Flutter, Firebase, Dart",
@@ -171,7 +214,7 @@
       "url": "https://www.youtube.com/watch?v=m-vM9FS6DAk",
       "published": "2026-10-20T16:00:06+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/m-vM9FS6DAk/hqdefault.jpg",
-      "views": 18812,
+      "views": 18859,
       "isShort": false,
       "summary": "if-case statements in Dart are a clean, concise way to use pattern matching and destructuring against a single pattern.",
       "description": "Documentation → https://g.dev/flutter/if-case\n\nif-case statements in Dart are a clean, concise way to use pattern matching and destructuring against a single pattern.\n\n#Flutter #TechniqueOfTheWeek \n\nWatch more Technique of the Week → https://goo.gle/FlutterTechnique\nSubscribe to Flutter → http://goo.gle/FlutterYT",
@@ -213,7 +256,7 @@
       "url": "https://www.youtube.com/watch?v=2Ff_4Ne3pHY",
       "published": "2026-10-15T16:00:30+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/2Ff_4Ne3pHY/hqdefault.jpg",
-      "views": 10059,
+      "views": 10091,
       "isShort": false,
       "summary": "Craig and Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, live at FlutterCon USA in Orlando to discuss how to build adaptive Flutter apps for foldable devices! Don’t have any devices to test your app on a foldable device? Vadym shares how developers can emulate apps on foldable devices.",
       "description": "Craig and Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, live at FlutterCon USA in Orlando to discuss how to build adaptive Flutter apps for foldable devices! Don’t have any devices to test your app on a foldable device? Vadym shares how developers can emulate apps on foldable devices. \n\nDiscover why building for foldables goes way beyond simple responsive breakpoints. Foldables aren't just about dynamic widths and heights, apps need to adapt to different device postures (book mode, tabletop, open, closed). Learn how you can find hinges, folds, or cutouts on foldable device information in Flutter’s MediaQuery.displayFeatures.\n\nResources:\nDisplayFeature class docs→ ​​https://goo.gle/4zNrY77 \nMediaQuery class docs → https://goo.gle/4qP6HG7 \ndevice_preview on pub.dev → https://goo.gle/4yapEp4 \nHow to build Adaptive UI with Flutter (video) → https://goo.gle/3UKaFDZ \n\nChapters:\n0:00 - Live from Fluttercon Orlando\n0:43  - Testing foldables without real hardware (Emulator) \n1:31 - Beyond breakpoints: Why foldables are unique \n2:29 - Fold angles \n3:17 - Dual screens & separating display screens \n4:32 - Postures & Flutter’s MediaQuery.displayFeatures\n5:15 - Foldables checklist: Adapting bottom navigation & tablet layouts\n\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter",
@@ -256,7 +299,7 @@
       "url": "https://www.youtube.com/watch?v=nnIOW6uOlcw",
       "published": "2026-10-14T16:00:36+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/nnIOW6uOlcw/hqdefault.jpg",
-      "views": 36616,
+      "views": 36726,
       "isShort": false,
       "summary": "Learn how to eliminate startup latency in Generative UI (GenUI) applications! In this video, Andrew Brogdon demonstrates how to pre-generate and cache A2UI messages asynchronously on the backend using Dart Cloud Functions and Cloud Firestore, delivering an instant UI rendering experience on app launch in Flutter.",
       "description": "Learn how to eliminate startup latency in Generative UI (GenUI) applications! In this video, Andrew Brogdon demonstrates how to pre-generate and cache A2UI messages asynchronously on the backend using Dart Cloud Functions and Cloud Firestore, delivering an instant UI rendering experience on app launch in Flutter.\n\nWe'll walk through both the backend background generation flow with Gemini API triggers and the client-side transport integration in Flutter, ensuring your AI-driven apps remain responsive and flexible.\n\nCheck out the resources mentioned in the video:\n* Intro to GenUI Codelab: https://g.dev/genui-codelab\n* Commis Demo Source Code (flutter/demos repo): https://g.dev/flutter-demos\n* genui package on pub.dev: https://g.dev/package-genui\n\nSpeaker: Andrew Brogdon\nProducts Mentioned: GenUI SDK for Flutter",
@@ -299,7 +342,7 @@
       "url": "https://www.youtube.com/watch?v=-PqgJYzPkKY",
       "published": "2026-10-12T16:00:19+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/-PqgJYzPkKY/hqdefault.jpg",
-      "views": 5543,
+      "views": 5550,
       "isShort": false,
       "summary": "Craig sits down with Kali, CEO at ChecksOnME and Flutteristas member, live at Fluttercon USA in Orlando! They break down why common app development assumptions unintentionally lock real people out and if AI can help audit your app for inclusivity and accessibility.",
       "description": "Craig sits down with Kali, CEO at ChecksOnME and Flutteristas member, live at Fluttercon USA in Orlando! They break down why common app development assumptions unintentionally lock real people out and if AI can help audit your app for inclusivity and accessibility. \n\nResources:\nFlutteraistas → https://g.dev/flutter/flutteristas\nChecksOnMe → https://g.dev/flutter/checksonme \nFlutter AI skills → https://goo.gle/4yfeaRB \n\nChapters:\n0:00 - Live from Fluttercon Orlando\n0:52 - Localization  \n1:57 - Address systems & state provinces\n3:08- Can AI catch what developers overlook?\n5:27 - Inclusivity fails and successes in the real-world\n5:45 - The male-default crash dummy\n6:35 - What a men's room changing table teaches us about design\n8:45 - Mononyms: Is it an edge case, or are you just unfamiliar with it? \n13:01 - Recap\n\n#Flutter #Fluttercon \n\nWatch more videos from Fluttercon USA ‘26 → https://goo.gle/fluttercon-usa \nSubscribe to Flutter → http://goo.gle/FlutterYT",
@@ -342,7 +385,7 @@
       "url": "https://www.youtube.com/shorts/K75yHVaxVK0",
       "published": "2026-10-09T16:00:29+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/K75yHVaxVK0/hqdefault.jpg",
-      "views": 33265,
+      "views": 33292,
       "isShort": true,
       "summary": "When your non-dev friend just doesn’t understand the power of hot reload. A little bit this, a little bit of that and it updates it there. The power of hot reload.",
       "tags": [
@@ -378,7 +421,7 @@
       "url": "https://www.youtube.com/watch?v=aEcIL0zwrnY",
       "published": "2026-10-08T17:00:14+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/aEcIL0zwrnY/hqdefault.jpg",
-      "views": 9146,
+      "views": 9155,
       "isShort": false,
       "summary": "Think focus navigation is just for desktop keyboards and web browsers? Think again. Live from Fluttercon USA in Orlando, Craig sits down with Vadym Pinchuk, Software Developer at Sky and Flutter & Dart GDE, to break down Flutter’s focus system.",
       "tags": [
@@ -420,7 +463,7 @@
       "url": "https://www.youtube.com/watch?v=CcyX-pqjDp0",
       "published": "2026-10-07T16:00:03+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/CcyX-pqjDp0/hqdefault.jpg",
-      "views": 9273,
+      "views": 9294,
       "isShort": false,
       "summary": "Live from Fluttercon USA in Orlando, Andrew from the Flutter team catches up with Arthur Thompson, a Developer Relations Engineer for Firebase. They discuss how Firebase is evolving for the agentic era, why every Firebase project is secretly a Google Cloud project (making scale seamless), securing AI features with…",
       "tags": [
@@ -459,12 +502,51 @@
       }
     },
     {
+      "id": "Qd-SY_16amU",
+      "title": "Join us for Flutter Create",
+      "url": "https://www.youtube.com/watch?v=Qd-SY_16amU",
+      "published": "2026-10-06T20:09:07+00:00",
+      "thumbnail": "https://i2.ytimg.com/vi/Qd-SY_16amU/hqdefault.jpg",
+      "views": 0,
+      "isShort": false,
+      "summary": "Mark your calendars! Join us on November 11 at 10am PT for an inside look at what’s new in Dart & Flutter. We’ll be joined by partners & community members for deep-dives into multi-window on desktop, building custom design libraries, Dart & Flutter’s dev experience, real-world customer stories, and much more.",
+      "description": "Mark your calendars! Join us on November 11 at 10am PT for an inside look at what’s new in Dart & Flutter. We’ll be joined by partners & community members for deep-dives into multi-window on desktop, building custom design libraries, Dart & Flutter’s dev experience, real-world customer stories, and much more. Have something on your mind? The Flutter team will be live in the chat throughout the stream to take your questions. \n\n#Flutter #FlutterCreate\n\nSubscribe to Flutter → http://goo.gle/FlutterYT",
+      "tags": [
+        "release",
+        "dart",
+        "community"
+      ],
+      "ai": {
+        "about": "الفيديو عبارة عن دعوة لمسابقة Flutter Create عشان تبني حاجة إبداعية بكود حجمه صغير جداً.",
+        "points": [
+          "المسابقة بتطلب منك تعمل أبلكيشن Flutter بشرط إن كود الـ Dart ميزيدش عن 5KB (حجم ملفات الكود) .",
+          "الهدف إنك توري الناس إزاي تقدر تعمل حاجات شكلها حلو ومفيدة بأقل عدد سطور كود ممكن.",
+          "فيه جوايز قيمة جداً للمركز الأول زي جهاز iMac Pro (كمبيوتر أبل القوي) وجوايز تانية للمتأهلين.",
+          "تقدر تشارك بمشروعك عن طريق إنك ترفعه وتملى البيانات المطلوبة قبل الموعد النهائي."
+        ],
+        "verdict": "يهمك لو عايز تتحدى نفسك في كتابة كود مختصر وتنافس على جوايز، والملخص كفاية لفهم فكرة المسابقة.",
+        "terms": [
+          {
+            "term": "Dart code",
+            "meaning": "اللغة اللي بنكتب بيها الأبلكيشن في فلاتر."
+          },
+          {
+            "term": "5KB",
+            "meaning": "وحدة قياس حجم الملفات، وهنا مقصود بيها إن الكود يبقى صغير جداً."
+          }
+        ],
+        "source": "video",
+        "model": "gemini-3-flash-preview",
+        "style": 2
+      }
+    },
+    {
       "id": "4sxrFXhMxy4",
       "title": "Guard Clauses (Technique of the Week)",
       "url": "https://www.youtube.com/watch?v=4sxrFXhMxy4",
       "published": "2026-10-06T16:00:20+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/4sxrFXhMxy4/hqdefault.jpg",
-      "views": 18508,
+      "views": 18541,
       "isShort": false,
       "summary": "Use guard clauses with the when keyword in Dart to add extra constraints to pattern matching in switches.",
       "tags": [
@@ -503,7 +585,7 @@
       "url": "https://www.youtube.com/shorts/Tovm9bWNGpE",
       "published": "2026-10-01T17:00:13+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/Tovm9bWNGpE/hqdefault.jpg",
-      "views": 15364,
+      "views": 15399,
       "isShort": true,
       "summary": "In Flutter 3.47, Flutter Widget Previewer has officially graduated to stable! You can now design, inspect, and iterate on individual UI widgets in real time without the overhead of running your full application. Run flutter upgrade to get Flutter 3.47 today!",
       "tags": [
@@ -966,15 +1048,16 @@
         "4sxrFXhMxy4",
         "CcyX-pqjDp0",
         "K75yHVaxVK0",
+        "Qd-SY_16amU",
         "aEcIL0zwrnY"
       ],
       "style": 2,
-      "digest": "الأسبوع ده فلاتر ركزت على إزاي تخلي كودك أنضف وأذكى باستخدام الـ Guard Clauses اللي بتسهل عليك الشروط المعقدة في الـ Switch. كمان كان فيه كلام مهم عن قوة Firebase في الـ scaling (توسيع قدرة السيرفرات) وتأمين الـ AI Prompts بعيد عن الموبايل. وبالنسبة لتجربة المستخدم، اتكلمنا عن الـ Focus system وازاي تظبط التنقل بالكيبورد أو للي بيستخدموا الـ Screen Readers (برامج قارئ الشاشة). وفي الآخر، فيديو بسيط بيفكرنا بقيمة الـ Hot Reload اللي بتخلينا نعدل الكود ونشوف النتيجة في لحظتها.",
+      "digest": "الأسبوع ده فلاتر ركزت على تطوير لغة Dart عشان تخلي كودك أنضف باستخدام الـ Guard Clauses (شروط إضافية بتتحط مع الـ case) اللي بتقلل الزحمة. كمان فيه تركيز كبير على الـ Firebase وإزاي تأمن الـ AI Prompts (الأوامر اللي بتبعتها للذكاء الاصطناعي) بعيد عن عيون المستخدمين. لو مهتم بالإبداع، مسابقة Flutter Create رجعت ومطلوب منك تعمل عظمة بـ 5 كيلوبايت كود بس. وفي الآخر، اتعلمنا إن الـ Focus system (نظام التنقل بين العناصر) مش رفاهية، ده أساسي عشان تطبيقك يبقى سهل الاستخدام لكل الناس.",
       "highlights": [
-        "استخدم الـ Guard Clauses بكلمة when عشان توفر على نفسك if كتير وتخلي الـ Switch بتاعتك أذكى وأنضف.",
-        "لو بتستخدم AI، خلي الـ Prompts (الأوامر اللي بتبعتها للذكاء الاصطناعي) على السيرفر في Firebase عشان تحميها من الـ Prompt Injection (اختراق وتعديل أوامر الـ AI).",
-        "الـ App Check في Firebase بقى فيه Replay Protection عشان يضمن إن الـ token (مفتاح الدخول المشفر) يُستخدم مرة واحدة بس ويمنع السرقة.",
-        "استخدم الـ FocusTraversalGroup (ودجت بتحدد قواعد التنقل) عشان تظبط حركة الـ Focus بين العناصر في الشاشات الزحمة وتسهل الاستخدام."
+        "الـ Guard Clauses بتخليك تعمل اختبارات معقدة جوه الـ Switch من غير ما تخرج من الجملة لو الشرط متحققش.",
+        "الـ Firebase دلوقتى بيقدم حماية ضد الـ Prompt Injection (اختراق أوامر الذكاء الاصطناعي) وده بيخلي شغلك أضمن.",
+        "الـ Hot Reload (تحديث الكود لحظياً) هيفضل هو الميزة السحرية اللي بتنجز وقتك في التعديلات السريعة.",
+        "عشان تظبط الـ Navigation (التنقل) في شاشاتك المعقدة، استخدم الـ FocusTraversalGroup (ودجت بتحدد قواعد التنقل) عشان ترتب حركة الـ Focus صح."
       ]
     },
     "2026-09-26": {
@@ -1067,15 +1150,16 @@
     },
     "2026-10-31": {
       "ids": [
+        "86R2NXSCDrg",
         "panArZuRR0I"
       ],
       "style": 2,
-      "digest": "الأسبوع ده الكلام كله كان عن الـ Sealed classes (طريقة لتنظيم الكلاسات بحيث تكون معروفة ومحدودة) في لغة Dart. الفكرة إنك بتضمن إن كل حالات الـ App بتاعتك متغطية في الكود ومفيش حالة تقع منك. الـ compiler (المترجم اللي بيحول الكود لبرنامج) بيبقى صاحي معاك، لو نسيت حالة في الـ switch هيطلعلك error علطول. دي بتريحك جداً لما تيجي تزود حالة جديدة في المستقبل لأنها بتعرفك كل الأماكن اللي محتاجة تعديل.",
+      "digest": "الأسبوع ده Flutter ركزت على إزاي تخلي كودك أضمن وأذكى في التعامل مع الحالات المختلفة والذكاء الاصطناعي. اتعلمنا إزاي الـ sealed classes بتحميك من النسيان وتخلي الـ compiler (البرنامج اللي بيحول الكود للغة بيفهمها الجهاز) يساعدك تغطي كل احتمالات الـ UI في الـ switch statements. وكمان شفنا إزاي نربط الـ AI بكود Dart بتاعنا عشان نضمن دقة الحسابات ونقلل الـ latency (التأخير اللي بيحصل بسبب النت). الخلاصة إن الأدوات دي هدفها تخلي المبرمج يغلط أقل والـ App يبقى أسرع في استجابته.",
       "highlights": [
-        "استخدم الـ sealed modifier عشان تخلي الـ class بتاعك abstract (كلاس للتوريث بس مش للإنشاء) وتجبر الـ subclasses تكون في نفس الملف.",
-        "ميزة الـ Exhaustiveness checking (التأكد من تغطية كل الاحتمالات) بتخلي الـ compiler ينبهك لو نسيت تعالج حالة معينة في الـ switch statement.",
-        "لما تضيف حالة (State) جديدة للكود، الـ Dart هيعرفك كل الـ switch statements اللي محتاجة تتحدث، فمش هتنسى أي جزء في المشروع.",
-        "الـ Sealed classes بتخلي الكود بتاعك أنظف وأضمن، خصوصاً في التعامل مع الـ Logic بتاع الشاشات المختلفة."
+        "استخدم الـ sealed classes عشان تفعل ميزة الـ Exhaustiveness checking (التأكد من تغطية كل الاحتمالات) وتضمن إن الـ compiler هينبهك لو نسيت حالة معينة في الـ switch.",
+        "الـ Client-side functions بتخلي الـ AI يطلب من كود الـ Dart بتاعك يحسب الحسبة بنفسه عشان يتجنب الـ hallucination (إن الذكاء الاصطناعي يهلفط ويطلع أرقام غلط).",
+        "لو زودت حالة (state) جديدة لـ sealed class، لغة Dart هتطلع لك error في كل الأماكن اللي محتاجة تعديل فمش هتنسى أي جزء في المشروع.",
+        "تنفيذ العمليات الحسابية محلياً على جهاز المستخدم بدل السيرفر بيسرع الـ App جداً وبيخلي تجربة الـ GenUI (واجهات المستخدم اللي بيعملها الذكاء الاصطناعي) أسلس."
       ]
     }
   }
