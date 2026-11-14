@@ -3,8 +3,120 @@
     "name": "Flutter",
     "url": "https://www.youtube.com/@flutterdev"
   },
-  "updatedAt": "2026-11-13T15:52:39+00:00",
+  "updatedAt": "2026-11-14T14:43:14+00:00",
   "videos": [
+    {
+      "id": "_WCiopVNhJk",
+      "title": "When can we expect the next East Coast Flutter event?",
+      "url": "https://www.youtube.com/shorts/_WCiopVNhJk",
+      "published": "2026-11-14T00:00:28+00:00",
+      "thumbnail": "https://i4.ytimg.com/vi/_WCiopVNhJk/hqdefault.jpg",
+      "views": 428,
+      "isShort": true,
+      "summary": "You asked, we answered! Emma Twersky, Developer Relations Engineer, shares that the Flutter team is working on 2027 in-person developer events.",
+      "description": "You asked, we answered! Emma Twersky, Developer Relations Engineer, shares that the Flutter team is working on 2027 in-person developer events. \n\nCheck out → flutter.dev/events\nWatch more Flutter Create → https://g.dev/flutter/create \n\n#FlutterCreate  #Flutter",
+      "tags": [
+        "shorts"
+      ],
+      "ai": {
+        "about": "الفيديو ده بيتكلم عن خطط فريق Flutter للفعاليات والمؤتمرات الجاية، وإزاي المنظمين يقدروا يتواصلوا معاهم.",
+        "points": [
+          "فريق Flutter بدأ فعلًا يخطط لفعاليات سنة 2027 وعاوزين يوسعوا انتشارهم أكتر من سنين قبل كده.",
+          "لو أنت organizer (منظم فعاليات) تقدر تطلب منهم Sponsorship (دعم مادي أو رعاية) أو تطلب حضور حد من الـ core team في حفلتك.",
+          "تقدر تتابع كل المواعيد الرسمية للفعاليات اللي الفريق هيحضرها من خلال flutter.dev/events."
+        ],
+        "verdict": "مهم لو أنت مهتم تحضر مؤتمرات Flutter أو بتنظم أحداث تقنية وعاوز دعم، والملخص ده كفاية ليك.",
+        "terms": [
+          {
+            "term": "core team",
+            "meaning": "الفريق الأساسي المسؤول عن تطوير لغة Flutter نفسها في شركة جوجل."
+          },
+          {
+            "term": "Sponsorship",
+            "meaning": "رعاية مالية أو تقنية بيقدمها فريق Flutter للمجتمعات البرمجية عشان يساعدوهم ينظموا فعالياتهم."
+          }
+        ],
+        "source": "video",
+        "model": "gemini-3-flash-preview",
+        "style": 2
+      }
+    },
+    {
+      "id": "kU00pdRpfPM",
+      "title": "Can we set up initial desktop window position? When will multi-window reach stable?",
+      "url": "https://www.youtube.com/shorts/kU00pdRpfPM",
+      "published": "2026-11-13T21:00:03+00:00",
+      "thumbnail": "https://i4.ytimg.com/vi/kU00pdRpfPM/hqdefault.jpg",
+      "views": 1341,
+      "isShort": true,
+      "summary": "You asked, we answered! Loïc Sharma, Software Engineer, answers your questions about the experimental Windowing API.",
+      "description": "You asked, we answered! Loïc Sharma, Software Engineer, answers your questions about the experimental Windowing API.\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\n#FlutterCreate  #Flutter",
+      "tags": [
+        "shorts"
+      ],
+      "ai": {
+        "about": "الفيديو ده بيرد على أسئلة المطورين بخصوص التحكم في شاشات برامج الـ Desktop في Flutter ومستقبل الـ multi-window.",
+        "points": [
+          "Flutter مش بيدعم تحديد مكان الشاشة الأولاني مباشرةً عشان يحافظ على التوافق بين كل أنظمة الـ Desktop.",
+          "تقدر تستخدم الـ Dart FFI (طريقة بتخلي لغة Dart تتكلم مع Native APIs المكتوبة بلغات زي C) عشان تتحكم في الـ window handle وتوصل لمميزات مش موجودة في Flutter.",
+          "لسه مفيش تاريخ محدد للـ multi-window stable، والتركيز دلوقتي إنهم يخلوا الـ Material والـ Cupertino يشتغلوا أحسن مع شاشات الـ Desktop."
+        ],
+        "verdict": "مهم ليك لو بتعمل برامج Desktop ومحتاج تحكم أكتر في الشاشات، والملخص كفاية جداً.",
+        "terms": [
+          {
+            "term": "Dart FFI",
+            "meaning": "جسر برمجي بيسمح للكود بتاعك ينادي وظائف مكتوبة بلغات تانية زي C عشان يتعامل مع النظام مباشرة."
+          },
+          {
+            "term": "Window Handle",
+            "meaning": "معرّف فريد بيستخدمه نظام التشغيل عشان يقدر يوصل ويتحكم في شاشة برنامج معينة."
+          }
+        ],
+        "source": "video",
+        "model": "gemini-3-flash-preview",
+        "style": 2
+      }
+    },
+    {
+      "id": "Vxg3oAfLhIg",
+      "title": "What happens if I have multiple Flutter apps?",
+      "url": "https://www.youtube.com/shorts/Vxg3oAfLhIg",
+      "published": "2026-11-13T18:00:29+00:00",
+      "thumbnail": "https://i3.ytimg.com/vi/Vxg3oAfLhIg/hqdefault.jpg",
+      "views": 2648,
+      "isShort": true,
+      "summary": "You asked, we answered! Loïc Sharma, Software Engineer, answers your questions about the experimental Windowing API.",
+      "description": "You asked, we answered! Loïc Sharma, Software Engineer, answers your questions about the experimental Windowing API. \n\nWatch more Flutter Create → https://g.dev/flutter/create \n\n#FlutterCreate  #Flutter",
+      "tags": [
+        "shorts"
+      ],
+      "ai": {
+        "about": "الفيديو بيشرح إزاي Flutter بيتعامل مع موارد الجهاز لما تفتح أكتر من Window (نافذة) في برامج الـ Desktop.",
+        "points": [
+          "لو البرنامج بتاعك فيه أكتر من Window، كلهم هيشتغلوا بـ Flutter Engine (المحرك اللي بيشغل الكود) واحد بس عشان يوفر استهلاك الرامات.",
+          "كل الـ Windows المفتوحة بتبقى في الحقيقة جزء من Widget Tree (الهيكل اللي بيرتب عناصر الشاشة) واحدة بس.",
+          "النظام ده معمول مخصوص عشان يخلي أداء برامج الـ Desktop سريع وميتقلش الجهاز."
+        ],
+        "verdict": "مهم جداً لو ناوي تبني برامج Desktop معقدة، والملخص ده فيه الخلاصة ومغطي كل اللي اتقال.",
+        "terms": [
+          {
+            "term": "Windowing APIs",
+            "meaning": "الأدوات البرمجية اللي بتسمحلك تتحكم في شكل وعدد النوافذ اللي بتظهر للمستخدم."
+          },
+          {
+            "term": "Flutter Engine",
+            "meaning": "ده القلب بتاع Flutter المسؤول عن الرسم على الشاشة والتعامل مع نظام التشغيل."
+          },
+          {
+            "term": "Widget Tree",
+            "meaning": "التسلسل الهرمي اللي بيرتب كل العناصر (الـ Widgets) اللي بتشوفها في الأبلكيشن."
+          }
+        ],
+        "source": "video",
+        "model": "gemini-3-flash-preview",
+        "style": 2
+      }
+    },
     {
       "id": "g_tjuGnihNU",
       "title": "Could Dart JNI replace MethodChannel?",
@@ -49,7 +161,7 @@
       "url": "https://www.youtube.com/shorts/etSJQNFiGl4",
       "published": "2026-11-12T18:00:24+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/etSJQNFiGl4/hqdefault.jpg",
-      "views": 3891,
+      "views": 4929,
       "isShort": true,
       "summary": "You asked, we answered! James Williams, a Developer Relations Engineer, answers if Java is being deprecated in relation to the Java Native Interface (JNI).",
       "description": "You asked, we answered! James Williams, a Developer Relations Engineer, answers if Java is being deprecated in relation to the Java Native Interface (JNI). \n\n#FlutterCreate #Flutter",
@@ -89,7 +201,7 @@
       "url": "https://www.youtube.com/watch?v=TW4uJT3hESM",
       "published": "2026-11-11T20:06:50+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/TW4uJT3hESM/hqdefault.jpg",
-      "views": 641,
+      "views": 837,
       "isShort": false,
       "summary": "How is developer experience evolving as software development shifts from autocomplete to orchestrated AI agent teams? Eric is joined by Mariam (Product Manager for Dart & Flutter), Kenzie (Tech Lead for Dart & Flutter DevTools), and Nohe (Antigravity Developer Relations Engineer) to unpack how the Flutter team…",
       "description": "Try Antigravity → https://g.dev/flutter/antigravity \nFlutter DevTools → https://g.dev/flutter/devtools \nFlutter AI DevTools docs → https://g.dev/flutter/tools \n\nHow is developer experience evolving as software development shifts from autocomplete to orchestrated AI agent teams? Eric is joined by Mariam (Product Manager for Dart & Flutter), Kenzie (Tech Lead for Dart & Flutter DevTools), and Nohe (Antigravity Developer Relations Engineer) to unpack how the Flutter team approaches developer tooling in the agentic era. Learn why foundational tools like the Dart Analysis Server, DevTools, and the VM service matter more than ever, how Model Context Protocol (MCP) servers and skills give AI agents deterministic superpowers, and how the team builds rigorous evaluations (evals) to ensure AI generates reliable, idiomatic code.\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - Vision for Dart & Flutter developer experience \n2:41 -  Prioritizing feedback\n3:33 - The shift from autocomplete to multi-agent orchestration & developer trends \n5:25 - How the developer experience team adapts tooling for AI workflows \n9:16 - Why build agentic tools when models keep improving? \n12:07 - What has the Developer Experience Team been building to support agentic coding tools?\n15:18 - What Dart & Flutter MCP tools & skills actually do \n21:35 - How the team evaluates & benchmarks AI tools \n24:20 - When will the eval results be released?\n0:00 - What DevX looks like in 1–3 years \n0:00 - Historical shifts, scarcity & the future of dev jobs \n0:00 - Agent plugins & custom agents\n\n#Flutter #FlutterCreate\n\nSubscribe to Flutter → http://goo.gle/FlutterYT",
@@ -133,7 +245,7 @@
       "url": "https://www.youtube.com/watch?v=eiYjUunHfAE",
       "published": "2026-11-11T20:06:26+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/eiYjUunHfAE/hqdefault.jpg",
-      "views": 5485,
+      "views": 6166,
       "isShort": false,
       "summary": "See how Flutter 3.50 & Dart 3.14 bring multi-browser WebAssembly, hardware SIMD speedups, native browser text shaping, standalone Wasm compilation, and atomic web deployments.",
       "description": "Flutter WebAssembly docs → https://g.dev/flutter/wasm \n100% client-side DartPad preview → https://g.dev/flutter/dartpad \nBuild with flutter build web → https://goo.gle/flutter-web-deploy\n\nSee how Flutter 3.50 & Dart 3.14 bring multi-browser WebAssembly, hardware SIMD speedups, native browser text shaping, standalone Wasm compilation, and atomic web deployments.\n\nMore resources: \nCanvas TextMetrics experiment (#172561) → https://goo.gle/flutter-text-metrics \nWeb hosting & cache headers guide → https://goo.gle/flutter-web-headers \nFlutter Wasm 3-browser benchmark repo → https://goo.gle/flutter-wasm-compare \nFlutter web deployment → https://goo.gle/flutter-web-deploy \nSimon Binder's wasm_tools package → https://goo.gle/dart-wasm-tools   \nWasm Dart on GitHub → https://g.dev/flutter/wasm-github \nModestas Valauskas (@modulovalue) → https://g.dev/flutter/modulovalue \n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - JavaScript vs. WebAssembly \n1:04 - WasmGC \n2:13 - 100% Client-side DartPad preview \n2:46 - Chrome, Safari & Firefox + Wasm SIMD & TextMetrics \n4:55 - Dart Wasm beyond the browser with Simon Binder\n9:15 - Atomic web deployments (--web-content-hash)\n11:05 - Recap & try it today\n\n#Flutter #Dart #WebAssembly #FlutterCreate\n\nSubscribe to Flutter → http://goo.gle/FlutterYT\nProducts Mentioned: Flutter, Dart, WebAssembly\n\n\nWatch more Flutter Create → https://g.dev/flutter/create",
@@ -177,7 +289,7 @@
       "url": "https://www.youtube.com/watch?v=jnLKELaDGIM",
       "published": "2026-11-11T20:05:57+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/jnLKELaDGIM/hqdefault.jpg",
-      "views": 1630,
+      "views": 2178,
       "isShort": false,
       "summary": "Flutter goes beyond mobile, web, and desktop—now it officially powers screens in the living room. Abdallah Shaban, Flutter Outbound Product Manager, and Jinho Chung, LG webOS Engineer, introduce the webOS Flutter SDK. Learn how LG built their custom Flutter embedder, how to configure your development environment,…",
       "description": "Try it out → https://g.dev/flutter/webos \n\nFlutter goes beyond mobile, web, and desktop—now it officially powers screens in the living room. Abdallah Shaban, Flutter Outbound Product Manager, and Jinho Chung, LG webOS Engineer, introduce the webOS Flutter SDK. Learn how LG built their custom Flutter embedder, how to configure your development environment, connect a physical TV over Developer Mode, and debug apps with hot reload.\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - Introduction\n1:33 - Why LG chose Flutter\n2:51 - webOS Flutter SDK\n3:30 - How Flutter runs on webOS\n4:47 - Set up the SDK\n5:35 - Connect your TV\n5:52 - Create, run, & hot reload\n6:19 - Build models and debugging\n7:13 - Pluggable platforms\n7:30 - For platform builders (like LG)\n7:40 - For app developers\n\n#Flutter #FlutterCreate \n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter",
@@ -217,7 +329,7 @@
       "url": "https://www.youtube.com/watch?v=w53eHYJ-n0I",
       "published": "2026-11-11T20:05:23+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/w53eHYJ-n0I/hqdefault.jpg",
-      "views": 5021,
+      "views": 6514,
       "isShort": false,
       "summary": "If your AI agents are still responding with plain walls of text, it’s time to upgrade to A2UI and Generative UI. Andrew is joined by Illia from Solid Software and Mauricio and Gianfranco from Somnio Software to share updates to the protocol that power higher quality designs, faster response times from the agent, and…",
       "description": "A2UI → https://g.dev/flutter/a2ui \nA2UI + Flutter Quickstart → https://g.dev/flutter/a2ui-quickstart \nCommis Demo → https://g.dev/flutter/demos \nfinance-google-a2ui by Somonio Software→ https://g.dev/flutter/finance-google-a2ui  \n\nIf your AI agents are still responding with plain walls of text, it’s time to upgrade to A2UI and Generative UI. Andrew is joined by Illia from Solid Software and Mauricio and Gianfranco from Somnio Software to share updates to the protocol that power higher quality designs, faster response times from the agent, and new options for extending A2UI itself.\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - Introduction\n3:02 - allowedParents/Children\n4:21 - Express format\n6:59 - Multiple catalogs \n8:10 - agentFunction\n11:37 - Extensibility \n13:12 - Recap\n\n#Flutter  #FlutterCreate\n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter",
@@ -258,7 +370,7 @@
       "url": "https://www.youtube.com/watch?v=zUpNT8HWoq4",
       "published": "2026-11-11T20:05:02+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/zUpNT8HWoq4/hqdefault.jpg",
-      "views": 8384,
+      "views": 10970,
       "isShort": false,
       "summary": "Learn to build on-device AI features into your Flutter apps that can run entirely on local hardware. Khanh and Ian introduce LiteRT-LM and Gemma, Google's solution for building on-device AI experiences that prioritize data privacy, offline capability, and cost efficiency.",
       "description": "LiteRT-LM Package → https://g.dev/flutter/edge-ai-litertlm \nLiteRT-LM Gemma models on HuggingFace → https://g.dev/flutter/litert \nGemma 4 Model Overview → https://g.dev/flutter/gemma-docs \nFine tuning Gemma → https://g.dev/flutter/fine-tuning \n\nLearn to build on-device AI features into your Flutter apps that can run entirely on local hardware. Khanh and Ian introduce LiteRT-LM and Gemma, Google's solution for building on-device AI experiences that prioritize data privacy, offline capability, and cost efficiency. \n\nDiscover how LiteRT-LM enables high-performance inference with Gemma’s family of models across platforms and hardware. From managing chat conversations to implementing tool calls, discover how to build smart apps where the AI runs locally, keeping your users' data secure and your app fully functional, even without internet access.\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - Introduction to on-device aI\n1:26 - Challenges with cloud LLMs\n2:27 - LiteRT-LM\n3:37 - Meet Gemma\n4:19 - Choosing the right Gemma model\n5:31 - Implementing Gemma in Flutter with LiteRT-LM\n6:17 - Powerful features: Chat \n7:18 - Powerful features: Tool calling\n7:45 - The future of on-device AI with Flutter\n8:58 - Fine tuning \n\n#Flutter #FlutterCreate #GoogleAI #gemma #edgeAI #LiteRTLM\n\nSubscribe to Flutter → http://goo.gle/FlutterYT\n\nProducts Mentioned: Flutter",
@@ -301,7 +413,7 @@
       "url": "https://www.youtube.com/watch?v=4ZBhE4CPegA",
       "published": "2026-11-11T20:04:31+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/4ZBhE4CPegA/hqdefault.jpg",
-      "views": 6516,
+      "views": 9756,
       "isShort": false,
       "summary": "Google AI Edge Eloquent is an offline-first AI dictation app that turns messy speech to polished text locally on your device without sending audio to cloud services. When the Google AI Edge team needed to transform their iOS app into a desktop showcase for Gemma 4 12B in just 10 days, luckily, they were using Flutter!…",
       "description": "Google AI Edge Eloquent is an offline-first AI dictation app that turns messy  speech to polished text locally on your device without sending audio to cloud services. When the Google AI Edge team needed to transform their iOS app into a desktop showcase for Gemma 4 12B in just 10 days, luckily, they were using Flutter! It enabled them to rapidly adapt the layout of their existing mobile app, implement desktop shortcuts, and ship production code within a week and a half. This multi-platform efficiency not only met the deadline but also allowed the team to use Flutter’s code-sharing to accelerate the launch of their next app, Foresight.\n\nChapters:\n0:00 - What is Eloquent\n1:30 - Why Google AI Edge chose Flutter\n2:32 - Adapting mobile to desktop in 10 days\n3:09 - Code sharing & launching Foresight\n\nWatch more Flutter Dev Stories → https://goo.gle/FlutterDevStories \nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n#Flutter #FlutterCreate\n\nProducts Mentioned: Flutter",
@@ -343,7 +455,7 @@
       "url": "https://www.youtube.com/watch?v=Qd-SY_16amU",
       "published": "2026-11-11T20:04:29+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/Qd-SY_16amU/hqdefault.jpg",
-      "views": 18705,
+      "views": 20112,
       "isShort": false,
       "summary": "Mark your calendars! Join us on November 11 at 10am PT for an inside look at what’s new in Dart & Flutter. We’ll be joined by partners & community members for deep-dives into multi-window on desktop, building custom design libraries, Dart & Flutter’s dev experience, real-world customer stories, and much more.",
       "description": "Mark your calendars! Join us on November 11 at 10am PT for an inside look at what’s new in Dart & Flutter. We’ll be joined by partners & community members for deep-dives into multi-window on desktop, building custom design libraries, Dart & Flutter’s dev experience, real-world customer stories, and much more. Have something on your mind? The Flutter team will be live in the chat throughout the stream to take your questions. \n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - Countdown\n14:33 - Intro\n16:50 - What's new in Dart & Flutter \n25:00 - Multi-window on Desktop with Flutter\n34:10 - Building custom design libraries\n42:26 - Pigeon FFI\n48:08 - Google AI Edge Eloquent Showcase\n52:32 - The future is on-device LLMs\n1:02:28 - GenUI & A2UI 1.0\n1:16:11 - Build a webOS app with Flutter\n1:24:40 - The power of Dart & WebAssembly\n1:37:03 - The future of Dart & Flutter's Dev Experience\n2:10:36 - Outro\n\n#Flutter #FlutterCreate\n\nSubscribe to Flutter → http://goo.gle/FlutterYT",
@@ -383,7 +495,7 @@
       "url": "https://www.youtube.com/watch?v=GHH5DHmg_gE",
       "published": "2026-11-11T20:04:04+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/GHH5DHmg_gE/hqdefault.jpg",
-      "views": 2851,
+      "views": 3774,
       "isShort": false,
       "summary": "Calling native Android APIs from Flutter usually forces a tough choice: accept the serialization latency and loose typing of standard MethodChannels, or use raw JNIGEN and FFIGEN bindings.",
       "description": "Check out Pigeon on pub.dev → https://g.dev/flutter/pigeon \nFlutter Native Interop Documentation → https://g.dev/flutter/interop \n\nCalling native Android APIs from Flutter usually forces a tough choice: accept the serialization latency and loose typing of standard MethodChannels, or use raw JNIGEN and FFIGEN bindings.\n\nJames explores Pigeon, specifically its JNI/FFI options that combine the safety of an abstract Dart contract with direct, bare-metal native execution. We'll set up an Android permissions plugin, configure Pigeon with useJni: true, inspect the generated messages.g.jni.dart bindings, wire up the Kotlin registrar, and test the flow in a live Flutter app.\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - Introduction: The native interop dilemma \n1:05 - MethodChannels vs. Raw JNI vs. Pigeon FFI\n1:34 - Project setup and JNI dependencies\n2:00 - Defining the `@HostApi` Contract with `useJni: true`\n2:50 - Generating direct JNI bindings with Pigeon \n3:15 - Implementing the native Kotlin plugin\n4:05 - Testing in Flutter: Real-time permission flow\n4:55 - Choosing the right interop strategy\n5:08 - Recap\n\n#Flutter #FlutterCreate\n\n\nProducts Mentioned: Flutter",
@@ -423,7 +535,7 @@
       "url": "https://www.youtube.com/watch?v=b-u0t5QF3XY",
       "published": "2026-11-11T20:03:25+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/b-u0t5QF3XY/hqdefault.jpg",
-      "views": 6056,
+      "views": 7711,
       "isShort": false,
       "summary": "Material and Cupertino get your Flutter app off the ground fast, but they belong to Google and Apple, not your brand. With the Flutter team decoupling these libraries from the core framework, building your own custom design system is easier and more critical than ever. Craig, Leo (creator of Mix), and Lucas (founder…",
       "description": "pkg:mix → https://g.dev/flutter/mix \nWidgetbook Cloud → https://g.dev/flutter/widgetbook-cloud \n\nMaterial and Cupertino get your Flutter app off the ground fast, but they belong to Google and Apple, not your brand. With the Flutter team decoupling these libraries from the core framework, building your own custom design system is easier and more critical than ever. Craig, Leo (creator of Mix), and Lucas (founder of Widgetbook) walk through the modern stack for creating, styling, and testing your own bespoke design system in Flutter.\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - Intro\n2:07 - Introducing Mix: Composable styling layer \n3:21 - Dynamic states: Dark mode, hover & transitions \n4:13 - Building components with Remix (buttons to systems) \n5:06 - Testing design systems with Widgetbook \n5:43 - Interactive args & state variations \n6:25 - AI agentic loop for automated visual tests\n7:15 - Widgetbook Cloud\n8:06 - Putting the modern Flutter UI stack together\n\n#Flutter #FlutterCreate\n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter",
@@ -463,7 +575,7 @@
       "url": "https://www.youtube.com/watch?v=2U0PeMqJ6e4",
       "published": "2026-11-11T20:02:54+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/2U0PeMqJ6e4/hqdefault.jpg",
-      "views": 6866,
+      "views": 8430,
       "isShort": false,
       "summary": "Want to create desktop apps that pop? You can use Flutter’s experimental windowing APIs to take your desktop app to the next level! Canonical and Google have partnered to build native, cross-platform multi-window support for Flutter on desktop (macOS, Windows, Linux).",
       "description": "Try it out → https://g.dev/flutter/windowing \n\nWant to create desktop apps that pop? You can use Flutter’s experimental windowing APIs to take your desktop app to the next level! Canonical and Google have partnered to build native, cross-platform multi-window support for Flutter on desktop (macOS, Windows, Linux). In this deep dive Loïc Sharma, Google engineer, and Matt Kosarek, a Canonical engineer, walk through the new experimental windowing APIs, the five core window types, and more! \n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - Introduction\n2:23 - Window types\n2:47 - Regular windows\n3:12 - Dialog windows\n3:37 - Popup windows\n3:50 - Tooltip windows\n4:02 - Satellite windows\n4:45 - Linux example\n5:13 - Windowing APIs\n5:18 - Window Controller\n6:25 - Window Widget\n7:02 - Window Delegate\n7:34 - Window Scope\n8:12 - Design system integration\n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\n#Flutter #FlutterCreate\n\nProducts Mentioned: Flutter",
@@ -502,7 +614,7 @@
       "url": "https://www.youtube.com/watch?v=K5Kk-C3IL94",
       "published": "2026-11-11T20:01:43+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/K5Kk-C3IL94/hqdefault.jpg",
-      "views": 70260,
+      "views": 80937,
       "isShort": false,
       "summary": "Emma covers the latest updates across Flutter 3.50 and Dart 3.14, focusing on greater codebase control and a smoother developer experience. Highlights include standalone packages for material_ui and cupertino_ui, a brand-new Dart migration tool, and much more.",
       "description": "Why Flutter? → https://g.dev/flutter/whitepaper \nWhat's new in Flutter 3.50 → https://g.dev/flutter/whats-new-3.50\nAnnouncing Dart 3.14 → https://g.dev/dart/announcing-3.14\n\nEmma covers the latest updates across Flutter 3.50 and Dart 3.14, focusing on greater codebase control and a smoother developer experience. Highlights include standalone packages for material_ui and cupertino_ui, a brand-new Dart migration tool, and much more.\n\nHead to the blogs for more resources on every feature in this release!\nWhat's new in Flutter 3.50 → https://g.dev/flutter/whats-new-3.50\nRelease Notes → https://g.dev/flutter/release-notes \nChangelog → https://g.dev/flutter/changelog \n\nAnnouncing stable direct native interoperability →  https://g.dev/flutter/stable-native-interop \n\nAnnouncing Dart 3.14 → https://g.dev/dart/announcing-3.14\nChangelog → https://g.dev/flutter/dart-changelog \n\nMediaPipe → https://g.dev/flutter/mediapipe \n\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - Dart 3.14\n1:13 - Native interop \n1:59 - Framework updates\n3:05 - iOS updates\n4:30 - Android updates\n5:17 - Engine improvements\n5:51 - Ecosystem & announcements\n\n#Flutter #FlutterCreate\n\nSubscribe to Flutter → http://goo.gle/FlutterYT\nProducts Mentioned: Flutter, Dart",
@@ -1664,21 +1776,35 @@
         "K5Kk-C3IL94",
         "Qd-SY_16amU",
         "TW4uJT3hESM",
+        "Vxg3oAfLhIg",
         "b-u0t5QF3XY",
         "eiYjUunHfAE",
         "etSJQNFiGl4",
         "g_tjuGnihNU",
         "jnLKELaDGIM",
+        "kU00pdRpfPM",
         "w53eHYJ-n0I",
         "zUpNT8HWoq4"
       ],
       "style": 2,
-      "digest": "الأسبوع ده Flutter ولعت الدنيا بتحديثات Flutter 3.50 و Dart 3.14 اللي ركزوا على الأداء وتسهيل حياة المطور. بقى فيه ميزات قوية زي فتح كذا ويندو في تطبيقات الديسك توب، والـ AI اللي بيشتغل on-device (يعني على الجهاز نفسه من غير ما يحتاج إنترنت أو يدفعك فلوس API). وكمان الـ Web بقى طلقة بفضل الـ WebAssembly (طريقة بتخلي الكود يشتغل بسرعة البرامج الأصلية). الخلاصة إن Flutter بيثبت إنه مش بس للموبايل، ده بقى وحش في كل حتة حتى شاشات الـ LG الذكية.",
+      "digest": "يا صاحبي، الأسبوع ده Flutter نزلت تحديثات قوية في نسخة 3.50 بتخلي الـ Performance (الأداء) والـ Developer Experience (تجربة المبرمج) في حتة تانية خالص. أهم الأخبار إن الـ AI (الذكاء الاصطناعي) بقى جزء أساسي، سواء عشان يساعدك وأنت بتكود من خلال الـ DevTools (أدوات المطورين) أو إنك تشغله جوه الأبلكيشن بتاعك Offline (من غير إنترنت) باستخدام نماذج Gemma. الـ Desktop كمان بقى فيه ميزة الـ Multi-window (تفتح أكتر من نافذة للبرنامج) بشكل تجريبي، والـ Web بقى أسرع مرتين بفضل الـ Wasm (تقنية بتخلي الـ Web يشتغل بسرعة البرامج الأصلية). باختصار، Flutter بتتحول لمنصة بتشغل أي حاجة من أول الموبايل لحد شاشات التلفزيون والـ AI بآداء عالي.",
       "highlights": [
-        "أداة dart migrate الجديدة في Flutter 3.50 بتحدث لك إصدار الـ SDK وتعدل الـ code style في مشروعك أوتوماتيك بضغطة زرار.",
-        "ميزة الـ Multi-window (تعدد النوافذ) في الديسك توب بقت بتسمح لك تفتح كذا شاشة في نفس الوقت وتشارك بينهم الـ State (البيانات) بمنتهى السهولة باستخدام Bloc أو Riverpod.",
-        "تقنية الـ WebAssembly خلت الـ Flutter Web أسرع مرتين في التحميل والـ animations (الحركات والانتقالات) وأداءه بقى قريب جداً من البرامج اللي بتنزل على الويندوز.",
-        "استخدام Pigeon FFI بقى هو أحسن طريقة تربط بيها Flutter بالـ Native (كود الموبايل الأصلي) عشان تتفادى بطء الـ Method Channels (الطريقة التقليدية لنقل البيانات) وتضمن إن الكود بتاعك ميفصلش."
+        "الـ Native Interop (التعامل مع لغات الـ native) بقى مستقر، واستخدام Pigeon FFI بيخليك تكلم كود الـ Android والـ iOS بسرعة رهيبة ومن غير تعقيد الـ Method Channels (الطريقة القديمة لنقل البيانات).",
+        "لو بتعمل Apps للـ Web، لازم تجرب الـ Wasm عشان الـ Animations هتبقى أنعم بكتير والتحميل أسرع بمرتين، والـ Engine (المحرك) بقى أخف في التعامل مع الخطوط والإيموجي.",
+        "ميزة الـ Multi-window للـ Desktop بقت متاحة وبتخليك تشارك الـ State (البيانات) بين الشاشات بسهولة كأنهم Widget Tree (الهيكل اللي بيرتب عناصر الشاشة) واحدة.",
+        "بدأوا يفصلوا مكتبات الـ UI (واجهة المستخدم) زي Material و Cupertino عن الـ Framework الأساسي عشان التحديثات توصلك أسرع من غير ما تضطر تستنى إصدار Flutter جديد."
+      ]
+    },
+    "2026-11-14": {
+      "ids": [
+        "_WCiopVNhJk"
+      ],
+      "style": 2,
+      "digest": "فريق Flutter بدأ يخطط من دلوقتي للمؤتمرات والفعاليات لحد سنة 2027 عشان يوصلوا لعدد أكبر من المبرمجين. لو أنت بتنظم فعاليات، تقدر تطلب منهم Sponsorship (دعم مادي أو رعاية) أو حتى تطلب حضور حد من الـ core team (الفريق الأساسي اللي بيطور فلاتر). عشان تتابع كل المواعيد الرسمية، خليك دايما باصص على صفحة flutter.dev/events. دي فرصة كويسة للمجتمعات المحلية إنها تكبر وتتواصل مع الفريق الرسمي مباشرة.",
+      "highlights": [
+        "تقدر تطلب Sponsorship (دعم مادي أو رعاية) لفعاليات Flutter اللي بتنظمها.",
+        "متاح تطلب حضور حد من الـ core team (الفريق الأساسي اللي بيطور Flutter) في مؤتمرك.",
+        "تابع صفحة flutter.dev/events عشان تعرف كل المواعيد الرسمية الجاية."
       ]
     }
   }
