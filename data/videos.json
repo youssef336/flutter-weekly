@@ -3,15 +3,57 @@
     "name": "Flutter",
     "url": "https://www.youtube.com/@flutterdev"
   },
-  "updatedAt": "2026-11-24T19:17:00+00:00",
+  "updatedAt": "2026-11-25T18:22:20+00:00",
   "videos": [
     {
+      "id": "xfeon9ItNL0",
+      "title": "Why should I use the Dart & Flutter MCP Server if I can just prompt my agent?",
+      "url": "https://www.youtube.com/shorts/xfeon9ItNL0",
+      "published": "2026-11-25T17:00:34+00:00",
+      "thumbnail": "https://i1.ytimg.com/vi/xfeon9ItNL0/hqdefault.jpg",
+      "views": 324,
+      "isShort": true,
+      "summary": "Eric Windmill, a Developer Relations Engineer, explains why you should use the Dart and Flutter MCP server. To learn more, head over to the Flutter Create session “AI dev tools & evals to ensure AI agent reliability.”",
+      "description": "Eric Windmill, a Developer Relations Engineer, explains why you should use the Dart and Flutter MCP server. To learn more, head over to the Flutter Create session “AI dev tools & evals to ensure AI agent reliability.”\n\n\n#Flutter #FlutterCreate",
+      "tags": [
+        "shorts",
+        "dart",
+        "ai"
+      ],
+      "ai": {
+        "about": "الفيديو بيوضح الفرق بين إنك توصف المشكلة للـ AI بنفسك وبين استخدام الـ MCP Server عشان يحل مشاكل الـ Flutter أسرع.",
+        "points": [
+          "أخطاء الـ Layout (تنسيق العناصر) غلسة ومبتبانش بالـ static analysis (فحص الكود التلقائي) ومحتاجة فهم عميق.",
+          "الـ MCP Server بيدي للـ AI سطر الكود اللي فيه المشكلة بالظبط، وده أسهل بكتير من إنك تقعد تشرحله إيه اللي باظ.",
+          "الميزة الحقيقية إن الـ AI بيصلح الغلطة قبل ما تلاحظها أصلاً، فبتوفر وقت كبير في تشخيص المشاكل."
+        ],
+        "verdict": "مفيد جداً لو بدأت تعتمد على الـ AI في كتابة الكود، والملخص ده كفاية جداً.",
+        "terms": [
+          {
+            "term": "MCP Server",
+            "meaning": "أداة بتوصل الـ AI ببيئة التطوير بتاعتك عشان يفهم سياق الكود أسرع."
+          },
+          {
+            "term": "Static Analysis",
+            "meaning": "عملية فحص الكود عشان نطلع الأخطاء وهو لسه مكتوب قبل ما نشغل الأبلكيشن."
+          },
+          {
+            "term": "Layout Errors",
+            "meaning": "المشاكل اللي بتحصل لما العناصر على الشاشة تخرج بره مكانها أو حجمها يبوظ."
+          }
+        ],
+        "source": "video",
+        "model": "gemini-3-flash-preview",
+        "style": 2
+      }
+    },
+    {
       "id": "PxjCuzmIcu8",
-      "title": "Flutter runs on TV’s 📺",
+      "title": "Flutter runs on TVs 📺",
       "url": "https://www.youtube.com/shorts/PxjCuzmIcu8",
       "published": "2026-11-24T17:00:10+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/PxjCuzmIcu8/hqdefault.jpg",
-      "views": 480,
+      "views": 3652,
       "isShort": true,
       "summary": "",
       "description": "Check out the Flutter Create session “Build a webOS app with Flutter and webOS SDK” with Abdallah Shaban, Product Manager, and Jinho Chung, LG webOS Engineer. You’ll learn about the webOS Flutter SDK and how to build apps that target webOS devices which include TVs and smart monitors.\n\n#Flutter #FlutterCreate",
@@ -47,7 +89,7 @@
       "url": "https://www.youtube.com/watch?v=-kimq8DSyVQ",
       "published": "2026-11-23T17:00:11+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/-kimq8DSyVQ/hqdefault.jpg",
-      "views": 8294,
+      "views": 9509,
       "isShort": false,
       "summary": "Welcome to the Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From Material and Cupertino package decoupling and Flutter GPU compute shaders to DevTools accessibility checks, satellite desktop windows, and custom…",
       "description": "Contribute to Flutter→ http://g.dev/flutter/contribute\nLearn more about our pluggle platforms initiative → https://g.dev/flutter/flutter-tools\n\nWelcome to the Notable Commits series. Notable commits are a curated list of pull requests that have landed in the Flutter framework's \"flutter/flutter\" repo each week. From Material and Cupertino package decoupling and Flutter GPU compute shaders to DevTools accessibility checks, satellite desktop windows, and custom build extensions, this October 2026 recap showcases how Google and the global Flutter community are advancing the framework together.\n\nChapters:\n0:00 - Intro\n0:32 - Framework and widgets\n2:44 - Accessibility\n4:14 - Engine and graphics\n6:10 - Web platform\n7:30 - Android platform\n8:35 - iOS platform\n9:34 - Desktop platforms\n10:52 - Tooling and developer experience\n12:25 - First-time contributors\n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n#Flutter",
@@ -88,7 +130,7 @@
       "url": "https://www.youtube.com/shorts/37i6b3TT2kM",
       "published": "2026-11-20T15:30:37+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/37i6b3TT2kM/hqdefault.jpg",
-      "views": 3193,
+      "views": 3382,
       "isShort": true,
       "summary": "You asked, we answered! Mariam Hasnany, Product Manager, shares how to automatically update Skills for Dart and Flutter. If you install the agent plugin from the official marketplace of your agent then depending on the agent it will automatically update or there should be an option to enable auto-update.",
       "description": "You asked, we answered! Mariam Hasnany, Product Manager, shares how to automatically update Skills for Dart and Flutter. If you install the agent plugin from the official marketplace of your agent then depending on the agent it will automatically update or there should be an option to enable auto-update. Currently we have our plugin available for antigravity and cursor and are working on getting it into other agent markeplaces officially. That said whether you install the plugin from the marketplace or manually, the benefit with the plugin is you get our latest skills, rules, MCP, and any other AI tool we've released. If you just want the skills, you will have manually update with npx skills update or dart run skills@ get in each repo you installed them.\n\nCheck out → flutter.dev/events\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\n#FlutterCreate  #Flutter",
@@ -131,7 +173,7 @@
       "url": "https://www.youtube.com/shorts/ZXahZAdYfDY",
       "published": "2026-11-19T19:01:24+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/ZXahZAdYfDY/hqdefault.jpg",
-      "views": 14826,
+      "views": 15099,
       "isShort": true,
       "summary": "You asked, we answered! The Cupertino library has moved to cupertino_ui, we are bring liquid glass and other updates to the library to reflect the latest from iOS27. We're partnering with the community, working with the authors of liquid_glass_widgets and liquid_glass_renderer, who pioneered high fidelity shaders and…",
       "description": "You asked, we answered! The Cupertino library has moved to cupertino_ui, we are bring liquid glass and other updates to the library to reflect the latest from iOS27. We're partnering with the community, working with the authors of liquid_glass_widgets and liquid_glass_renderer, who pioneered high fidelity shaders and widgets while the library was in the process of moving out of the SDK. New features will be landing soon, and shipping weekly! \n\nTo learn more about how cupertino (and material) will be evolviong after decoupling, read about it at g.dev/flutter/material-ui-cupertino-ui \n\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\n\n#FlutterCreate  #Flutter",
@@ -168,7 +210,7 @@
       "url": "https://www.youtube.com/shorts/DyDK6QN-a9o",
       "published": "2026-11-18T17:06:54+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/DyDK6QN-a9o/hqdefault.jpg",
-      "views": 3401,
+      "views": 3436,
       "isShort": true,
       "summary": "During Flutter Create, we asked you to send us your questions. Vishal Motwani, Senior Product Manager, is here on the Flutter channel to answer your questions on A2UI.",
       "description": "During Flutter Create, we asked you to send us your questions. Vishal Motwani, Senior Product Manager, is here on the Flutter channel to answer your questions on A2UI. \n\nWatch more Flutter Create → https://g.dev/flutter/create \n\n#FlutterCreate  #Flutter",
@@ -209,7 +251,7 @@
       "url": "https://www.youtube.com/shorts/_WCiopVNhJk",
       "published": "2026-11-14T00:00:28+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/_WCiopVNhJk/hqdefault.jpg",
-      "views": 1716,
+      "views": 1736,
       "isShort": true,
       "summary": "You asked, we answered! Emma Twersky, Developer Relations Engineer, shares that the Flutter team is working on 2027 in-person developer events.",
       "description": "You asked, we answered! Emma Twersky, Developer Relations Engineer, shares that the Flutter team is working on 2027 in-person developer events. \n\nCheck out → flutter.dev/events\nWatch more Flutter Create → https://g.dev/flutter/create \n\n#FlutterCreate  #Flutter",
@@ -245,7 +287,7 @@
       "url": "https://www.youtube.com/shorts/kU00pdRpfPM",
       "published": "2026-11-13T21:00:03+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/kU00pdRpfPM/hqdefault.jpg",
-      "views": 3517,
+      "views": 3532,
       "isShort": true,
       "summary": "You asked, we answered! Loïc Sharma, Software Engineer, answers your questions about the experimental Windowing API.",
       "description": "You asked, we answered! Loïc Sharma, Software Engineer, answers your questions about the experimental Windowing API.\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\n#FlutterCreate  #Flutter",
@@ -281,7 +323,7 @@
       "url": "https://www.youtube.com/shorts/Vxg3oAfLhIg",
       "published": "2026-11-13T18:00:29+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/Vxg3oAfLhIg/hqdefault.jpg",
-      "views": 6543,
+      "views": 6608,
       "isShort": true,
       "summary": "You asked, we answered! Loïc Sharma, Software Engineer, answers your questions about the experimental Windowing API.",
       "description": "You asked, we answered! Loïc Sharma, Software Engineer, answers your questions about the experimental Windowing API. \n\nWatch more Flutter Create → https://g.dev/flutter/create \n\n#FlutterCreate  #Flutter",
@@ -359,7 +401,7 @@
       "url": "https://www.youtube.com/shorts/etSJQNFiGl4",
       "published": "2026-11-12T18:00:24+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/etSJQNFiGl4/hqdefault.jpg",
-      "views": 10559,
+      "views": 10652,
       "isShort": true,
       "summary": "You asked, we answered! James Williams, a Developer Relations Engineer, answers if Java is being deprecated in relation to the Java Native Interface (JNI).",
       "description": "You asked, we answered! James Williams, a Developer Relations Engineer, answers if Java is being deprecated in relation to the Java Native Interface (JNI). \n\n#FlutterCreate #Flutter",
@@ -399,7 +441,7 @@
       "url": "https://www.youtube.com/watch?v=TW4uJT3hESM",
       "published": "2026-11-11T20:06:50+00:00",
       "thumbnail": "https://i1.ytimg.com/vi/TW4uJT3hESM/hqdefault.jpg",
-      "views": 2351,
+      "views": 2425,
       "isShort": false,
       "summary": "How is developer experience evolving as software development shifts from autocomplete to orchestrated AI agent teams? Eric is joined by Mariam (Product Manager for Dart & Flutter), Kenzie (Tech Lead for Dart & Flutter DevTools), and Nohe (Antigravity Developer Relations Engineer) to unpack how the Flutter team…",
       "description": "Try Antigravity → https://g.dev/flutter/antigravity \nFlutter DevTools → https://g.dev/flutter/devtools \nFlutter AI DevTools docs → https://g.dev/flutter/tools \n\nHow is developer experience evolving as software development shifts from autocomplete to orchestrated AI agent teams? Eric is joined by Mariam (Product Manager for Dart & Flutter), Kenzie (Tech Lead for Dart & Flutter DevTools), and Nohe (Antigravity Developer Relations Engineer) to unpack how the Flutter team approaches developer tooling in the agentic era. Learn why foundational tools like the Dart Analysis Server, DevTools, and the VM service matter more than ever, how Model Context Protocol (MCP) servers and skills give AI agents deterministic superpowers, and how the team builds rigorous evaluations (evals) to ensure AI generates reliable, idiomatic code.\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - Vision for Dart & Flutter developer experience \n2:41 -  Prioritizing feedback\n3:33 - The shift from autocomplete to multi-agent orchestration & developer trends \n5:25 - How the developer experience team adapts tooling for AI workflows \n9:16 - Why build agentic tools when models keep improving? \n12:07 - What has the Developer Experience Team been building to support agentic coding tools?\n15:18 - What Dart & Flutter MCP tools & skills actually do \n21:35 - How the team evaluates & benchmarks AI tools \n24:20 - When will the eval results be released?\n0:00 - What DevX looks like in 1–3 years \n0:00 - Historical shifts, scarcity & the future of dev jobs \n0:00 - Agent plugins & custom agents\n\n#Flutter #FlutterCreate\n\nSubscribe to Flutter → http://goo.gle/FlutterYT",
@@ -443,7 +485,7 @@
       "url": "https://www.youtube.com/watch?v=eiYjUunHfAE",
       "published": "2026-11-11T20:06:26+00:00",
       "thumbnail": "https://i2.ytimg.com/vi/eiYjUunHfAE/hqdefault.jpg",
-      "views": 7921,
+      "views": 7971,
       "isShort": false,
       "summary": "See how Flutter 3.50 & Dart 3.14 bring multi-browser WebAssembly, hardware SIMD speedups, native browser text shaping, standalone Wasm compilation, and atomic web deployments.",
       "description": "Flutter WebAssembly docs → https://g.dev/flutter/wasm \n100% client-side DartPad preview → https://g.dev/flutter/dartpad \nBuild with flutter build web → https://goo.gle/flutter-web-deploy\n\nSee how Flutter 3.50 & Dart 3.14 bring multi-browser WebAssembly, hardware SIMD speedups, native browser text shaping, standalone Wasm compilation, and atomic web deployments.\n\nMore resources: \nCanvas TextMetrics experiment (#172561) → https://goo.gle/flutter-text-metrics \nWeb hosting & cache headers guide → https://goo.gle/flutter-web-headers \nFlutter Wasm 3-browser benchmark repo → https://goo.gle/flutter-wasm-compare \nFlutter web deployment → https://goo.gle/flutter-web-deploy \nSimon Binder's wasm_tools package → https://goo.gle/dart-wasm-tools   \nWasm Dart on GitHub → https://g.dev/flutter/wasm-github \nModestas Valauskas (@modulovalue) → https://g.dev/flutter/modulovalue \n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - JavaScript vs. WebAssembly \n1:04 - WasmGC \n2:13 - 100% Client-side DartPad preview \n2:46 - Chrome, Safari & Firefox + Wasm SIMD & TextMetrics \n4:55 - Dart Wasm beyond the browser with Simon Binder\n9:15 - Atomic web deployments (--web-content-hash)\n11:05 - Recap & try it today\n\n#Flutter #Dart #WebAssembly #FlutterCreate\n\nSubscribe to Flutter → http://goo.gle/FlutterYT\nProducts Mentioned: Flutter, Dart, WebAssembly\n\n\nWatch more Flutter Create → https://g.dev/flutter/create",
@@ -487,7 +529,7 @@
       "url": "https://www.youtube.com/watch?v=jnLKELaDGIM",
       "published": "2026-11-11T20:05:57+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/jnLKELaDGIM/hqdefault.jpg",
-      "views": 3386,
+      "views": 3498,
       "isShort": false,
       "summary": "Flutter goes beyond mobile, web, and desktop—now it officially powers screens in the living room. Abdallah Shaban, Flutter Outbound Product Manager, and Jinho Chung, LG webOS Engineer, introduce the webOS Flutter SDK. Learn how LG built their custom Flutter embedder, how to configure your development environment,…",
       "description": "Try it out → https://g.dev/flutter/webos \n\nFlutter goes beyond mobile, web, and desktop—now it officially powers screens in the living room. Abdallah Shaban, Flutter Outbound Product Manager, and Jinho Chung, LG webOS Engineer, introduce the webOS Flutter SDK. Learn how LG built their custom Flutter embedder, how to configure your development environment, connect a physical TV over Developer Mode, and debug apps with hot reload.\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - Introduction\n1:33 - Why LG chose Flutter\n2:51 - webOS Flutter SDK\n3:30 - How Flutter runs on webOS\n4:47 - Set up the SDK\n5:35 - Connect your TV\n5:52 - Create, run, & hot reload\n6:19 - Build models and debugging\n7:13 - Pluggable platforms\n7:30 - For platform builders (like LG)\n7:40 - For app developers\n\n#Flutter #FlutterCreate \n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter",
@@ -527,7 +569,7 @@
       "url": "https://www.youtube.com/watch?v=w53eHYJ-n0I",
       "published": "2026-11-11T20:05:23+00:00",
       "thumbnail": "https://i4.ytimg.com/vi/w53eHYJ-n0I/hqdefault.jpg",
-      "views": 8843,
+      "views": 9010,
       "isShort": false,
       "summary": "If your AI agents are still responding with plain walls of text, it’s time to upgrade to A2UI and Generative UI. Andrew is joined by Illia from Solid Software and Mauricio and Gianfranco from Somnio Software to share updates to the protocol that power higher quality designs, faster response times from the agent, and…",
       "description": "A2UI → https://g.dev/flutter/a2ui \nA2UI + Flutter Quickstart → https://g.dev/flutter/a2ui-quickstart \nCommis Demo → https://g.dev/flutter/demos \nfinance-google-a2ui by Somonio Software→ https://g.dev/flutter/finance-google-a2ui  \n\nIf your AI agents are still responding with plain walls of text, it’s time to upgrade to A2UI and Generative UI. Andrew is joined by Illia from Solid Software and Mauricio and Gianfranco from Somnio Software to share updates to the protocol that power higher quality designs, faster response times from the agent, and new options for extending A2UI itself.\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - Introduction\n3:02 - allowedParents/Children\n4:21 - Express format\n6:59 - Multiple catalogs \n8:10 - agentFunction\n11:37 - Extensibility \n13:12 - Recap\n\n#Flutter  #FlutterCreate\n\nSubscribe to Flutter → http://goo.gle/FlutterYT \n\n\nProducts Mentioned: Flutter",
@@ -568,7 +610,7 @@
       "url": "https://www.youtube.com/watch?v=zUpNT8HWoq4",
       "published": "2026-11-11T20:05:02+00:00",
       "thumbnail": "https://i3.ytimg.com/vi/zUpNT8HWoq4/hqdefault.jpg",
-      "views": 20052,
+      "views": 20246,
       "isShort": false,
       "summary": "Learn to build on-device AI features into your Flutter apps that can run entirely on local hardware. Khanh and Ian introduce LiteRT-LM and Gemma, Google's solution for building on-device AI experiences that prioritize data privacy, offline capability, and cost efficiency.",
       "description": "LiteRT-LM Package → https://g.dev/flutter/edge-ai-litertlm \nLiteRT-LM Gemma models on HuggingFace → https://g.dev/flutter/litert \nGemma 4 Model Overview → https://g.dev/flutter/gemma-docs \nFine tuning Gemma → https://g.dev/flutter/fine-tuning \n\nLearn to build on-device AI features into your Flutter apps that can run entirely on local hardware. Khanh and Ian introduce LiteRT-LM and Gemma, Google's solution for building on-device AI experiences that prioritize data privacy, offline capability, and cost efficiency. \n\nDiscover how LiteRT-LM enables high-performance inference with Gemma’s family of models across platforms and hardware. From managing chat conversations to implementing tool calls, discover how to build smart apps where the AI runs locally, keeping your users' data secure and your app fully functional, even without internet access.\n\nWatch more Flutter Create → https://g.dev/flutter/create \n\nChapters:\n0:00 - Introduction to on-device aI\n1:26 - Challenges with cloud LLMs\n2:27 - LiteRT-LM\n3:37 - Meet Gemma\n4:19 - Choosing the right Gemma model\n5:31 - Implementing Gemma in Flutter with LiteRT-LM\n6:17 - Powerful features: Chat \n7:18 - Powerful features: Tool calling\n7:45 - The future of on-device AI with Flutter\n8:58 - Fine tuning \n\n#Flutter #FlutterCreate #GoogleAI #gemma #edgeAI #LiteRTLM\n\nSubscribe to Flutter → http://goo.gle/FlutterYT\n\nProducts Mentioned: Flutter",
@@ -2012,15 +2054,16 @@
     "2026-11-21": {
       "ids": [
         "-kimq8DSyVQ",
-        "PxjCuzmIcu8"
+        "PxjCuzmIcu8",
+        "xfeon9ItNL0"
       ],
       "style": 2,
-      "digest": "الأسبوع ده فلاتر وسعت دايرتها وبقت بتشغل شاشات LG من خلال نظام webOS. في نفس الوقت، المطورين قدروا يقللوا حجم التطبيقات بمجرد فصل الـ Material والـ Cupertino packages (مكتبات التصميم) عن بعض. كمان ضافوا ميزات قوية للجرافيكس والـ Desktop زي الـ satellite windows (نوافذ تابعة للنافذة الأساسية). والـ DevTools (أدوات المطورين) بقت أذكى في اكتشاف مشاكل الـ Accessibility (سهولة الاستخدام لذوي الاحتياجات).",
+      "digest": "الأسبوع ده فلاتر وسعت دايرة الأجهزة اللي بتشتغل عليها ووصلت لشاشات التلفزيون بقوة، خصوصاً مع LG ونظام webOS. كمان عملوا حركة ذكية لما فصلوا مكتبات التصميم عن بعض عشان حجم الأبلكيشن يصغر وميبقاش فيه كود زيادة ملوش لازمة. المطورين دلوقتي معاهم أدوات أذكى بتستخدم الـ AI عشان يحل مشاكل الـ layout (تنسيق العناصر) اللي كانت بتدوخنا في البحث. والأداء بقى أحسن بكتير بفضل استخدام كارت الشاشة في الحسابات التقيلة والجرافيكس المعقدة.",
       "highlights": [
-        "فصل الـ Material والـ Cupertino packages عشان حجم الأبلكيشن يصغر ومتاخدش كود زيادة.",
-        "دعم الـ GPU compute shaders (أوامر بتشغل كارت الشاشة في الحسابات) للجرافيكس المعقد والآداء السريع.",
-        "إطلاق webOS SDK (مجموعة أدوات برمجية) عشان تبني تطبيقات فلاتر لشاشات LG وتوصل لملايين الأجهزة.",
-        "تطوير ميزات الـ Desktop زي الـ satellite windows والتحكم الكامل في طريقة بناء الأبلكيشن."
+        "فصل الـ Material والـ Cupertino packages بيقلل مساحة الأبلكيشن بتاعك عشان ميبقاش فيه كود زيادة مش مستخدمه.",
+        "دعم الـ GPU compute shaders (أوامر بتشغل كارت الشاشة في الحسابات) بيخلي الجرافيكس التقيلة والمؤثرات تشتغل بنعومة من غير تهنيج.",
+        "تقدر تبرمج لشاشات LG باستخدام webOS SDK (مجموعة أدوات برمجية)، وده بيفتح لك سوق جديد للتطبيقات على التلفزيونات.",
+        "الـ MCP Server (بروتوكول بيدي سياق الكود للـ AI) بيخلي الـ AI يكتشف ويصلح غلطات الـ layout قبل ما تلاحظها أصلاً."
       ]
     }
   }
